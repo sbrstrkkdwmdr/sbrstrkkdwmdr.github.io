@@ -3,6 +3,7 @@ body {
   background-image: url(image/infinite-darker.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 h1 {
   font-family: ubuntu;
