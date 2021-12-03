@@ -1,0 +1,29 @@
+body {
+  /*background-color: #000000;*/
+  background-image: url(image/infinite-darker.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h2 {
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
+}
+p {
+  font-family: ubuntu;
+  src: url(Ubuntu-Regular.ttf);
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: rgb(103, 230, 198);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(68, 136, 240);
+    color: rgb(236, 66, 35);
+  }
