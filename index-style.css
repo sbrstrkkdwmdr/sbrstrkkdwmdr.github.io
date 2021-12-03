@@ -4,6 +4,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+h1 {
+  font-family: ubuntu;
+  src: url(osu-skin/Ubuntu-Regular.ttf);
+}
 
 /*osu----------------------------------*/
 .osupng {
