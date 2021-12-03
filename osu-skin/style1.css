@@ -1,3 +1,18 @@
+body {
+  /*background-color: #000000;*/
+  background-image: url(image/infinite-darker.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p {
+  font-family: ubuntu;
+  src: url(Ubuntu-Regular.ttf);
+}
+h2 {
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
+}
+
 a:link, a:visited {
     background-color: black;
     color: rgb(103, 230, 198);
