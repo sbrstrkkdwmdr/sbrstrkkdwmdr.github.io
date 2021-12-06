@@ -9,7 +9,32 @@ h1 {
   font-family: ubuntu;
   src: url(osu-skin/Ubuntu-Regular.ttf);
 }
-
+  /*menu back----------------------------*/
+  .mback {
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    top:0%;
+    left:0%;
+  }
+  .mback .img-h {
+    width: 240px;
+    height: 90px;
+    display: table;
+    position: fixed;
+    z-index: -1;
+  }
+  .mback .img-nh{
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    
+  }
+  .mback:hover .img-nh{
+  opacity: 0%;
+  }
 /*osu----------------------------------*/
 .osupng {
     width: 225px;
