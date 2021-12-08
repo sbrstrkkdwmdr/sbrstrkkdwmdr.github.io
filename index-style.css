@@ -191,6 +191,32 @@ h1 {
 .osuskpng:hover .img-nh{
   opacity: 0%;
 }
+/*github----------------------------------*/
+.gitpng {
+  width: 225px;
+  height: 225px;
+  position: relative;
+  margin: auto;  
+}
+.gitpng .img-nh{
+width: 225px;
+height: 225px;
+position: relative;
+margin: auto;
+}
+.gitpng .img-h {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.gitpng:hover .img-h{
+  display: inline;
+}
+.gitpng:hover .img-nh{
+opacity: 0%;
+}
 /*gmail----------------------------------*/
 .mailpng {
   width: 225px;
