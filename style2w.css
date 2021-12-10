@@ -16,6 +16,24 @@ h3 {
   src: url(NikkyouSans-mLKax.ttf);
   color:white;
 }
+pre {
+  font-family: ubuntu;
+  src: url(osu-skin/Ubuntu-Regular.ttf);
+  color:white;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: rgb(103, 230, 198);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(68, 136, 240);
+  color: rgb(236, 66, 35);
+}
 
   /*menu back----------------------------*/
   .mback {
