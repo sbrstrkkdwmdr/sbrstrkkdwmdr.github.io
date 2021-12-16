@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /*background-color: #000000;*/
   background-image: url(image/bg.jpg);
@@ -20,6 +24,22 @@ pre {
   font-family: ubuntu;
   src: url(osu-skin/Ubuntu-Regular.ttf);
   color:white;
+}
+
+.side-bar{
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-left: 5% auto;
+  margin-right: 5% auto;
+  margin-top: 0px;
+  height: 100px;
+  position: fixed;
+  background-image: url(image/bg-grad.png);
+}
+
+.main{
+  height:80%
 }
 
 a:link, a:visited {
@@ -61,237 +81,133 @@ a:hover, a:active {
   .mback:hover .img-nh{
   opacity: 0%;
   }
-/*osu----------------------------------*/
-.osupng {
-    width: 225px;
-    height: 225px;
-    position: relative;
-    margin: auto;  
-}
-.osupng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osupng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.osupng:hover .img-h{
-    display: inline;
-}
-.osupng:hover .img-nh{
+    /*peripherals----------------------------*/
+    /*.peripheral {
+      width: 240px;
+      height: 90px;
+      position: fixed;
+      display: table;
+      top:0%;
+      left:0%;
+    }
+    .peripheral .img-h {
+      width: 240px;
+      height: 90px;
+      display: table;
+      position: fixed;
+      z-index: -1;
+    }
+    .peripheral .img-nh{
+      width: 240px;
+      height: 90px;
+      position: fixed;
+      display: table;
+      
+    }
+    .peripheral:hover .img-nh{
+    opacity: 0%;
+    }*/
+      /*PC----------------------------*/
+  /*.pc {
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    top:0%;
+    left:0%;
+  }
+  .pc .img-h {
+    width: 240px;
+    height: 90px;
+    display: table;
+    position: fixed;
+    z-index: -1;
+  }
+  .pc .img-nh{
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    
+  }
+  .pc:hover .img-nh{
   opacity: 0%;
-}
-/*youtube----------------------------------*/
-.ytpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.ytpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.ytpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.ytpng:hover .img-h{
-  display: inline;
-}
-.ytpng:hover .img-nh{
+  }*/
+    /*setup----------------------------*/
+ /* .setup {
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    top:0%;
+    left:0%;
+  }
+  .setup .img-h {
+    width: 240px;
+    height: 90px;
+    display: table;
+    position: fixed;
+    z-index: -1;
+  }
+  .setup .img-nh{
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    
+  }
+  .setup:hover .img-nh{
   opacity: 0%;
-}
-/*twitter----------------------------------*/
-.twitpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitpng .img-h {
-  display: none;
-  position:absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.twitpng:hover .img-h{
-  display: inline;
-}
-.twitpng:hover .img-nh{
+  }*/
+      /*software----------------------------*/
+  /*.software {
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    top:0%;
+    left:0%;
+  }
+  .software .img-h {
+    width: 240px;
+    height: 90px;
+    display: table;
+    position: fixed;
+    z-index: -1;
+  }
+  .software .img-nh{
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    
+  }
+  .software:hover .img-nh{
   opacity: 0%;
-}
-/*discord----------------------------------*/
-.discpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.discpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.discpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.discpng:hover .img-h{
-  display: inline;
-}
-.discpng:hover .img-nh{
+  }*/
+      /*playstyle----------------------------*/
+  /*.playstyle {
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    top:0%;
+    left:0%;
+  }
+  .playstyle .img-h {
+    width: 240px;
+    height: 90px;
+    display: table;
+    position: fixed;
+    z-index: -1;
+  }
+  .playstyle .img-nh{
+    width: 240px;
+    height: 90px;
+    position: fixed;
+    display: table;
+    
+  }
+  .playstyle:hover .img-nh{
   opacity: 0%;
-}
-/*twitch----------------------------------*/
-.twitchpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitchpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitchpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.twitchpng:hover .img-h{
-  display: inline;
-}
-.twitchpng:hover .img-nh{
-  opacity: 0%;
-}
-/*osu skinning----------------------------------*/
-.osuskpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osuskpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osuskpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.osuskpng:hover .img-h{
-  display: inline;
-}
-.osuskpng:hover .img-nh{
-  opacity: 0%;
-}
-/*github----------------------------------*/
-.gitpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;  
-}
-.gitpng .img-nh{
-width: 225px;
-height: 225px;
-position: relative;
-margin: auto;
-}
-.gitpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.gitpng:hover .img-h{
-  display: inline;
-}
-.gitpng:hover .img-nh{
-opacity: 0%;
-}
-/*gmail----------------------------------*/
-.mailpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.mailpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.mailpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.mailpng:hover .img-h{
-  display: inline;
-}
-.mailpng:hover .img-nh{
-  opacity: 0%;
-}
-/*streamelements tip----------------------------------*/
-.tippng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.tippng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.tippng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.tippng:hover .img-h{
-  display: inline;
-}
-.tippng:hover .img-nh{
-  opacity: 0%;
-}
+  }*/
