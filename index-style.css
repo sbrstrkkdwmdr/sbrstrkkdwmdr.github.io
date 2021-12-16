@@ -4,11 +4,25 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color:white;
 }
 h1 {
   font-family: ubuntu;
   src: url(osu-skin/Ubuntu-Regular.ttf);
+  color:white;
 }
+h3 {
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
+  color:white;
+}
+p {
+  font-family: ubuntu;
+  src: url(osu-skin/Ubuntu-Regular.ttf);
+  color:white;
+  font-size: 24px;
+}
+
   /*menu back----------------------------*/
   .mback {
     width: 240px;
@@ -37,235 +51,261 @@ h1 {
   }
 /*osu----------------------------------*/
 .osupng {
-    width: 225px;
-    height: 225px;
-    position: relative;
-    margin: auto;  
-}
-.osupng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osupng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.osupng:hover .img-h{
-    display: inline;
-}
-.osupng:hover .img-nh{
-  opacity: 0%;
-}
-/*youtube----------------------------------*/
-.ytpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.ytpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.ytpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.ytpng:hover .img-h{
-  display: inline;
-}
-.ytpng:hover .img-nh{
-  opacity: 0%;
-}
-/*twitter----------------------------------*/
-.twitpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitpng .img-h {
-  display: none;
-  position:absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.twitpng:hover .img-h{
-  display: inline;
-}
-.twitpng:hover .img-nh{
-  opacity: 0%;
-}
-/*discord----------------------------------*/
-.discpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.discpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.discpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.discpng:hover .img-h{
-  display: inline;
-}
-.discpng:hover .img-nh{
-  opacity: 0%;
-}
-/*twitch----------------------------------*/
-.twitchpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitchpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.twitchpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.twitchpng:hover .img-h{
-  display: inline;
-}
-.twitchpng:hover .img-nh{
-  opacity: 0%;
-}
-/*osu skinning----------------------------------*/
-.osuskpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osuskpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
-}
-.osuskpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.osuskpng:hover .img-h{
-  display: inline;
-}
-.osuskpng:hover .img-nh{
-  opacity: 0%;
-}
-/*github----------------------------------*/
-.gitpng {
-  width: 225px;
-  height: 225px;
+  width: 100px;
+  height: 100px;
   position: relative;
   margin: auto;  
 }
+.osupng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.osupng .img-h {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.osupng:hover .img-h{
+  display: inline;
+}
+.osupng:hover .img-nh{
+opacity: 0%;
+}
+/*youtube----------------------------------*/
+.ytpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.ytpng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.ytpng .img-h {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.ytpng:hover .img-h{
+display: inline;
+}
+.ytpng:hover .img-nh{
+opacity: 0%;
+}
+/*twitter----------------------------------*/
+.twitpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.twitpng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.twitpng .img-h {
+display: none;
+position:absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.twitpng:hover .img-h{
+display: inline;
+}
+.twitpng:hover .img-nh{
+opacity: 0%;
+}
+/*discord----------------------------------*/
+.discpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.discpng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.discpng .img-h {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.discpng:hover .img-h{
+display: inline;
+}
+.discpng:hover .img-nh{
+opacity: 0%;
+}
+/*twitch----------------------------------*/
+.twitchpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.twitchpng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.twitchpng .img-h {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.twitchpng:hover .img-h{
+display: inline;
+}
+.twitchpng:hover .img-nh{
+opacity: 0%;
+}
+/*osu skinning----------------------------------*/
+.osuskpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.osuskpng .img-nh{
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
+}
+.osuskpng .img-h {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.osuskpng:hover .img-h{
+display: inline;
+}
+.osuskpng:hover .img-nh{
+opacity: 0%;
+}
+/*github----------------------------------*/
+.gitpng {
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;  
+}
 .gitpng .img-nh{
-width: 225px;
-height: 225px;
+width: 100px;
+height: 100px;
 position: relative;
 margin: auto;
 }
 .gitpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
 }
 .gitpng:hover .img-h{
-  display: inline;
+display: inline;
 }
 .gitpng:hover .img-nh{
 opacity: 0%;
 }
 /*gmail----------------------------------*/
 .mailpng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
 }
 .mailpng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
 }
 .mailpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
 }
 .mailpng:hover .img-h{
-  display: inline;
+display: inline;
 }
 .mailpng:hover .img-nh{
-  opacity: 0%;
+opacity: 0%;
 }
 /*streamelements tip----------------------------------*/
 .tippng {
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
 }
 .tippng .img-nh{
-  width: 225px;
-  height: 225px;
-  position: relative;
-  margin: auto;
+width: 100px;
+height: 100px;
+position: relative;
+margin: auto;
 }
 .tippng .img-h {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.tippng:hover .img-h{
+display: inline;
+}
+.tippng:hover .img-nh{
+opacity: 0%;
+}
+/*stuff----------------------------------*/
+.stuffpng {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  }
+  .stuffpng .img-nh{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  }
+  .stuffpng .img-h {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
-}
-.tippng:hover .img-h{
+  }
+  .stuffpng:hover .img-h{
   display: inline;
-}
-.tippng:hover .img-nh{
+  }
+  .stuffpng:hover .img-nh{
   opacity: 0%;
-}
+  }
