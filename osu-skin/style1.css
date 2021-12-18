@@ -53,3 +53,56 @@ a:link, a:visited {
     .mback:hover .img-nh{
     opacity: 0%;
     }
+    /*mediafire----------------------------*/
+    .mediafire {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .mediafire .img-h {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .mediafire .img-nh{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      
+    }
+    .mediafire:hover .img-h{
+      display: inline;
+    }
+    .mediafire:hover .img-nh{
+    opacity: 0%;
+    }
+    /*meganz----------------------------*/
+    .meganz {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .meganz .img-h {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .meganz .img-nh{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .meganz:hover .img-h{
+      display: inline;
+    }
+    .meganz:hover .img-nh{
+    opacity: 0%;
+    }
