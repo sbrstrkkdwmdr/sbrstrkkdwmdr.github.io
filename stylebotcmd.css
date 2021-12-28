@@ -13,22 +13,19 @@ body {
   display: block;
 }
 h1 {
-  font-family: ubuntu;
-  src: url(osu-skin/Ubuntu-Regular.ttf);
+  font-family: 'Ubuntu', sans-serif;
   color:white;
   tab-size: 4;
   display: block;
 }
 h3 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
+  font-family: 'Russo One', sans-serif;
   color:white;
   tab-size: 4;
   display: block;
 }
 pre {
   font-family: Consolas;
-  src: url(CONSOLA.ttf);
   color:white;
   tab-size: 4;
   display: block;
