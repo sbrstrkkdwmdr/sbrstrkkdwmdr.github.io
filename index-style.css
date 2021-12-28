@@ -7,20 +7,20 @@ body {
   color:white;
 }
 h1 {
-  font-family: ubuntu;
   font-family: 'Ubuntu', sans-serif;
   color:white;
 }
 h3 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
+  font-family: 'Russo One', sans-serif;
   color:white;
 }
 p {
-  font-family: ubuntu;
   font-family: 'Ubuntu', sans-serif;
   color:white;
   font-size: 24px;
+}
+.font-effect-fire-animation{
+  color:aliceblue
 }
 
   /*menu back----------------------------*/
