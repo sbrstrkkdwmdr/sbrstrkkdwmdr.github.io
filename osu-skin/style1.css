@@ -6,12 +6,13 @@ body {
   background-size: cover;
 }
 p {
-  font-family: ubuntu;
-  src: url(Ubuntu-Regular.ttf);
+  src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+  font-family: 'Ubuntu', sans-serif;
 }
 h2 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
+  font-family: 'Nikkyou Sans';
+  src: url(https://www.fontspace.com/nikkyou-sans-font-f31053);
+  color:white;
 }
 
 a:link, a:visited {
