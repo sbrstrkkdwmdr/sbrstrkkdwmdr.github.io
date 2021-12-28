@@ -6,13 +6,11 @@ body {
   background-size: cover;
 }
 p {
-  src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: ubuntu;
 }
 h2 {
-  font-family: 'Nikkyou Sans';
-  src: url(https://www.fontspace.com/nikkyou-sans-font-f31053);
-  color:white;
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
 }
 a:link, a:visited {
     background-color: black;

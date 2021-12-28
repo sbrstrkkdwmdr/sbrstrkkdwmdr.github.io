@@ -7,17 +7,17 @@ body {
   color:white;
 }
 h1 {
-  src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+  font-family: ubuntu;
   font-family: 'Ubuntu', sans-serif;
   color:white;
 }
 h3 {
-  font-family: 'Nikkyou Sans';
-  src: url(https://www.fontspace.com/nikkyou-sans-font-f31053);
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
   color:white;
 }
 p {
-  src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+  font-family: ubuntu;
   font-family: 'Ubuntu', sans-serif;
   color:white;
   font-size: 24px;
