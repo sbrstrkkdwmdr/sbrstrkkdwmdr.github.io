@@ -6,8 +6,7 @@ body {
   background-size: cover;
 }
 h2 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
+  font-family: 'Russo One', sans-serif;
 }
 p {
   font-family: ubuntu;
