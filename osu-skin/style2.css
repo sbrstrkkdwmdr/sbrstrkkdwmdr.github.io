@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin-right: 20%;
 }
 p {
   font-family: ubuntu;
@@ -30,9 +31,8 @@ h2 {
   }
   
   .skinname:link, .skinname:visited {
-    background-color: black;
     color: rgb(103, 230, 198);
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     display: inline-block;
   }
