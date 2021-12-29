@@ -1,17 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   /*background-color: #000000;*/
   background-image: url(../image/bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin-right: 20%;
 }
 p {
   font-family: ubuntu;
+  src: url(Ubuntu-Regular.ttf);
 }
 h2 {
-  font-family: 'Russo One', sans-serif;
+  font-family: Nikkyou Sans;
+  src: url(NikkyouSans-mLKax.ttf);
 }
-a:link, a:visited {
+.dl:link, .dl:visited {
     background-color: black;
     color: rgb(103, 230, 198);
     text-align: center;
@@ -19,7 +25,19 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  .dl:hover, .dl:active {
+    background-color: rgb(0, 20, 49);
+    color: rgb(236, 66, 35);
+  }
+  
+  .skinname:link, .skinname:visited {
+    color: rgb(103, 230, 198);
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .skinname:hover, .skinname:active {
     background-color: rgb(0, 20, 49);
     color: rgb(236, 66, 35);
   }
@@ -49,8 +67,21 @@ a:link, a:visited {
   .mback:hover .img-nh{
   opacity: 0%;
   }
+
 /*.mback{
   position:fixed;
   top:0%;
   left:0%;
+}
+/**/
+.side-bar{
+  right: 0;
+  left: 1;
+  top: 0;
+  margin-left: 5% auto;
+  margin-right: 5%  auto;
+  margin-top: 5% auto;
+  width: 100px;
+  position: fixed;
+  background-image: url(../image/bg-grad-anchor-right.png);
 }
