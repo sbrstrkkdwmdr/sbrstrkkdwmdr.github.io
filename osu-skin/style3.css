@@ -8,13 +8,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-h2 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
-}
 p {
   font-family: ubuntu;
-  src: url(Ubuntu-Regular.ttf);
+}
+h2 {
+  font-family: 'Russo One', sans-serif;
 }
 
 a:link, a:visited {

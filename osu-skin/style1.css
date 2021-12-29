@@ -10,11 +10,9 @@ body {
 }
 p {
   font-family: ubuntu;
-  src: url(Ubuntu-Regular.ttf);
 }
 h2 {
-  font-family: Nikkyou Sans;
-  src: url(NikkyouSans-mLKax.ttf);
+  font-family: 'Russo One', sans-serif;
 }
 
 a:link, a:visited {
