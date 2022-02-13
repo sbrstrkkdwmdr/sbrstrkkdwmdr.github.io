@@ -8,14 +8,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-h2 {
-  font-family: 'Russo One', sans-serif;
-}
 p {
   font-family: ubuntu;
 }
+h2 {
+  font-family: 'Russo One', sans-serif;
+}
 
-a:link, a:visited {
+.a:link, .a:visited {
     background-color: black;
     color: rgb(103, 230, 198);
     padding: 14px 25px;
@@ -24,7 +24,7 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  .a:hover, .a:active {
     background-color: rgb(68, 136, 240);
     color: rgb(236, 66, 35);
   }
@@ -52,5 +52,32 @@ a:link, a:visited {
       
     }
     .mback:hover .img-nh{
+    opacity: 0%;
+    }
+    /*mediafire----------------------------*/
+    .mediafire {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .mediafire .img-h {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin: auto;  
+    }
+    .mediafire .img-nh{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      
+    }
+    .mediafire:hover .img-h{
+      display: inline;
+    }
+    .mediafire:hover .img-nh{
     opacity: 0%;
     }
