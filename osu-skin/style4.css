@@ -15,7 +15,7 @@ h2 {
   font-family: 'Russo One', sans-serif;
 }
 
-a:link, a:visited {
+.a:link, .a:visited {
     background-color: black;
     color: rgb(103, 230, 198);
     text-align: center;
@@ -23,7 +23,7 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  .a:hover, .a:active {
     background-color: rgb(68, 136, 240);
     color: rgb(236, 66, 35);
   }
