@@ -77,9 +77,14 @@
         <pre> 
         map             Returns information for the map
                         /map 3217235
+                            options:
+                                id: map id. default last map requested
+                                mods: mods to apply to difficulty calculations. default NM (none)
 
         osu             Returns information for the user
                         /osu SaberStrike
+                            options:
+                                user: required. username or ID of player
         
         osubest         Returns information for the top 5 plays of all time.
                         /osubest
@@ -89,12 +94,22 @@
             
         osutop          Returns the top 5 osu! plays for the user
                         /osutop 15222484
+                            options:
+                                user: required. username or ID of player
+                                offset: page offset. default 0
+                                mode: what gamemode. default osu! standard                            
 
         rs              Returns the most recent osu! play for the user. 
                         /rs 15222484
+                            options:
+                                user: required. username or ID of player
+                                offset: page offset. default 0
+                                mode: what gamemode. default osu! standard
 
         skin            Gets the link to my skin(s)
                         /skin
+                            options:
+                                skin: what skin. default none (sends main page link)
 
         </pre>
         <!--ecchi-->
