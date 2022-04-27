@@ -44,20 +44,30 @@
     <h3 style="padding-top:80px;">Helpful</h3>
     <pre>
     help            links to this page. Also can be used to get more info on a command.
-                    /help (commandname)
+                    /help command:(commandname)
                     options: 
 
     ping            Sends a ping to the bot and API.
                     /ping
 
-    math            Calculates a simple math equation
-                    /math + 3 2
+    math            Calculates a simple math equation. use the text command if you want to do an equation with multiple symbols
+                    /math type:+ num1:2 num2:3
+                        options:
+                            type: do type:help
+                            num1: first number
+                            num2: second number
 
     convert         Converts units into other units
-                    /convert k>c 273.15
+                    /convert type:k>c number:273.15
                     options: 
                         type: what units (kelvin to celcius = k>c)
                         number: the number to convert
+        
+    remind          Sets a reminder
+                    /remind time:8h30m
+                        options:
+                            time: the time. if there is no unit it defaults to ms
+                            reminder: the text to respond with
     </pre>
 
     <!--fun-->
@@ -75,16 +85,37 @@
     <a id="osu"></a>
     <h3 style="padding-top:80px;">osu!</h3>
     <pre> 
+    accuracycalculator  
+                    Returns accuracy and rank based on given values
+                    /accuracycalculator 300s:211 100s:12 50s:0 0s:12
+                        options:
+                            300maxes: mania only. gekis/rainbow 300s/maxes
+                            300s: hit 300s (100%)
+                            200s: mania only. hit 200s (66.66%)
+                            100s: hit 100s (33.33%)
+                            50s: hit 50s (16.66%)
+                            0s: misses (0%)
+                            mode: what mode to calculate for. default osu
+                            id: map id for CTB. This option is no longer used
+
+    leaderboard     Returns the top 5 plays on a map
+                    /leaderboard id:3217235
+                        options:
+                            type: global/mods/friends (default global). mods and friend rankings will be added when it's added to API
+                            input: mods if type is set to mods, username if type is set to friends
+                            id: map id
+                            offset: page offset (default 0). 1=pg2, 2=pg3 etc.
+
     map             Returns information for the map
-                    /map 3217235
+                    /map id:3217235
                         options:
                             id: map id. default last map requested
                             mods: mods to apply to difficulty calculations. default NM (none)
 
     osu             Returns information for the user
-                    /osu SaberStrike
+                    /osu user:SaberStrike
                         options:
-                            user: required. username or ID of player
+                            user: username or ID of player. defaults to the name/id stored in the database
     
     osubest         Returns information for the top 5 plays of all time.
                     /osubest
@@ -93,23 +124,52 @@
                     /osubestrs
         
     osutop          Returns the top 5 osu! plays for the user
-                    /osutop 15222484
+                    /osutop user:15222484
                         options:
-                            user: required. username or ID of player
+                            user: username or ID of player. defaults to the name/id stored in the database
                             offset: page offset. default 0
-                            mode: what gamemode. default osu! standard                            
+                            mode: what gamemode. default osu! standard    
+                            sort: what to sort by. default pp. score/acc/time
+                            
+    pp              Returns the pp values for a map
+                    /pp id:3217235
+                        options:
+                            id: id to use. default last map requested
+                            mods: mods
 
     rs              Returns the most recent osu! play for the user. 
-                    /rs 15222484
+                    /rs user:15222484
                         options:
-                            user: required. username or ID of player
+                            user: username or ID of player. defaults to the name/id stored in the database
                             offset: page offset. default 0
                             mode: what gamemode. default osu! standard
+                            <a id="scores"></a> <!--it's up here bcs of the gradient thing-->
+    rsplus          Returns the five most recent plays
+                    /rsplus mode:mania 
+                        options: 
+                        user: username or ID of player. defaults to the name/id stored in the database
+                        offset: page offset
+                        mode: mode
+
+    scores:         Returns all scores on a map for the user
+                    /scores sort:Accuracy
+                        options:
+                            username: username or ID of player. defaults to the name/id stored in the database
+                            id: map id. default last stored map
+                            sort: default time. score/acc/pp
+
+    setuser:        sets username/mode for the database 
+                    /setuser username:mania type:mode
+                        options: 
+                            username: username/mode
+                            type: whether to set mode or username
 
     skin            Gets the link to my skin(s)
                     /skin
                         options:
                             skin: what skin. default none (sends main page link)
+
+    tsfm:           see <a href="#scores">scores</a>
 
     </pre>
     <!--ecchi-->
@@ -124,15 +184,19 @@
     <h3 style="padding-top:80px;">Admin</h3>
     <pre>
     botstatus       Sets the status of the bot.
-                    /botstatus 1 osu!
+                    /botstatus type:1 text:osu!
                     0 = watching
                     1 = playing
                     2 = streaming
                     3 = listening
                     custom isn't available
+                        options:
+                            type: playing/watching/streaming/listening
+                            text: text
+                            status: online/do not disturb/idle
 
     guildleave          Leaves a guild
-                    /guildleave ID
+                    /guildleave guildid: ID
     
     guildlist      Lists all servers the bot is in
                     /guildlist
