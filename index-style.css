@@ -1,311 +1,368 @@
 html {
-  scroll-behavior: smooth;
-}
-body {
-  /*background-color: #000000;*/
-  background-image: url(image/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color:white;
-}
-h1 {
-  font-family: 'Ubuntu', sans-serif;
-  color:white;
-}
-h3 {
-  font-family: 'Russo One', sans-serif;
-  color:white;
-}
-p {
-  font-family: 'Ubuntu', sans-serif;
-  color:white;
-  font-size: 24px;
+    scroll-behavior: smooth;
 }
 
-  /*menu back----------------------------*/
-  .mback {
+body {
+    background-color: #000000;
+    /*background-image: url(../image/bg.jpg);*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+/*menu back----------------------------*/
+.mback {
     width: 240px;
     height: 90px;
     position: fixed;
     display: table;
-    top:0%;
-    left:0%;
-  }
-  .mback .img-h {
+    top: 0%;
+    left: 0%;
+}
+
+.mback .img-h {
     width: 240px;
     height: 90px;
     display: table;
     position: fixed;
     z-index: -1;
-  }
-  .mback .img-nh{
+}
+
+.mback .img-nh {
     width: 240px;
     height: 90px;
     position: fixed;
     display: table;
-    
-  }
-  .mback:hover .img-nh{
-  opacity: 0%;
-  }
+
+}
+
+.mback:hover .img-nh {
+    opacity: 0%;
+}
+
 /*osu----------------------------------*/
 .osupng {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: auto;  
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.osupng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.osupng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .osupng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.osupng:hover .img-h{
-  display: inline;
+
+.osupng:hover .img-h {
+    display: inline;
 }
-.osupng:hover .img-nh{
-opacity: 0%;
+
+.osupng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*youtube----------------------------------*/
 .ytpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.ytpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.ytpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .ytpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.ytpng:hover .img-h{
-display: inline;
+
+.ytpng:hover .img-h {
+    display: inline;
 }
-.ytpng:hover .img-nh{
-opacity: 0%;
+
+.ytpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*twitter----------------------------------*/
 .twitpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.twitpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.twitpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .twitpng .img-h {
-display: none;
-position:absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.twitpng:hover .img-h{
-display: inline;
+
+.twitpng:hover .img-h {
+    display: inline;
 }
-.twitpng:hover .img-nh{
-opacity: 0%;
+
+.twitpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*discord----------------------------------*/
 .discpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.discpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.discpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .discpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.discpng:hover .img-h{
-display: inline;
+
+.discpng:hover .img-h {
+    display: inline;
 }
-.discpng:hover .img-nh{
-opacity: 0%;
+
+.discpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*twitch----------------------------------*/
 .twitchpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.twitchpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.twitchpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .twitchpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.twitchpng:hover .img-h{
-display: inline;
+
+.twitchpng:hover .img-h {
+    display: inline;
 }
-.twitchpng:hover .img-nh{
-opacity: 0%;
+
+.twitchpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*osu skinning----------------------------------*/
 .osuskpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.osuskpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.osuskpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .osuskpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.osuskpng:hover .img-h{
-display: inline;
+
+.osuskpng:hover .img-h {
+    display: inline;
 }
-.osuskpng:hover .img-nh{
-opacity: 0%;
+
+.osuskpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*github----------------------------------*/
 .gitpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;  
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.gitpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.gitpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .gitpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.gitpng:hover .img-h{
-display: inline;
+
+.gitpng:hover .img-h {
+    display: inline;
 }
-.gitpng:hover .img-nh{
-opacity: 0%;
+
+.gitpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*gmail----------------------------------*/
 .mailpng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.mailpng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.mailpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .mailpng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.mailpng:hover .img-h{
-display: inline;
+
+.mailpng:hover .img-h {
+    display: inline;
 }
-.mailpng:hover .img-nh{
-opacity: 0%;
+
+.mailpng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*streamelements tip----------------------------------*/
 .tippng {
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
-.tippng .img-nh{
-width: 100px;
-height: 100px;
-position: relative;
-margin: auto;
+
+.tippng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
 }
+
 .tippng .img-h {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 99;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
-.tippng:hover .img-h{
-display: inline;
+
+.tippng:hover .img-h {
+    display: inline;
 }
-.tippng:hover .img-nh{
-opacity: 0%;
+
+.tippng:hover .img-nh {
+    opacity: 0%;
 }
+
 /*stuff----------------------------------*/
 .stuffpng {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: auto;
-  }
-  .stuffpng .img-nh{
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: auto;
-  }
-  .stuffpng .img-h {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  }
-  .stuffpng:hover .img-h{
-  display: inline;
-  }
-  .stuffpng:hover .img-nh{
-  opacity: 0%;
-  }
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.stuffpng .img-nh {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.stuffpng .img-h {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.stuffpng:hover .img-h {
+    display: inline;
+}
+
+.stuffpng:hover .img-nh {
+    opacity: 0%;
+}
