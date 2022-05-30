@@ -1,87 +1,99 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-  /*background-color: #000000;*/
-  background-image: url(image/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color:white;
-  tab-size: 4;
-  display: block;
+    background-color: #000000;
+    /*background-image: url(../image/bg.jpg);*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    tab-size: 4;
+    display: block;
 }
+
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  color:white;
-  tab-size: 4;
-  display: block;
+    font-family: ubuntu;
+    src: url(osu-skin/Ubuntu-Regular.ttf);
+    color: white;
+    tab-size: 4;
+    display: block;
 }
+
 h3 {
-  font-family: 'Russo One', sans-serif;
-  color:white;
-  tab-size: 4;
-  display: block;
+    font-family: Nikkyou Sans;
+    src: url(NikkyouSans-mLKax.ttf);
+    color: white;
+    tab-size: 4;
+    display: block;
 }
+
 pre {
-  font-family: Consolas;
-  color:white;
-  tab-size: 4;
-  display: block;
+    font-family: Consolas;
+    src: url(CONSOLA.ttf);
+    color: white;
+    tab-size: 4;
+    display: block;
 }
 
-.side-bar{
-  right: 0;
-  left: 0;
-  top: 0;
-  margin-left: 5% auto;
-  margin-right: 5% auto;
-  margin-top: 0px;
-  height: 100px;
-  position: fixed;
-  background-image: url(image/bg-grad.png);
+.side-bar {
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-left: 5% auto;
+    margin-right: 5% auto;
+    margin-top: 0px;
+    height: 100px;
+    position: fixed;
+    background-image: url(image/bg-grad.png);
 }
 
-.main{
-  height:80%
+.main {
+    height: 80%
 }
 
-a:link, a:visited {
-  background-color: black;
-  color: rgb(103, 230, 198);
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+a:link,
+a:visited {
+    background-color: black;
+    color: rgb(103, 230, 198);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: rgb(68, 136, 240);
-  color: rgb(236, 66, 35);
+a:hover,
+a:active {
+    background-color: rgb(68, 136, 240);
+    color: rgb(236, 66, 35);
 }
 
-  /*menu back----------------------------*/
-  .mback {
+/*menu back----------------------------*/
+.mback {
     width: 240px;
     height: 90px;
     position: fixed;
     display: table;
-    top:0%;
-    left:0%;
-  }
-  .mback .img-h {
+    top: 0%;
+    left: 0%;
+}
+
+.mback .img-h {
     width: 240px;
     height: 90px;
     display: table;
     position: fixed;
     z-index: -1;
-  }
-  .mback .img-nh{
+}
+
+.mback .img-nh {
     width: 240px;
     height: 90px;
     position: fixed;
     display: table;
-    
-  }
-  .mback:hover .img-nh{
-  opacity: 0%;
-  }
+
+}
+
+.mback:hover .img-nh {
+    opacity: 0%;
+}

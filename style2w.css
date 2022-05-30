@@ -1,10 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  /*background-color: #000000;*/
-  background-image: url(image/bg.jpg);
-  background-repeat: no-repeat;
+    background-color: #000000;
+    /*background-image: url(../image/bg.jpg);*/
+    background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
   color:white;
@@ -18,9 +19,9 @@ h3 {
   color:white;
 }
 pre {
-  font-family: ubuntu;
-  src: url(osu-skin/Ubuntu-Regular.ttf);
+  font-family: 'Ubuntu', sans-serif;
   color:white;
+  font-size: 24px;
 }
 
 .side-bar{
@@ -38,7 +39,6 @@ pre {
 .main{
   height:80%
 }
-
 
 a:link, a:visited {
   background-color: black;
@@ -79,8 +79,7 @@ a:hover, a:active {
   .mback:hover .img-nh{
   opacity: 0%;
   }
-
-   /*peripherals----------------------------*/
+    /*peripherals----------------------------*/
     /*.peripheral {
       width: 240px;
       height: 90px;
