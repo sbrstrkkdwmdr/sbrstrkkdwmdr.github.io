@@ -18,7 +18,7 @@ function generatePage(id) {
         text += `
 <div style="display:inline-block">
 <center>
-    <p style="color:white">${image.name}</p>
+    <p style="color:white" id="${image.name}">${image.name}</p>
 </center>
 <a class="a" href="${image.url}"
     target="_blank">
