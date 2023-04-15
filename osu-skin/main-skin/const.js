@@ -839,7 +839,7 @@ const skins = [
         date_start: '2023-03-17',
         date_end: 'present',
         url: 'https://www.mediafire.com/folder/s3261nj0c2vzr/1.1',
-        video_url: 'https://www.youtube.com/embed/jB03Z6x9VGU',
+        video_url: 'https://www.youtube.com/embed/BIqiZvBuO4E',
         images: [
             {
                 name: 'Song select',
