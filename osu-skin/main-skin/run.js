@@ -4,7 +4,9 @@ function generatePage(id) {
     let text = '';
     text += `
     <h2 style="font-size:80px; margin-bottom:4px; color:rgb(200, 200, 200)">${skin.name}</h2>
+    <p style="color:rgb(200,200,200)">
     ${skin.date_start} --- ${skin.date_end}
+    </p>
     <p style="font-size:50px">
         <a class="a" href="${skin.url}">
             download link
