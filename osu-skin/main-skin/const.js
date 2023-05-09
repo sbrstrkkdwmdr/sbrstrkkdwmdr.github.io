@@ -844,19 +844,19 @@ const skins = [
             {
                 name: 'Song select',
                 url: 'url',
-                image_url: '12/12.1/songselect1.jpg',
+                image_url: '12/12.1/songselect.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking screen',
                 url: 'url',
-                image_url: '12/12.1/rank1_1.jpg',
+                image_url: '12/12.1/rank_1.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking screen',
                 url: 'url',
-                image_url: '12/12.1/rank1_2.jpg',
+                image_url: '12/12.1/rank_2.jpg',
                 isGameplay: false,
             },
             {
