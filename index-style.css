@@ -27,6 +27,26 @@ p {
     font-size: 24px;
 }
 
+#awwawa {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+#awwawa:link,
+#awwawa:visited {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+#awwawa:hover,
+#awwawa:active {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(38, 150, 255);
+    font-size: 24px;
+}
+
 /*menu back----------------------------*/
 .mback {
     width: 240px;
