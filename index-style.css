@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background-color: #000000;
+    /* background-color: #000000; */
+    background: linear-gradient(to right bottom, #26262C, #15171B );
     /*background-image: url(../image/bg.jpg);*/
     background-repeat: repeat;
     background-attachment: fixed;
@@ -11,20 +12,32 @@ body {
     color: white;
 }
 
-h1 {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-}
-
-h3 {
-    font-family: 'Russo One', sans-serif;
-    color: white;
-}
-
 p {
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 24px;
+}
+
+#mainName {
+    font-family: 'Russo One', sans-serif;
+}
+
+#minor {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.grad {
+    background: linear-gradient(to bottom, #f32170, #ff6b08,
+            #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.gradDef {
+    background: linear-gradient(to right bottom, #FF6A00, #FF00DC );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 #awwawa {

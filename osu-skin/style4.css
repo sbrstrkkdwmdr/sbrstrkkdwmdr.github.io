@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #000000;
+    background: linear-gradient(to right bottom, #26262C, #15171B );
     /*background-image: url(../image/bg.jpg);*/
     background-repeat: repeat;
     background-attachment: fixed;
@@ -20,7 +21,6 @@ h2 {
 
 .a:link,
 .a:visited {
-    background-color: black;
     color: rgb(103, 230, 198);
     text-align: center;
     text-decoration: none;
