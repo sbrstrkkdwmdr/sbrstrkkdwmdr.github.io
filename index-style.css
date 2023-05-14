@@ -35,7 +35,7 @@ p {
 }
 
 .gradDef {
-    background: linear-gradient(to right bottom, #FF6A00, #FF00DC );
+    background: linear-gradient(to right, #FF6A00 40%, #FF00DC 60%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
