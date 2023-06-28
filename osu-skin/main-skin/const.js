@@ -743,7 +743,7 @@ const skins = [
         id: '12',
         name: 'sbrstrkkdwmdr v12',
         date_start: '2023-01-08',
-        date_end: '2023-03-17',
+        date_end: '2023-06-01',
         url: 'https://www.mediafire.com/folder/2q7mtnk9a4dds/12th_skin_sbrstrkkdwmdr_v12',
         video_url: 'https://www.youtube.com/embed/jB03Z6x9VGU',
         images: [
@@ -837,7 +837,7 @@ const skins = [
         id: '12.1',
         name: 'sbrstrkkdwmdr v12.1',
         date_start: '2023-03-17',
-        date_end: 'present',
+        date_end: '2023-06-01',
         url: 'https://www.mediafire.com/folder/s3261nj0c2vzr/1.1',
         video_url: 'https://www.youtube.com/embed/5sayNtpLT0o',
         images: [
@@ -953,6 +953,64 @@ const skins = [
                 name: '404 (defreeyay) remake',
                 url: 'https://www.mediafire.com/file/9if0czc0rtx1khe/-_sbrstrkkdw_v12_z_404skinnotfound_%2528defreeyay%2529.osk/file',
                 image_url: '12/12.1/game-re404.jpg',
+                isGameplay: true,
+            },
+        ]
+    },
+    {
+        id: '13',
+        name: 'sbrstrkkdw v13',
+        date_start: '2023-06-01',
+        date_end: 'present',
+        url: 'https://www.mediafire.com/folder/2in6w671bx4i9',
+        video_url: 'https://www.youtube.com/embed/NULL',
+        images: [
+            {
+                name: 'Song select',
+                url: 'url',
+                image_url: '13/screenshot1015.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Mod select',
+                url: 'url',
+                image_url: '13/screenshot1016.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Ranking panel',
+                url: 'url',
+                image_url: '13/screenshot1017.jpg',
+                isGameplay: false,
+            },
+            {
+                name: '- h',
+                url: 'https://www.mediafire.com/file/hxz6k56i9krwb2l/-_sbrstrkkdw_v13_-_h.osk/file',
+                image_url: '13/g-h.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '- s',
+                url: 'https://www.mediafire.com/file/nhgdget4xp73ylb/-_sbrstrkkdw_v13_-_s.osk/file',
+                image_url: '13/g-s.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'DT',
+                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
+                image_url: '13/g-dt.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'EZ',
+                url: 'https://www.mediafire.com/file/61h4axha3v0a2z1/-_sbrstrkkdw_v13_EZ.osk/file',
+                image_url: '13/g-ez.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'EZ2',
+                url: 'https://www.mediafire.com/file/c6vz5pe752cqsae/-_sbrstrkkdw_v13_EZ2.osk/file',
+                image_url: '13/g-ez2.jpg',
                 isGameplay: true,
             },
         ]
