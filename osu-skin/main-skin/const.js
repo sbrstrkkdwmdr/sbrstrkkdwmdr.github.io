@@ -963,8 +963,50 @@ const skins = [
         date_start: '2023-06-01',
         date_end: 'present',
         url: 'https://www.mediafire.com/folder/2in6w671bx4i9',
-        video_url: 'https://www.youtube.com/embed/7owcFD0XYw4',
+        video_url: 'https://www.youtube.com/embed/tOhEX2Ozv9A',
         images: [
+            {
+                name: 'DT',
+                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
+                image_url: '13/g-dt.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '- h',
+                url: 'https://www.mediafire.com/file/hxz6k56i9krwb2l/-_sbrstrkkdw_v13_-_h.osk/file',
+                image_url: '13/g-h.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '- ho',
+                url: 'https://www.mediafire.com/file/bk317sme29d9e56/-_sbrstrkkdw_v13_-_ho.osk/file',
+                image_url: '13/g-ho.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '404',
+                url: 'https://www.mediafire.com/file/92shnv1qxnsx1u2/-_sbrstrkkdw_v13_y_404defreeyay_remake.osk/file',
+                image_url: '13/g-404.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '- s',
+                url: 'https://www.mediafire.com/file/nhgdget4xp73ylb/-_sbrstrkkdw_v13_-_s.osk/file',
+                image_url: '13/g-s.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'EZ',
+                url: 'https://www.mediafire.com/file/61h4axha3v0a2z1/-_sbrstrkkdw_v13_EZ.osk/file',
+                image_url: '13/g-ez.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'EZ2',
+                url: 'https://www.mediafire.com/file/c6vz5pe752cqsae/-_sbrstrkkdw_v13_EZ2.osk/file',
+                image_url: '13/g-ez2.jpg',
+                isGameplay: true,
+            },
             {
                 name: 'Song select',
                 url: 'url',
@@ -982,36 +1024,6 @@ const skins = [
                 url: 'url',
                 image_url: '13/screenshot1017.jpg',
                 isGameplay: false,
-            },
-            {
-                name: '- h',
-                url: 'https://www.mediafire.com/file/hxz6k56i9krwb2l/-_sbrstrkkdw_v13_-_h.osk/file',
-                image_url: '13/g-h.jpg',
-                isGameplay: true,
-            },
-            {
-                name: '- s',
-                url: 'https://www.mediafire.com/file/nhgdget4xp73ylb/-_sbrstrkkdw_v13_-_s.osk/file',
-                image_url: '13/g-s.jpg',
-                isGameplay: true,
-            },
-            {
-                name: 'DT',
-                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
-                image_url: '13/g-dt.jpg',
-                isGameplay: true,
-            },
-            {
-                name: 'EZ',
-                url: 'https://www.mediafire.com/file/61h4axha3v0a2z1/-_sbrstrkkdw_v13_EZ.osk/file',
-                image_url: '13/g-ez.jpg',
-                isGameplay: true,
-            },
-            {
-                name: 'EZ2',
-                url: 'https://www.mediafire.com/file/c6vz5pe752cqsae/-_sbrstrkkdw_v13_EZ2.osk/file',
-                image_url: '13/g-ez2.jpg',
-                isGameplay: true,
             },
         ]
     },
