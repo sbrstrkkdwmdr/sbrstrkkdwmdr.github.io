@@ -327,7 +327,7 @@ const skins = [
         date_start: '2021-09-05',
         date_end: '2021-10-18',
         url: 'https://mega.nz/folder/CB1Q2KZR#mhx0yc3f5okj8LxHziGgTg',
-        video_url: 'https://www.youtube.com/embed/WOoapkyHzyA',
+        video_url: 'https://www.youtube.com/embed/WdYl4IFLjdo',
         images: [
             {
                 name: 'Song select',
