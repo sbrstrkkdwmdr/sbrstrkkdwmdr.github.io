@@ -963,7 +963,7 @@ const skins = [
         date_start: '2023-06-01',
         date_end: 'present',
         url: 'https://www.mediafire.com/folder/2in6w671bx4i9',
-        video_url: 'https://www.youtube.com/embed/uiSforeqNiE',
+        video_url: 'https://www.youtube.com/embed/_s3vIJBtaMo',
         images: [
             {
                 name: 'DT',
@@ -984,46 +984,239 @@ const skins = [
                 isGameplay: true,
             },
             {
-                name: '404',
-                url: 'https://www.mediafire.com/file/92shnv1qxnsx1u2/-_sbrstrkkdw_v13_y_404defreeyay_remake.osk/file',
-                image_url: '13/g-404.jpg',
-                isGameplay: true,
-            },
-            {
                 name: '- s',
                 url: 'https://www.mediafire.com/file/nhgdget4xp73ylb/-_sbrstrkkdw_v13_-_s.osk/file',
                 image_url: '13/g-s.jpg',
                 isGameplay: true,
             },
             {
-                name: 'EZ',
-                url: 'https://www.mediafire.com/file/61h4axha3v0a2z1/-_sbrstrkkdw_v13_EZ.osk/file',
-                image_url: '13/g-ez.jpg',
-                isGameplay: true,
-            },
-            {
-                name: 'EZ2',
-                url: 'https://www.mediafire.com/file/c6vz5pe752cqsae/-_sbrstrkkdw_v13_EZ2.osk/file',
-                image_url: '13/g-ez2.jpg',
-                isGameplay: true,
-            },
-            {
                 name: 'Song select',
                 url: 'url',
-                image_url: '13/screenshot1015.jpg',
+                image_url: '13/img_ss.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
                 url: 'url',
-                image_url: '13/screenshot1016.jpg',
+                image_url: '13/img_ms.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
                 url: 'url',
-                image_url: '13/screenshot1017.jpg',
+                image_url: '13/img_rp.jpg',
                 isGameplay: false,
+            },
+        ],
+        sources: [
+            {
+                name: 'combobreak',
+                links: [
+                    {
+                        name: 'Halo: Reach shield break sound',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'Fail screen',
+                links: [
+                    {
+                        name: 'Guardian Tales fail screen world 11 female knight with witch skin',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'failsound.mp3',
+                links: [
+                    {
+                        name: 'halo 2 elite death sound + guardian tales death theme',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'fruit-catcher',
+                links: [
+                    {
+                        name: '🤓😎🥴',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'Mania hits',
+                links: [
+                    {
+                        name: 'Oniichan Oshimai LINE stickers',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'scorebar',
+                links: [
+                    {
+                        name: 'Saber',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'scorebar (bottom right)',
+                links: [
+                    {
+                        name: 'Mahiro Oyama',
+                        url: 'https://twitter.com/nekotou/status/1313151280726962188?s=20'
+                    },
+                ]
+            },
+            {
+                name: 'scorebar-explosion-2',
+                links: [
+                    {
+                        name: 'peppy',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'selection-mode',
+                links: [
+                    {
+                        name: 'Saber',
+                        url: 'https://twitter.com/Axololtle/status/1633411056679927809'
+                    },
+                ]
+            },
+            {
+                name: 'Section pass',
+                links: [
+                    {
+                        name: 'halo CE golden elite ',
+                        url: ''
+                    },
+                    {
+                        name: 'halo CE elite wort wort wort',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'Section fail',
+                links: [
+                    {
+                        name: 'halo 2 blue elite + "i am die thank you forever"',
+                        url: ''
+                    },
+                    {
+                        name: 'halo CE elite thrown off a bridge',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: 'Mod icons',
+                links: [
+                    {
+                        name: 'The noun project',
+                        url: 'https://thenounproject.com/'
+                    },
+                    {
+                        name: '(HR) Shuckle'
+                    }
+                ]
+            },
+            {
+                name: 'click-short, menuback, match-start (from match-ready)',
+                links: [
+                    {
+                        name: 'suwumi',
+                        url: 'https://www.reddit.com/r/OsuSkins/comments/lc1vld/suwumis_skin_final_release_std_only/'
+                    },
+                ]
+            },
+            {
+                name: 'menuclick, match-join, match-leave',
+                links: [
+                    {
+                        name: 'LifeLine v2',
+                        url: 'https://skins.osuck.net/skins/1804?v=0'
+                    },
+                ]
+            },
+            {
+                name: 'match-confirm',
+                links: [
+                    {
+                        name: '# a r i s u',
+                        url: 'https://www.reddit.com/r/OsuSkins/comments/udzcmi/a_r_i_s_u_std_only/'
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
+            },
+            {
+                name: '',
+                links: [
+                    {
+                        name: '',
+                        url: ''
+                    },
+                ]
             },
         ]
     },

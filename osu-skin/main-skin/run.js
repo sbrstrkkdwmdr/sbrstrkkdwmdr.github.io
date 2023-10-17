@@ -16,8 +16,8 @@ function generatePage(id) {
         </div>
 `
     skin.images.forEach(image => {
-        image.isGameplay ? 
-        text += `
+        image.isGameplay ?
+            text += `
 <div style="display:inline-block">
 <center>
     <p style="color:white" id="${image.name}">${image.name}</p>
@@ -27,8 +27,8 @@ function generatePage(id) {
     <img src="../image/${image.image_url}" alt="image" width="880" height="495">
 </a>
 </div>
-        ` : 
-        text += `
+        ` :
+            text += `
 <div style="display:inline-block">
 <center>
 <p style="color:white" id="${image.name}">${image.name}</p>
@@ -38,4 +38,23 @@ function generatePage(id) {
         `
     });
     doc.innerHTML = text;
+
+    // let sourceDoc = document.getElementById("sources");
+    // if (skin?.sources) {
+    //     let table = document.createElement("div");
+    //     let tableTxt = `<table class="table">`;
+    //     let arr = skin?.sources.sort((a, b) => b.name - a.name);
+    //     for (const thingy of arr) {
+    //         tableTxt += `<tr>
+    //         <td>${thingy.name}</td>`
+    //         tableTxt += `<td>${thingy.links.map(x =>
+    //             x.url && x.url.length > 0 ?
+    //                 `<a class="a" href="${x.url}">${x.name}</a>` :
+    //                 `${x.name}`
+    //         )}</td></tr>`
+    //     }
+    //     tableTxt += `</table>`
+    //     table.innerHTML = tableTxt
+    //     sourceDoc.appendChild(table);
+    // }
 }
