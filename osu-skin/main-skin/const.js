@@ -966,15 +966,15 @@ const skins = [
         video_url: 'https://www.youtube.com/embed/_s3vIJBtaMo',
         images: [
             {
-                name: 'DT',
-                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
-                image_url: '13/g-dt.jpg',
-                isGameplay: true,
-            },
-            {
                 name: '- h',
                 url: 'https://www.mediafire.com/file/hxz6k56i9krwb2l/-_sbrstrkkdw_v13_-_h.osk/file',
                 image_url: '13/g-h.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'DT',
+                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
+                image_url: '13/g-dt.jpg',
                 isGameplay: true,
             },
             {
@@ -987,6 +987,12 @@ const skins = [
                 name: '- s',
                 url: 'https://www.mediafire.com/file/nhgdget4xp73ylb/-_sbrstrkkdw_v13_-_s.osk/file',
                 image_url: '13/g-s.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'FullCircle',
+                url: 'https://www.mediafire.com/file/jiqnph6u261uui2/-_sbrstrkkdw_v13_FullCircle.osk/file',
+                image_url: '13/g-fc.jpg',
                 isGameplay: true,
             },
             {
