@@ -1,6 +1,6 @@
 stuff = {
     YouTube: {
-        link: "https://www.youtube.com/@sbrstrkkdwmdr",
+        link: "https://www.youtube.com/@SaberStrikeGaming",
         img: {
             base: "image/yt.png",
             hover: "image/yt-h.png",
