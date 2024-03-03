@@ -961,7 +961,7 @@ const skins = [
         id: '13',
         name: 'sbrstrkkdw v13',
         date_start: '2023-06-01',
-        date_end: 'present',
+        date_end: '2024-03-03',
         url: 'https://www.mediafire.com/folder/2in6w671bx4i9',
         video_url: 'https://www.youtube.com/embed/_s3vIJBtaMo',
         images: [
