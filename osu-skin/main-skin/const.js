@@ -1020,8 +1020,8 @@ const skins = [
         name: 'sbrstrkkdw v14',
         date_start: '2023-02-27',
         date_end: 'present',
-        url: '14.html',
-        video_url: 'https://www.youtube.com/embed/_s3vIJBtaMo',
+        url: 'https://www.mediafire.com/folder/vrz1duyers8r5/14',
+        video_url: 'https://www.youtube.com/embed/PW4PnHaR_I8',
         images: [
             {
                 name: 'nothing yet',
