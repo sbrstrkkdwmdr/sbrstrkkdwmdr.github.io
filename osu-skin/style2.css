@@ -99,15 +99,22 @@ h2 {
     right: 0;
     top: 0;
     width: 20%;
-    height: 50%;
+    height: 60%;
     position: fixed;
     border-style: groove;
     background: linear-gradient(to bottom, #0F111A, #0A0C12 40%);
     /* background-color: linear-gradient(to right, rgb(0, 20, 49), rgb(103, 230, 198), rgb(236, 66, 35)) */
 }
 
+.side-bar pre {
+    /* font-size: 150%; */
+    font-size: 24px;
+    float: right;
+    text-align-last: right;
+}
+
 @-moz-document url-prefix() {
     .side-bar {
-      height: 55%;
+        height: 60%;
     }
-  }
+}
