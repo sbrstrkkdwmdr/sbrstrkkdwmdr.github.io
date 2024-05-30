@@ -8,7 +8,7 @@ function generatePage(id) {
     ${skin.date_start} --- ${skin.date_end}
     </p>
     <p style="font-size:50px">
-        <a class="a" href="${skin.url}">
+        <a rel="noopener noreferrer" class="a" href="${skin.url}">
             download link
         </a></p>
         <div style="display:inline-block">
@@ -22,7 +22,7 @@ function generatePage(id) {
 <center>
     <p style="color:white" id="${image.name}">${image.name}</p>
 </center>
-<a class="a" href="${image.url}"
+<a rel="noopener noreferrer" class="a" href="${image.url}"
     target="_blank">
     <img src="../image/${image.image_url}" alt="image" width="880" height="495">
 </a>
