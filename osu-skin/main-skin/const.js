@@ -1032,13 +1032,13 @@ const skins = [
             {
                 name: 'Mode select',
                 url: 'url',
-                image_url: '13/screenshot1107.jpg',
+                image_url: '14/screenshot1107.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
                 url: 'url',
-                image_url: '13/screenshot1099.jpg',
+                image_url: '14/screenshot1099.jpg',
                 isGameplay: false,
             },
             {
@@ -1049,7 +1049,7 @@ const skins = [
             },
             {
                 name: 'Midnight',
-                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
+                url: 'https://www.mediafire.com/file/ltasfdnmg5xdlwe/-_sbrstrkkdw_v14_%255BMidnight%255D.osk/file',
                 image_url: '14/g-midnight.jpg',
                 isGameplay: true,
             },
