@@ -1,4 +1,8 @@
-html {
+* {
+    scrollbar-color: #6a8383 #343f3f;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    font-family: 'Oxanium';
     scroll-behavior: smooth;
 }
 

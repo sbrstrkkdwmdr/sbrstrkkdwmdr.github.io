@@ -1,4 +1,8 @@
-html {
+* {
+    scrollbar-color: #6a8383 #343f3f;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    font-family: 'Oxanium';
     scroll-behavior: smooth;
 }
 
@@ -30,19 +34,19 @@ h2 {
 
 .dl:hover,
 .dl:active {
-    background-color: rgb(0, 20, 49);
     color: rgb(236, 66, 35);
 }
 
 .skinname {
     color: rgb(226, 223, 219);
     background-color: rgb(66, 72, 75);
-    margin-right: 25px;
+    margin-right: 2vw;
     padding-right: 5px;
     padding-left: 5px;
     border-radius: 5px;
     font-family: 'Consolas';
     font-weight: bolder;
+    font-size: 2.5vh;
 }
 
 .skinname:link,
@@ -55,7 +59,6 @@ h2 {
 
 .skinname:hover,
 .skinname:active {
-    background-color: rgb(0, 20, 49);
     color: rgb(236, 66, 35);
 }
 
@@ -98,8 +101,8 @@ h2 {
 .side-bar {
     right: 0;
     top: 0;
-    width: 20%;
-    height: 60%;
+    width: min-content;
+    height: min-content;
     position: fixed;
     border-style: groove;
     background: linear-gradient(to bottom, #0F111A, #0A0C12 40%);
@@ -108,7 +111,6 @@ h2 {
 
 .side-bar pre {
     /* font-size: 150%; */
-    font-size: 24px;
     float: right;
     text-align-last: right;
 }
