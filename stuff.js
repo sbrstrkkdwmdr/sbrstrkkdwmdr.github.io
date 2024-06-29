@@ -28,7 +28,7 @@ stuff = {
         },
     },
     Discord: {
-        link: "https://discord.gg/EthtfeM",
+        link: "https://discord.gg/3P7864BcRT",
         img: {
             base: "image/discord.png",
             hover: "image/discord-h.png",
@@ -88,8 +88,8 @@ function setupHomeLinks() {
             <p
                 style="margin-right:20px; margin-left:20px; font-size:20px; margin-bottom:4px; color:rgb(200, 200, 200)">
                 ${key}</p>
-            <p><a href="${stuff[key].link}" target="_blank">
-            <div class="mailpng">
+            <p><a href="${stuff[key].link}" target="_self">
+            <div class="linkpng">
                 <img src="${stuff[key].img.base}" class=img-nh alt="png bottom" />
                 <img src="${stuff[key].img.hover}" class=img-h alt="png top" />
             </div>
@@ -97,7 +97,24 @@ function setupHomeLinks() {
         </div>
         `;
     }
+    console.log(thing);
     thing.innerHTML = text;
+}
+
+function createInfo() {
+    const info = `
+EN/JP
+Studying comp sci
+osu! player
+rahh
+`
+    const div = document.getElementById('abt');
+    div.innerHTML = info;
+}
+
+function setupPage() {
+    setupHomeLinks();
+    createInfo();
 }
 
 //above is for index.html

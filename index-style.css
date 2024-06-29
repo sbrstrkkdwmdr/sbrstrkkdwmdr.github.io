@@ -90,22 +90,22 @@ p {
     opacity: 0%;
 }
 
-/*osu----------------------------------*/
-.osupng {
+/* home links */
+.linkpng {
     width: 100px;
     height: 100px;
     position: relative;
     margin: auto;
 }
 
-.osupng .img-nh {
+.linkpng .img-nh {
     width: 100px;
     height: 100px;
     position: relative;
     margin: auto;
 }
 
-.osupng .img-h {
+.linkpng .img-h {
     display: none;
     position: absolute;
     top: 0;
@@ -113,289 +113,16 @@ p {
     z-index: 99;
 }
 
-.osupng:hover .img-h {
+.linkpng:hover .img-h {
     display: inline;
 }
 
-.osupng:hover .img-nh {
+.linkpng:hover .img-nh {
     opacity: 0%;
 }
 
-/*youtube----------------------------------*/
-.ytpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
 
-.ytpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.ytpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.ytpng:hover .img-h {
-    display: inline;
-}
-
-.ytpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*twitter----------------------------------*/
-.twitpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.twitpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.twitpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.twitpng:hover .img-h {
-    display: inline;
-}
-
-.twitpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*discord----------------------------------*/
-.discpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.discpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.discpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.discpng:hover .img-h {
-    display: inline;
-}
-
-.discpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*twitch----------------------------------*/
-.twitchpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.twitchpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.twitchpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.twitchpng:hover .img-h {
-    display: inline;
-}
-
-.twitchpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*osu skinning----------------------------------*/
-.osuskpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.osuskpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.osuskpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.osuskpng:hover .img-h {
-    display: inline;
-}
-
-.osuskpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*github----------------------------------*/
-.gitpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.gitpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.gitpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.gitpng:hover .img-h {
-    display: inline;
-}
-
-.gitpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*gmail----------------------------------*/
-.mailpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.mailpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.mailpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.mailpng:hover .img-h {
-    display: inline;
-}
-
-.mailpng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*streamelements tip----------------------------------*/
-.tippng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.tippng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.tippng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.tippng:hover .img-h {
-    display: inline;
-}
-
-.tippng:hover .img-nh {
-    opacity: 0%;
-}
-
-/*stuff----------------------------------*/
-.stuffpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.stuffpng .img-nh {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-}
-
-.stuffpng .img-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.stuffpng:hover .img-h {
-    display: inline;
-}
-
-.stuffpng:hover .img-nh {
-    opacity: 0%;
+/* about me */
+#abt {
+    white-space: pre;
 }
