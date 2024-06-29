@@ -1024,9 +1024,57 @@ const skins = [
         video_url: 'https://www.youtube.com/embed/5k0boWjcEPQ',
         images: [
             {
-                name: 'nothing yet',
-                url: '14.html',
-                image_url: 'WIP.png',
+                name: 'Song select',
+                url: 'url',
+                image_url: '14/screenshot1098.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Mode select',
+                url: 'url',
+                image_url: '13/screenshot1107.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Ranking panel',
+                url: 'url',
+                image_url: '13/screenshot1099.jpg',
+                isGameplay: false,
+            },
+            {
+                name: '- h',
+                url: 'https://www.mediafire.com/file/px5ek6j17mwh5ja/-_sbrstrkkdw_v14_%255B-_h%255D.osk/file',
+                image_url: '14/g-h.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'Midnight',
+                url: 'https://www.mediafire.com/file/i6g7xwndjxdprm6/-_sbrstrkkdw_v13_DT.osk/file',
+                image_url: '14/g-midnight.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'MidnightDT',
+                url: 'https://www.mediafire.com/file/bk317sme29d9e56/-_sbrstrkkdw_v13_-_ho.osk/file',
+                image_url: '14/g-midnightdt.jpg',
+                isGameplay: true,
+            },
+            {
+                name: '- s',
+                url: 'https://www.mediafire.com/file/c9lj3fqn2uorhxr/-_sbrstrkkdw_v14_%255B-_s%255D.osk/file',
+                image_url: '14/g-s.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'DT',
+                url: 'https://www.mediafire.com/file/3erb5fihq9lb9je/-_sbrstrkkdw_v14_%255BDT%255D.osk/file',
+                image_url: '14/g-dt.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'PlaceboTime',
+                url: 'https://www.mediafire.com/file/xzi15zethw5xn09/-_sbrstrkkdw_v14_%255BPlaceboTime%255D.osk/file',
+                image_url: '14/g-placebotime.jpg',
                 isGameplay: true,
             },
         ]
