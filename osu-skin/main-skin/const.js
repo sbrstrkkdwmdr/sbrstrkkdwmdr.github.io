@@ -1021,7 +1021,7 @@ const skins = [
         date_start: '2023-02-27',
         date_end: 'present',
         url: 'https://www.mediafire.com/folder/vrz1duyers8r5/14',
-        video_url: 'https://www.youtube.com/embed/5k0boWjcEPQ',
+        video_url: 'https://www.youtube.com/embed/rOdRZJxpidg',
         images: [
             {
                 name: 'Song select',
@@ -1072,9 +1072,9 @@ const skins = [
                 isGameplay: true,
             },
             {
-                name: 'PlaceboTime',
-                url: 'https://www.mediafire.com/file/xzi15zethw5xn09/-_sbrstrkkdw_v14_%255BPlaceboTime%255D.osk/file',
-                image_url: '14/g-placebotime.jpg',
+                name: 'Smol',
+                url: 'https://www.mediafire.com/file/ueuv61akokcsix1/-_sbrstrkkdw_v14_%255BSmol%255D.osk/file',
+                image_url: '14/g-smol.jpg',
                 isGameplay: true,
             },
         ]
