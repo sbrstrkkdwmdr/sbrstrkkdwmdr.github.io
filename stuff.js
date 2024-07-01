@@ -1,6 +1,6 @@
 stuff = {
     YouTube: {
-        link: "https://www.youtube.com/@SaberStrikeGaming",
+        link: "https://www.youtube.com/@sbrstrkkdw",
         img: {
             base: "image/yt.png",
             hover: "image/yt-h.png",
@@ -13,20 +13,20 @@ stuff = {
             hover: "image/osu-h.png",
         },
     },
-    Twitter: {
-        link: "https://twitter.com/sbrstrkkdwmdr",
-        img: {
-            base: "image/twitter.png",
-            hover: "image/twitter-h.png",
-        },
-    },
-    Twitch: {
-        link: "https://twitch.tv/sbrstrkkdwmdr",
-        img: {
-            base: "image/twitch.png",
-            hover: "image/twitch-h.png",
-        },
-    },
+    // Twitter: {
+    //     link: "https://twitter.com/sbrstrkkdwmdr",
+    //     img: {
+    //         base: "image/twitter.png",
+    //         hover: "image/twitter-h.png",
+    //     },
+    // },
+    // Twitch: {
+    //     link: "https://twitch.tv/sbrstrkkdwmdr",
+    //     img: {
+    //         base: "image/twitch.png",
+    //         hover: "image/twitch-h.png",
+    //     },
+    // },
     Discord: {
         link: "https://discord.gg/3P7864BcRT",
         img: {
