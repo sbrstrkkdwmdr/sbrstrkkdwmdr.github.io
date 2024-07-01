@@ -47,6 +47,9 @@ h2 {
     font-family: 'Consolas';
     font-weight: bolder;
     font-size: 2.5vh;
+    width: 16.5vw;
+    margin:0;
+    padding:0;
 }
 
 .skinname:link,
@@ -109,7 +112,7 @@ h2 {
     /* background-color: linear-gradient(to right, rgb(0, 20, 49), rgb(103, 230, 198), rgb(236, 66, 35)) */
 }
 
-.side-bar pre {
+.side-bar div {
     /* font-size: 150%; */
     float: right;
     text-align-last: right;
