@@ -34,7 +34,7 @@ stuff = {
             hover: "image/discord-h.png",
         },
     },
-    'my skins': {
+    'my osu! skins': {
         link: "osu-skin/HOME.html",
         img: {
             base: "image/osusk.png",
