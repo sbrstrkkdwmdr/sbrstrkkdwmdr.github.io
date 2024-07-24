@@ -1,16 +1,6 @@
 const peripherals = {
     Tablet: [
         {
-            name: 'Huion H420',
-            url: 'https://www.amazon.com.au/HUION-H420-Graphics-Drawing-Signature/dp/B00DM24HNE',
-            other: '(no longer using)',
-        },
-        {
-            name: 'XP-Pen Deco Pro Small',
-            url: 'https://www.xp-pen.com/product/432',
-            other: '(no longer using)',
-        },
-        {
             name: 'Gaomon S620',
             url: '',
             other: '',
@@ -24,11 +14,6 @@ const peripherals = {
         },
     ],
     Keyboard: [
-        {
-            name: 'Tecware Phantom',
-            url: 'https://tecware.co/phantom',
-            other: 'Outemu brown switches | no longer using',
-        },
         {
             name: 'Custom keyboard - ',
             url: '',
