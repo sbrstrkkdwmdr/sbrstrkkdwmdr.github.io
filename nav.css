@@ -13,7 +13,7 @@
     scroll-behavior: smooth;
 }
 p {
-    font-family: ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -29,7 +29,7 @@ a:active {
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right bottom, #26262C, #15171B);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -68,7 +68,7 @@ header a:hover {
 }
 
 nav {
-    background-color: #444;
+    background-color: #272727cc;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -95,6 +95,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: #fab7af;
     text-decoration: underline;
     text-decoration-color: #fc6450;
 }
@@ -105,4 +106,17 @@ nav ul li a.activeNavLink {
 
 nav ul li a.subActiveNavLink {
     color: #fab7af;
+}
+
+#linkYoutube:hover {
+    color: #ff6666
+}
+#linkDiscord:hover {
+    color: #6d7bf8
+}
+#linkGithub:hover {
+    color: #c182e3
+}
+#linkOsu:hover {
+    color: #ff66ab
 }

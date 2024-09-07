@@ -88,14 +88,58 @@ function setupHomeLinks() {
 }
 
 function createInfo() {
-    const info = `
-EN/JP
-Studying comp sci
-osu! player
-rahh
-`
+    const info = [
+        'EN/JP',
+        'Currently studying bachelors of computer science',
+        'osu! player & anime enthusiast',
+        'I don\'t know what to put here so here\'s the romaji lyrics to fake me',
+        `
+        <br>Uchuu no hate no koto shitteru yo
+        <br>Soko wa GARASU bari no ikidomari
+        <br>GARASU no mukou gawa soko ni mieru keshiki wa
+        <br>Me wo tojiteru toki ni mieru mono to onaji
+        <br>
+        <br>Hataki tsudzukeru shin no RIZUMU ga midare hajimeta nara
+        <br>Yowaki na koe wa nigeba wo ushinai mata kono basho ni kaeru dake
+        <br>Iki to shi ikeru subete no mono ga taida na zatsunen ni
+        <br>Umore yuku nara jibun no sonzai mo keseru kana?
+        <br>
+        <br>Boku-tachi no BAIO RIZUMU ga moshi tokubetsu na mono nara
+        <br>Kioku no PETEN mo uragiri no yume mo ri ni kanau you ni tsunagaru
+        <br>Nee, moshimo tokidoki miseru kimi no ano egao sae mo
+        <br>Haribote no you ni kuzurete iku nara mutsuu ni Time goes on
+        <br>Everything sono me Logical dare no me?
+        <br>Hajimatta PUREI
+        <br>
+        <br>"ima" ga doko ni aru ka shitteru yo
+        <br>Honto wa "ima" nante sonzai sezu
+        <br>"ima" to yonda toki ni sore wa "kako" ni naru kara
+        <br>Donna bamen sae mo zero ni hitoshii mono
+        <br>
+        <br>Ikuenimo naru kaisou sekai kinkou wo yabutte
+        <br>Umiotosareta hizumi no shoumei tsubasa sae mo motanu akuma
+        <br>Hoshi no narabi ga unmei naraba somuki you mo nakute
+        <br>Genjitsu teki na ishiki to iu zankoku na PARUSU
+        <br>Boku-tachi ni furisosogu no wa ame no you ni yasashii no ni
+        <br>Nukumori no giwaku azamuki no kotoba kakushin teki na kousou
+        <br>Nee, "kodoku" no imi no naka ni sabishisa wo mitsukerarezu
+        <br>Tojikometa shikou amami na yokubou sube naku Time goes on
+        <br>Everything sono me Logical dare no me?
+        <br>Hajimatta GEEMU
+        <br>
+        <br>Boku-tachi no BAIO RIZUMU ga moshi tokubetsu na mono nara
+        <br>Kioku no PETEN mo uragiri no yume mo ri ni kanau you ni tsunagaru
+        <br>Nee, moshimo tokidoki miseru kimi no ano egao sae mo
+        <br>Haribote no you ni kuzurete iku nara mutsuu ni Time goes on
+        <br>Everything sono me Logical dare no me?
+        <br>Hajimatta PUREI`
+    ]
+
     const div = document.getElementById('abt');
-    div.innerHTML = info;
+    div.innerHTML =
+        '<ul>' +
+        info.map(x => `<li>${x}</li>`).join('') +
+        '</ul>';
 }
 
 function setupPage() {

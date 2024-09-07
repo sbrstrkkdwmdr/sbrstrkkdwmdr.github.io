@@ -318,6 +318,7 @@ function itemsLink(name, elem, items) {
             const url = document.createElement('a');
             url.innerHTML = item.name;
             url.href = item.url;
+            url.classList.add("itemLink")
             x.append(url);
         } else {
             x.innerHTML = item.name;

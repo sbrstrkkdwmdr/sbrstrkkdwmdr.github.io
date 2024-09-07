@@ -1,0 +1,62 @@
+body {
+    /* background-color: #000000; */
+    background: linear-gradient(to right bottom, #26262C, #15171B);
+
+    /*background-image: url(../image/bg.jpg);*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#content {
+    margin-left: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+.sectionHeading {
+    color: white;
+    padding-top: 30px;
+    font-size: 40px;
+    color: #fc6450
+}
+
+h3 {
+    font-size: 24px;
+    padding: 0;
+    padding-top: 15px
+}
+
+pre {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.main {
+    height: 80%
+}
+
+a {
+    border-radius: 5px;
+}
+
+.itemLink:link,
+.itemLink:visited {
+    color: rgb(103, 230, 198);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.itemLink:hover,
+.itemLink:active {
+    color: #fc6450
+}
+
+img {
+    border-radius: 15px;
+}

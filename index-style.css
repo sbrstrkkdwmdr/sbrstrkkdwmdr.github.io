@@ -8,7 +8,7 @@
 
 body {
     /* background-color: #000000; */
-    background: linear-gradient(to right bottom, #26262C, #15171B );
+    background: linear-gradient(to right bottom, #26262C, #15171B);
     /*background-image: url(../image/bg.jpg);*/
     background-repeat: repeat;
     background-attachment: fixed;
@@ -127,6 +127,24 @@ p {
 
 
 /* about me */
-#abt {
-    white-space: pre;
+#abt {}
+
+#abtMeTitle {
+    text-align: center;
+    font-size: 36px;
+}
+
+#aboutMeCard {
+    list-style-position: inside;
+    border-radius: 1rem;
+    border: 2px solid #8a8a8a;
+    min-width: min-content;
+    max-width: 900px;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    column-gap: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #15171B88;
+    text-align: left;
 }
