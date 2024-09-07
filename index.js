@@ -6,39 +6,11 @@ stuff = {
             hover: "image/yt-h.png",
         },
     },
-    'osu!': {
-        link: "https://osu.ppy.sh/users/15222484",
-        img: {
-            base: "image/osu.png",
-            hover: "image/osu-h.png",
-        },
-    },
-    // Twitter: {
-    //     link: "https://twitter.com/sbrstrkkdwmdr",
-    //     img: {
-    //         base: "image/twitter.png",
-    //         hover: "image/twitter-h.png",
-    //     },
-    // },
-    // Twitch: {
-    //     link: "https://twitch.tv/sbrstrkkdwmdr",
-    //     img: {
-    //         base: "image/twitch.png",
-    //         hover: "image/twitch-h.png",
-    //     },
-    // },
     Discord: {
         link: "https://discord.gg/3P7864BcRT",
         img: {
             base: "image/discord.png",
             hover: "image/discord-h.png",
-        },
-    },
-    'my osu! skins': {
-        link: "osu-skin/HOME.html",
-        img: {
-            base: "image/osusk.png",
-            hover: "image/osusk-h.png",
         },
     },
     Github: {
@@ -53,6 +25,20 @@ stuff = {
         img: {
             base: "image/mail.png",
             hover: "image/mail-h.png",
+        },
+    },
+    'osu!': {
+        link: "https://osu.ppy.sh/users/15222484",
+        img: {
+            base: "image/osu.png",
+            hover: "image/osu-h.png",
+        },
+    },
+    'my osu! skins': {
+        link: "osu-skin/HOME.html",
+        img: {
+            base: "image/osusk.png",
+            hover: "image/osusk-h.png",
         },
     },
     'specs n stuff': {

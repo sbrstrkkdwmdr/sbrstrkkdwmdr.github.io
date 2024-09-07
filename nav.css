@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    scrollbar-color: #6a8383 #343f3f;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    font-family: 'Oxanium';
+    scroll-behavior: smooth;
+}
+p {
+    font-family: ubuntu;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    cursor: default;
+}
+
+header img {
+    max-width: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: -8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.6em;
+    cursor: default;
+    display: hidden;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fc6450;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fc6450;
+}
+
+nav ul li a.activeNavLink {
+    color: #fc6450;
+}
+
+nav ul li a.subActiveNavLink {
+    color: #fab7af;
+}

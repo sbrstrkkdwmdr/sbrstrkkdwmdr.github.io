@@ -1,0 +1,51 @@
+/* for individual skin pages */
+body {
+    background: linear-gradient(to right bottom, #26262C, #15171B);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dl:link,
+.dl:visited {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dl:hover,
+.dl:active {
+    color: #fc6450;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #15171B;
+    width: 810px;
+}
+
+.itemName {
+    color: #e2dfdb;
+    background-color: #42484b30;
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    font-size: 40px;
+    margin:0;
+    padding:0;
+}
