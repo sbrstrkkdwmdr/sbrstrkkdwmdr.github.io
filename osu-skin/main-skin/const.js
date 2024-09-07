@@ -129,7 +129,7 @@ const skins = [
             {
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/6EkDQCDK#efa2XqGfH_wXNKsWVocpwiH2bxCMhZvf0Q6C_6ZT7gI',
-                image_url: '04_typey',
+                image_url: '04_typey.jpg',
                 isGameplay: true,
             },
             {
@@ -966,6 +966,24 @@ const skins = [
         video_url: 'https://www.youtube.com/embed/_s3vIJBtaMo',
         images: [
             {
+                name: 'Song select',
+                url: 'url',
+                image_url: '13/img_ss.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Mod select',
+                url: 'url',
+                image_url: '13/img_ms.jpg',
+                isGameplay: false,
+            },
+            {
+                name: 'Ranking panel',
+                url: 'url',
+                image_url: '13/img_rp.jpg',
+                isGameplay: false,
+            },
+            {
                 name: '- h',
                 url: 'https://www.mediafire.com/file/hxz6k56i9krwb2l/-_sbrstrkkdw_v13_-_h.osk/file',
                 image_url: '13/g-h.jpg',
@@ -994,24 +1012,6 @@ const skins = [
                 url: 'https://www.mediafire.com/file/jiqnph6u261uui2/-_sbrstrkkdw_v13_FullCircle.osk/file',
                 image_url: '13/g-fc.jpg',
                 isGameplay: true,
-            },
-            {
-                name: 'Song select',
-                url: 'url',
-                image_url: '13/img_ss.jpg',
-                isGameplay: false,
-            },
-            {
-                name: 'Mod select',
-                url: 'url',
-                image_url: '13/img_ms.jpg',
-                isGameplay: false,
-            },
-            {
-                name: 'Ranking panel',
-                url: 'url',
-                image_url: '13/img_rp.jpg',
-                isGameplay: false,
             },
         ],
     },

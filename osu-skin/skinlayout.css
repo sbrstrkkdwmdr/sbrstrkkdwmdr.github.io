@@ -24,7 +24,26 @@ body {
     text-align: center;
     border-radius: 15px;
     background-color: #15171B;
-    max-width: 740px;
+    width: 720px;
+}
+
+.itemHomeGrid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.itemProfileGrid {
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+}
+
+.itemHomeHeight {
+    height: 200px;
+}
+
+.itemHomeWidth {
+    width: 400px;
+}
+.itemProfile {
+    width: 256px;
 }
 
 .dl,
@@ -50,10 +69,27 @@ body {
     font-family: 'Consolas';
     font-weight: bolder;
     font-size: 40px;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-img, iframe {
+.itemLongName {
+    font-size: 30px;
+}
+
+.itemAsLink {}
+
+/* doesnt work :( */
+.itemAsLink:hover {
+    color: #fc6450 
+}
+
+img,
+iframe {
     border-radius: 15px;
+}
+
+.itemDescription {
+    font-size: 24px;
+    color: rgb(200, 200, 200)
 }
