@@ -595,7 +595,7 @@ const skins = [
     },
     {
         id: '10.1',
-        name: 'SBR UnDefined (UD) 10.1',
+        name: 'SBR UnDefined (UD) 1.1',
         date_start: '2021-10-12',
         date_end: '2022-03-12',
         url: 'https://www.mediafire.com/folder/8vob8x7pjw83v/v1.1',
