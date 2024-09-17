@@ -10,7 +10,18 @@ body {
 }
 
 #content {
-    margin-left: 100px;
+    list-style-position: inside;
+    border-radius: 1rem;
+    border: 2px solid #8a8a8a;
+    min-width: min-content;
+    max-width: 900px;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    column-gap: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #15171B88;
+    text-align: left;
 }
 
 h1 {
@@ -59,4 +70,6 @@ a {
 
 img {
     border-radius: 15px;
+    width: 640px;
+    height: auto;
 }

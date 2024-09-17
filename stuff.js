@@ -292,7 +292,7 @@ function main() {
         playDiv.append(title);
     })();
     for (const image of playstyle.image) {
-        const imeji = document.createElement('img')
+        const imeji = document.createElement('img');
         imeji.src = image;
         playDiv.append(imeji);
     }
@@ -323,7 +323,7 @@ function itemsLink(name, elem, items) {
         } else {
             x.innerHTML = item.name;
         }
-        x.innerHTML += item.other.length > 1 ? ' | ' + item.other : '';
+        x.innerHTML += item.other.length > 1 ? ' ' + item.other : '';
         elem.append(x);
     }
 }
