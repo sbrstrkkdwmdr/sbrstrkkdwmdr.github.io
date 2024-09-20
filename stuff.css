@@ -57,7 +57,7 @@ a {
 
 .itemLink:link,
 .itemLink:visited {
-    color: rgb(103, 230, 198);
+    color: #67e6c6;
     text-align: center;
     text-decoration: none;
     display: inline-block;
