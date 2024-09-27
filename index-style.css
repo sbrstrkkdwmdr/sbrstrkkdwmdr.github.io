@@ -44,65 +44,42 @@ p {
     -webkit-background-clip: text;
 }
 
-#awwawa {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 24px;
-}
-
-#awwawa:link,
-#awwawa:visited {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 24px;
-}
-
-#awwawa:hover,
-#awwawa:active {
-    font-family: 'Ubuntu', sans-serif;
-    color: rgb(38, 150, 255);
-    font-size: 24px;
-}
-
-/*menu back----------------------------*/
-.mback {
-    width: 240px;
-    height: 90px;
-    position: fixed;
-    display: table;
-    top: 0%;
-    left: 0%;
-}
-
-.mback .img-h {
-    width: 240px;
-    height: 90px;
-    display: table;
-    position: fixed;
-    z-index: -1;
-}
-
-.mback .img-nh {
-    width: 240px;
-    height: 90px;
-    position: fixed;
-    display: table;
-
-}
-
-.mback:hover .img-nh {
-    opacity: 0%;
-}
-
 /* home links */
-.linkpng {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: auto;
+
+#centreGrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-columns: auto;
+    gap: 50px;
+    /* grid-template-columns: repeat(auto-fit); */
+    /* grid-auto-rows: auto; */
+    justify-content: center;
 }
 
-.linkpng .img-nh {
+#home-links {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-columns: auto;
+    /* gap: 0px; */
+    /* grid-template-columns: repeat(auto-fit); */
+    /* grid-auto-rows: auto; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.link {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    /* background-color: #15171B; */
+    width: 125px;
+}
+
+.linkpng {
     width: 100px;
     height: 100px;
     position: relative;
