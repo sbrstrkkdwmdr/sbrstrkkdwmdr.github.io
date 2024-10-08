@@ -92,47 +92,47 @@ function createInfo() {
         'EN/JP',
         'Currently studying bachelors of computer science',
         'osu! player & anime enthusiast',
-        'I don\'t know what else to put here so here\'s the romaji lyrics to fake me',
-        `
-        <br>Uchuu no hate no koto shitteru yo
-        <br>Soko wa GARASU bari no ikidomari
-        <br>GARASU no mukou gawa soko ni mieru keshiki wa
-        <br>Me wo tojiteru toki ni mieru mono to onaji
-        <br>
-        <br>Hataki tsudzukeru shin no RIZUMU ga midare hajimeta nara
-        <br>Yowaki na koe wa nigeba wo ushinai mata kono basho ni kaeru dake
-        <br>Iki to shi ikeru subete no mono ga taida na zatsunen ni
-        <br>Umore yuku nara jibun no sonzai mo keseru kana?
-        <br>
-        <br>Boku-tachi no BAIO RIZUMU ga moshi tokubetsu na mono nara
-        <br>Kioku no PETEN mo uragiri no yume mo ri ni kanau you ni tsunagaru
-        <br>Nee, moshimo tokidoki miseru kimi no ano egao sae mo
-        <br>Haribote no you ni kuzurete iku nara mutsuu ni Time goes on
-        <br>Everything sono me Logical dare no me?
-        <br>Hajimatta PUREI
-        <br>
-        <br>"ima" ga doko ni aru ka shitteru yo
-        <br>Honto wa "ima" nante sonzai sezu
-        <br>"ima" to yonda toki ni sore wa "kako" ni naru kara
-        <br>Donna bamen sae mo zero ni hitoshii mono
-        <br>
-        <br>Ikuenimo naru kaisou sekai kinkou wo yabutte
-        <br>Umiotosareta hizumi no shoumei tsubasa sae mo motanu akuma
-        <br>Hoshi no narabi ga unmei naraba somuki you mo nakute
-        <br>Genjitsu teki na ishiki to iu zankoku na PARUSU
-        <br>Boku-tachi ni furisosogu no wa ame no you ni yasashii no ni
-        <br>Nukumori no giwaku azamuki no kotoba kakushin teki na kousou
-        <br>Nee, "kodoku" no imi no naka ni sabishisa wo mitsukerarezu
-        <br>Tojikometa shikou amami na yokubou sube naku Time goes on
-        <br>Everything sono me Logical dare no me?
-        <br>Hajimatta GEEMU
-        <br>
-        <br>Boku-tachi no BAIO RIZUMU ga moshi tokubetsu na mono nara
-        <br>Kioku no PETEN mo uragiri no yume mo ri ni kanau you ni tsunagaru
-        <br>Nee, moshimo tokidoki miseru kimi no ano egao sae mo
-        <br>Haribote no you ni kuzurete iku nara mutsuu ni Time goes on
-        <br>Everything sono me Logical dare no me?
-        <br>Hajimatta PUREI`
+        `[いとう かなこ 「fake me」 歌詞]
+<br>
+<br>そこはガラス貼りの　行き止まり
+<br>ガラスの向こう側　そこに見える景色は
+<br>目を閉じてる時に　見えるものと同じ
+<br>
+<br>叩き続ける心(しん)のリズムが　乱れ始めたなら
+<br>弱気な声は逃げ場を失い　またこの場所に帰るだけ
+<br>生きとし生ける全てのものが　怠惰な雑念に
+<br>埋もれゆくなら　自分の存在も消せるかな?
+<br>
+<br>僕達のバイオリズムが　もし特別なものなら
+<br>記憶のペテンも　裏切りの夢も　理にかなうように繋がる
+<br>ねぇ、もしも時々見せる　キミのあの笑顔さえも
+<br>張りぼてのように　崩れて行くなら　無痛に　Time goes on
+<br>Everything　その目　Logical　誰の目?
+<br>始まったプレイ
+<br>
+<br>「今」が何処にあるか　知ってるよ
+<br>ホントは「今」なんて　存在せず
+<br>「今」と呼んだ瞬間に　それは「過去」になるから
+<br>
+<br>どんな場面さえも　ゼロに等しいもの
+<br>
+<br>幾重にもなる階層世界　均衡を破って
+<br>産み落とされた歪みの証明　翼さえも持たぬ悪魔
+<br>星の並びが運命ならば　背きようもなくて
+<br>現実的な　意識という残酷なパルス
+<br>僕達に降りそそぐのは　雨のように優しいのに
+<br>温もりの疑惑　欺きの言葉　革新的な構想
+<br>ねぇ、「孤独」の意味の中に　淋しさを見つけられず
+<br>閉じこめた思考　甘味な欲望　術なく　Time goes on
+<br>Everything　その目　Logical　誰の目?
+<br>始まったゲーム
+<br>
+<br>僕達のバイオリズムが　もし特別なものなら
+<br>記憶のペテンも　裏切りの夢も　理にかなうように繋がる
+<br>ねぇ、もしも時々見せる　キミのあの笑顔さえも
+<br>張りぼてのように　崩れて行くなら　無痛に　Time goes on
+<br>Everything　その目　Logical　誰の目?
+<br>始まったプレイ`
     ]
 
     const div = document.getElementById('abt');
