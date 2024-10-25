@@ -56,11 +56,11 @@ ${skin.date_start} --- ${skin.date_end}
 
     // create skin grid
     const skingrid = document.createElement('div');
-    skingrid.className = "grid";
+    skingrid.className = "itemGrid";
 
     // create youtube preview
     {
-        const itemYoutubePreview = document.createElement('div');
+        const itemYoutubePreview = document.createElement('section');
         itemYoutubePreview.className = "item";
         const p1 = document.createElement("p");
         p1.style.color = "white";
@@ -83,7 +83,7 @@ ${skin.date_start} --- ${skin.date_end}
     let previewIndex = 0;
     for (let i = 0; i < skin.images.length; i++) {
         const image = skin.images[i];
-        const itemImage = document.createElement('div');
+        const itemImage = document.createElement('section');
         itemImage.className = "item";
         const p1 = document.createElement('p');
         p1.style.color = "white";
