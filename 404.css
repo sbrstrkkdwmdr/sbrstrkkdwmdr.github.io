@@ -12,3 +12,16 @@ body {
 * {
     font-size: 48px;
 }
+
+a,
+a:visited {
+    color: #8ab3ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    color: #fc6450;
+}
