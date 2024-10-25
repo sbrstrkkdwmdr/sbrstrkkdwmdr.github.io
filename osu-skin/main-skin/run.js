@@ -34,8 +34,6 @@ ${skin.date_start} --- ${skin.date_end}
     previewSwitchers.className = 'imageSwitcher';
     const previewButtonPrevious = document.createElement('a');
     const previewButtonNext = document.createElement('a');
-    previewButtonNext.href = "#";
-    previewButtonPrevious.href = "#";
     previewButtonNext.innerHTML = "Next &raquo;";
     previewButtonPrevious.innerHTML = "&laquo; Prev";
     previewButtonPrevious.className = "previewButton";
