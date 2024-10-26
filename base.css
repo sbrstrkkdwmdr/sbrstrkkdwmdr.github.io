@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    scrollbar-color: #7785b3 #272727;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    font-family: 'Oxanium';
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: linear-gradient(to right bottom, #26262C, #15171B); */
+    background-image: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}

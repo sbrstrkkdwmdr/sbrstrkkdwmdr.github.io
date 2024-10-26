@@ -6,16 +6,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    /* background-color: #000000; */
-    background: linear-gradient(to right bottom, #26262C, #15171B);
-    /*background-image: url(../image/bg.jpg);*/
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-}
-
 p {
     font-family: 'Ubuntu', sans-serif;
     color: white;
@@ -23,10 +13,12 @@ p {
 }
 
 #mainName {
+    color: white;
     font-family: 'Russo One', sans-serif;
 }
 
 #minor {
+    color: white;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -104,11 +96,13 @@ p {
 
 
 /* about me */
-#abt {}
+#abt {
+}
 
 #abtMeTitle {
     text-align: center;
     font-size: 36px;
+    color: white;
 }
 
 #aboutMeCard {

@@ -1,15 +1,4 @@
 /* layout for skin list page */
-body {
-    background: linear-gradient(to right bottom, #26262C, #15171B);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-main {
-    text-align: center;
-    margin: 0 auto;
-}
 
 /* .itemGrid {
     margin: 10px;
@@ -144,4 +133,41 @@ iframe {
     a:hover {
         color: #fc6450;
     }
+}
+
+.itemSmall {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #15171B;
+    width: 270px;
+}
+
+.itemNameSmall {
+    text-align: center;
+    margin: 0 auto;
+    color: #e2dfdb;
+    background-color: #42484b30;
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#sources {
+    font-size: 24px;
+    background-color: #292b2c88;
+    margin: 0 10vw;
+    padding: 35px;
+    h2, h3 {
+        text-align: center;
+    }
+    /* white-space: pre; */
 }

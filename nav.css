@@ -1,17 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    scrollbar-color: #7785b3 #272727;
-    scrollbar-width: thin;
-    scroll-behavior: smooth;
-    font-family: 'Oxanium';
-    scroll-behavior: smooth;
-}
 p {
     font-family: 'Ubuntu', sans-serif;
 }
