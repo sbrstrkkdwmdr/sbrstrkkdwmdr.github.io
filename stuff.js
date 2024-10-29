@@ -249,7 +249,7 @@ const playstyle = {
         Mouse: `Palm grip 
 900 DPI
 `,
-        Tablet: `Pen grip, hover (switched 2022-02-26).
+        Tablet: `Pen grip, hover (switched from dragging 2022-02-26).
 32x18mm
 `,
         Keyboard: `Using keys Q and E.
