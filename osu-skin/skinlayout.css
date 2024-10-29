@@ -125,6 +125,10 @@ iframe {
     padding: 5px;
 }
 
+#dlButton {
+    justify-self: left;
+}
+
 .imageSwitcher {
     a {
         margin: 0 0.25em;

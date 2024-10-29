@@ -26,6 +26,7 @@ ${skin.date_start} --- ${skin.date_end}
 
     const previewerButtonLink = document.createElement('a');
     previewerButtonLink.className = "dl previewButton";
+    previewerButtonLink.id = "dlButton";
     previewerButtonLink.innerText = "download";
     previewerButtonLink.rel = "noopener noreferrer";
     previewerButtonLink.target = "_blank";
@@ -134,8 +135,10 @@ ${skin.date_start} --- ${skin.date_end}
 
         if (image.isGameplay) {
             previewerButtonLink.href = image.url;
+            previewerButtonLink.innerText = "download \"" + image.name + '"';
         } else {
             previewerButtonLink.href = skin.url;
+            previewerButtonLink.innerText = "download skin";
         }
         previewer.style.display = 'block';
         previewbg.style.display = 'block';
