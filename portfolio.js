@@ -46,7 +46,7 @@ const portfolioItems = [
     //     name: 'COS20007',
     //     description: 'Portfolio for COS20007 (Object Oriented Programming)',
     //     img: './image/portfolio/xxx.png',
-    //     url: 'https://github.com/sbrstrkkdwmdr/cos20007-oop',
+    //     url: 'https://github.com/sbrstrkkdwmdr/cos20007',
     //     pixelArt: false,
     // },
 ]
