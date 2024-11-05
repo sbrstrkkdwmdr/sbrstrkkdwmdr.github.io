@@ -42,3 +42,8 @@ a:active {
     color: inherit;
     text-decoration: none;
 }
+
+.pixelArt {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+}

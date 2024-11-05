@@ -1,0 +1,51 @@
+.portfolioItem {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #15171B;
+    width: 500px;
+    height: auto;
+}
+.portfolioName {
+    text-align: center;
+    margin: 0 auto;
+    color: #e2dfdb;
+    background-color: #42484b30;
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    height: 50px;
+}
+
+.portfolioNameLong {
+    font-size: 30px;
+}
+
+.portfolioContent {
+    display: flex;
+    align-items: flex-start;
+    img {
+        float: left;
+        border-radius: 5px;
+        width: 245px;
+        height: 245px;
+        max-width: 245px;
+        max-height: 245px; 
+        object-fit:contain;
+    }
+    p {
+        margin-left: 1vw;
+        float: right;
+        overflow-wrap: break-word;
+        flex: 1;
+    }
+}

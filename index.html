@@ -18,22 +18,13 @@
     <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/" />
     <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/image/sbrstrkkdwmdr.png" />
 </head>
+<script src="base.js"></script>
 <script src="index.js"></script>
 
-<body onload="setupPage()">
-    <nav>
-        <ul>
-            <li><a href="./index.html" class="activeNavLink">Home</a></li>
-            <li><a id="linkYoutube" href="https://www.youtube.com/@sbrstrkkdw">YouTube</a></li>
-            <li><a id="linkDiscord" href="https://discord.gg/3P7864BcRT">Discord</a></li>
-            <li><a id="linkGithub" href="https://github.com/sbrstrkkdwmdr/">Github</a></li>
-            <li><a href="mailto:sbrstrkkdwmdr@gmail.com">Email</a></li>
-            <li><a id="linkOsu" href="https://osu.ppy.sh/users/15222484">osu!</a></li>
-            <li><a href="./osu-skin/HOME.html">osu! skins</a></li>
-            <li><a href="./stuff.html">Other</a></li>
-        </ul> 
+<body>
+    <nav id="nav">
     </nav>
-    <center>
+    <main>
         <div style="padding-top: 40px;"></div>
         <h1 style="font-size:48px" class="gradDef" id="mainName">SaberStrike</h3>
             <h3 style="font-size:12px" id="minor">aka sbrstrkkdwmdr
@@ -49,16 +40,15 @@
             </div>
             <div></div>
         </div>
-    </center>
 
-    <center style="margin-top:100px;">
+    <div style="margin-top:100px;">
         <div id="aboutMeCard">
             <h2 id="abtMeTitle">About me</h2>
             <p id="abt">
             </p>
         </div>
 
-    </center>
+    </div>
 
 
 
@@ -71,6 +61,10 @@
 
     <p style="margin-top:30481px"></p>
     <div></div>
-    </div>
+    </main>
+    <script>
+        activateNav('linkHome'); 
+        setupPage();
+    </script>
 </body>
 </html>

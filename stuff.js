@@ -328,4 +328,41 @@ function itemsLink(name, elem, items) {
     }
 }
 
+onavitems = [
+    {
+        name: 'Peripherals',
+        url: '#peripherals',
+    },
+    {
+        name: 'PC Parts',
+        url: '#pc',
+    },
+    {
+        name: 'Setup',
+        url: '#setup',
+    },
+    {
+        name: 'Software',
+        url: '#software',
+    },
+    {
+        name: 'Playstyle',
+        url: '#playstyle',
+    },
+]
+
+function otherNav() {
+    const nav = document.getElementById('nav');
+    const ul = document.createElement('ul');
+    onavitems.forEach(item => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.innerText = item.name;
+        li.append(a);
+        ul.append(li);
+    });
+    nav.append(ul);
+};
+otherNav();
 main();
