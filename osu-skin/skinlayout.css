@@ -170,8 +170,21 @@ iframe {
     background-color: #292b2c88;
     margin: 0 10vw;
     padding: 35px;
-    h2, h3 {
+
+    h2,
+    h3 {
         text-align: center;
     }
+
     /* white-space: pre; */
+}
+
+.sourceLink:link,
+.sourceLink:visited {
+    color: #67e6c6;
+}
+
+.sourceLink:hover,
+.sourceLink:active {
+    color: #fc6450
 }
