@@ -354,15 +354,36 @@ onavitems = [
 function otherNav() {
     const nav = document.getElementById('nav');
     const ul = document.createElement('ul');
-    onavitems.forEach(item => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = item.url;
-        a.innerText = item.name;
-        li.append(a);
-        ul.append(li);
-    });
-    nav.append(ul);
+
+    // if (window.devicePixelRatio > 1) {
+    //     const li = document.createElement('li');
+    //     li.innerText = '---------'
+    //     ul.append(li);
+    // }
+    if (window.devicePixelRatio <= 1) {
+        onavitems.forEach(item => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = item.url;
+            a.innerText = item.name;
+            li.append(a);
+            ul.append(li);
+        });
+        nav.append(ul);
+    }
+    // if (window.devicePixelRatio > 1) {
+    //     ul.style.display = 'none';
+    //     const hamburger = document.getElementById('hamburgerButton');
+    //     hamburger.addEventListener('click', e => {
+    //         if (ul.style.display == 'none') {
+    //             ul.style.display = 'block';
+    //         } else {
+    //             ul.style.display = 'none';
+    //         }
+    //     });
+    //     nav.classList.add('mobileNav');
+    //     nav.append(ul);
+    // } 
 };
 otherNav();
 main();

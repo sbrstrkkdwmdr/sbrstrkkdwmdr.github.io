@@ -71,7 +71,8 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 15px;
+    padding: 15px;
+    font-size: 1.3rem;
 }
 
 nav ul li a {
@@ -97,12 +98,59 @@ nav ul li a.subActiveNavLink {
 #linkYoutube:hover {
     color: #ff6666
 }
+
 #linkDiscord:hover {
     color: #6d7bf8
 }
+
 #linkGithub:hover {
     color: #c182e3
 }
+
 #linkOsu:hover {
     color: #ff66ab
+}
+
+#linkOsuskins:hover {
+    color: #ff66ab
+}
+
+.mobileNav {
+    text-align: left;
+    background-color: #272727;
+
+    img {
+        align-self: left;
+        align-content: left;
+        width: 100px;
+        height: 100px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: block;
+        font-size: 2.4em;
+        padding: 15px 15px;
+    }
+    ul li:nth-of-type(odd) {
+        background: #272727;
+    }
+    
+    ul li:nth-of-type(even) {
+        background: #14141444;
+    }
+}
+
+@media (min-resolution: 1.5dppx) {
+    header h1 {
+        font-size: 5rem;
+    }
+    header p {
+        font-size: 2rem;
+    }
 }

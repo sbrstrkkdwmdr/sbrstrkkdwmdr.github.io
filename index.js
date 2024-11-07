@@ -71,8 +71,7 @@ function setupHomeLinks() {
         */
         text += `
         <div class="link">
-            <p
-                style="margin-right:20px; margin-left:20px; font-size:20px; margin-bottom:4px; color:rgb(200, 200, 200)">
+            <p>
                 ${key}</p>
             <p><a href="${stuff[key].link}" target="_self">
             <div class="linkpng">

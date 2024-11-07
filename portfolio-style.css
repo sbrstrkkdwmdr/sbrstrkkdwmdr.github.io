@@ -8,6 +8,7 @@
     width: 500px;
     height: auto;
 }
+
 .portfolioName {
     text-align: center;
     margin: 0 auto;
@@ -19,7 +20,7 @@
     border-radius: 5px;
     font-family: 'Consolas';
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 3rem;
     margin: 0;
     padding: 0;
     clear: both;
@@ -27,25 +28,46 @@
 }
 
 .portfolioNameLong {
-    font-size: 30px;
+    font-size: 2.2rem;
 }
 
 .portfolioContent {
     display: flex;
     align-items: flex-start;
+
     img {
         float: left;
         border-radius: 5px;
         width: 245px;
         height: 245px;
         max-width: 245px;
-        max-height: 245px; 
-        object-fit:contain;
+        max-height: 245px;
+        object-fit: contain;
     }
+
     p {
         margin-left: 1vw;
         float: right;
         overflow-wrap: break-word;
         flex: 1;
+    }
+}
+
+@media (min-resolution: 1.5dppx) {
+
+    .portfolioItem {
+        width: 750px;
+        height: auto;
+    }
+
+    .portfolioName {
+        font-size: 3.5rem;
+        padding-bottom: 15px;
+    }
+    .portfolioNameLong{
+        font-size: 3rem;
+    }
+    .portfolioContent p {
+        font-size: 2.2rem;
     }
 }

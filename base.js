@@ -1,11 +1,11 @@
-    /**
- <nav>
+/**
+<nav>
 <ul>
 <li><a href="./osu-skin/HOME.html">osu! skins</a></li>
 <li><a href="./stuff.html">Other</a></li>
 </ul> 
 </nav>
-     */
+ */
 const navitems = [
     {
         name: 'Home',
@@ -64,11 +64,27 @@ function activateNav(str) {
         a.href = item.url;
         a.innerText = item.name;
         a.id = item.id;
-        if(item.id == str){
+        if (item.id == str) {
             a.className = 'activeNavLink';
         }
         li.append(a);
         ul.append(li);
     });
-    nav.append(ul);
+    if (window.devicePixelRatio > 1) {
+        ul.style.display = 'none';
+        const hamburger = document.createElement('img');
+        hamburger.id = 'hamburgerButton';
+        hamburger.src = './image/hamburger.png';
+        hamburger.addEventListener('click', e => {
+            if (ul.style.display == 'none') {
+                ul.style.display = 'block';
+            } else {
+                ul.style.display = 'none';
+            }
+        });
+        nav.classList.add('mobileNav');
+        nav.append(hamburger, ul);
+    } else {
+        nav.append(ul)
+    }
 };

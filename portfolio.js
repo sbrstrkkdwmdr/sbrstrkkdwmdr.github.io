@@ -6,20 +6,13 @@ const portfolioItems = [
         url: 'https://github.com/sbrstrkkdwmdr/sbrbot',
         pixelArt: false,
     },
-    {
-        name: 'Personal Website',
-        description: 'Custom website I made for myself',
-        img: './image/portfolio/website.png',
-        url: 'https://github.com/sbrstrkkdwmdr/sbrstrkkdwmdr.github.io',
-        pixelArt: false,
-    },
-    {
-        name: 'ProjectBandana',
-        description: 'A simple 2d game I\'ve been working on',
-        img: './image/portfolio/projectbandana.png',
-        url: 'https://www.youtube.com/playlist?list=PLbYkgKLVlgu-Pn0iwrOIO60E4CGjWUU0_',
-        pixelArt: true,
-    },
+    // { // uncomment when i've actually finished this lmfao
+    //     name: 'ProjectBandana',
+    //     description: 'A simple 2d game I\'ve been working on',
+    //     img: './image/portfolio/projectbandana.png',
+    //     url: 'https://www.youtube.com/playlist?list=PLbYkgKLVlgu-Pn0iwrOIO60E4CGjWUU0_',
+    //     pixelArt: true,
+    // },
     {
         name: 'WeatherAppTauri',
         description: 'A simple app built with Tauri to get weather data via open-meteo.',

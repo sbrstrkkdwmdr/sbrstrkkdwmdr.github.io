@@ -20,12 +20,12 @@ h1 {
 .sectionHeading {
     color: white;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 3rem;
     color: #fc6450
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 0;
     padding-top: 15px
 }
@@ -33,7 +33,7 @@ h3 {
 pre {
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .main {
@@ -61,4 +61,25 @@ img {
     border-radius: 15px;
     width: 640px;
     height: auto;
+}
+
+li {
+    font-size: 1rem;
+}
+
+@media (min-resolution: 1.5dppx) {
+    .sectionHeading {
+        font-size: 5rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+    }
+    
+    pre {
+        font-size: 3rem;
+    }
+    li {
+        font-size: 2rem;
+    }
 }

@@ -9,18 +9,18 @@
 p {
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    font-size: 24px;
 }
 
 #mainName {
     color: white;
     font-family: 'Russo One', sans-serif;
+    font-size: 4rem;
 }
 
 #minor {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-
+    font-size: 1rem;
 }
 
 .grad {
@@ -34,6 +34,11 @@ p {
     background: linear-gradient(to right, #FF6A00 40%, #FF00DC 60%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+#profileImg {
+    width: 225px;
+    height: 225px;
 }
 
 /* home links */
@@ -66,9 +71,9 @@ p {
     padding: 10px;
     display: block;
     text-align: center;
-    border-radius: 15px;
     /* background-color: #15171B; */
     width: 125px;
+    font-size: 1rem;
 }
 
 .linkpng {
@@ -97,11 +102,12 @@ p {
 
 /* about me */
 #abt {
+    font-size: 1.5rem;
 }
 
 #abtMeTitle {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.3rem;
     color: white;
 }
 
@@ -118,4 +124,27 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #15171B88;
     text-align: left;
+}
+
+@media (min-resolution: 1.5dppx) {
+    #mainName {
+        font-size: 5rem;
+    }
+
+    #minor {
+        font-size: 1.5rem;
+    }
+
+    .link {
+        font-size: 2rem;
+        margin: 0 10px;
+    }
+
+    #abtMeTitle {
+        font-size: 4rem;
+    }
+
+    #abt {
+        font-size: 2rem;
+    }
 }
