@@ -1,4 +1,6 @@
 function generatePage(id) {
+    activateNav('linkMainSkins', true);
+
     let doc = document.getElementsByTagName('main')[0];
     let skin = skins.find(skin => skin.id === id);
     let header = document.getElementsByTagName('header');
