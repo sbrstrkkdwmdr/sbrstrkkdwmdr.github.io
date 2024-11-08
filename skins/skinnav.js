@@ -1,71 +1,51 @@
-/**
-<nav>
-<ul>
-<li><a href="./skins/HOME.html">osu! skins</a></li>
-<li><a href="./stuff.html">Other</a></li>
-</ul> 
-</nav>
- */
 const navitems = [
     {
         name: 'Home',
         id: 'linkHome',
-        url: './index.html',
+        url: '../index.html',
     },
     {
-        name: 'YouTube',
-        id: 'linkYoutube',
-        url: 'https://www.youtube.com/@sbrstrkkdw',
+        name: 'All skins',
+        id: 'linkAllSkins',
+        url: './',
     },
     {
-        name: 'Discord',
-        id: 'linkDiscord',
-        url: 'https://github.com/sbrstrkkdwmdr/',
+        name: 'Main skins',
+        id: 'linkMainSkins',
+        url: './main-skins.html',
     },
     {
-        name: 'Github',
-        id: 'linkGithub',
-        url: 'mailto:sbrstrkkdwmdr@gmail.com',
+        name: 'Mixed skins',
+        id: 'linkMixedSkins',
+        url: './mixed-skins.html',
     },
     {
-        name: 'Email',
-        id: 'linkEmail',
-        url: 'mailto:sbrstrkkdwmdr@gmail.com',
+        name: 'Other skins',
+        id: 'linkOtherSkins',
+        url: './extra-skins.html',
     },
     {
-        name: 'osu!',
-        id: 'linkOsu',
-        url: 'https://osu.ppy.sh/users/15222484',
-    },
-    {
-        name: 'osu! skins',
-        id: 'linkOsuskins',
-        url: './skins/',
-    },
-    {
-        name: 'Portfolio',
-        id: 'linkPortfolio',
-        url: './portfolio.html',
-    },
-    {
-        name: 'Other',
-        id: 'linkOther',
-        url: './stuff.html',
+        name: 'sbrstrk-r skins',
+        id: 'linkSbrstrk-rSkins',
+        url: './sbrstrk-r.html',
     },
 ]
 
 
-function activateNav(str) {
+function activateNav(str, isSubpage) {
     const nav = document.getElementById('nav');
     const ul = document.createElement('ul');
     navitems.forEach(item => {
         const li = document.createElement('li');
         const a = document.createElement('a');
-        a.href = item.url;
+        a.href = isSubpage ? '../' + item.url : item.url;
         a.innerText = item.name;
         a.id = item.id;
         if (item.id == str) {
             a.className = 'activeNavLink';
+        }
+        if (item.id == str && isSubpage) {
+            a.className = 'subActiveNavLink';
         }
         li.append(a);
         ul.append(li);
@@ -74,7 +54,7 @@ function activateNav(str) {
         ul.style.display = 'none';
         const hamburger = document.createElement('img');
         hamburger.id = 'hamburgerButton';
-        hamburger.src = './image/hamburger.png';
+        hamburger.src = (isSubpage ? '../' : '') +  '../image/hamburger.png';
         hamburger.addEventListener('click', e => {
             if (ul.style.display == 'none') {
                 ul.style.display = 'block';

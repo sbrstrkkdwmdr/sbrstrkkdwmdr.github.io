@@ -35,7 +35,7 @@ stuff = {
         },
     },
     'my osu! skins': {
-        link: "osu-skin/HOME.html",
+        link: "skins/",
         img: {
             base: "image/osusk.png",
             hover: "image/osusk-h.png",
