@@ -118,7 +118,7 @@ nav ul li a.subActiveNavLink {
 .mobileNav {
     text-align: left;
     background-color: #272727;
-
+    height: max-content;
     img {
         align-self: left;
         align-content: left;
@@ -130,11 +130,12 @@ nav ul li a.subActiveNavLink {
         list-style: none;
         margin: 0;
         padding: 0;
+        position: absolute;
     }
 
     ul li {
         display: block;
-        font-size: 2.4em;
+        font-size: 5rem;
         padding: 15px 15px;
     }
     ul li:nth-of-type(odd) {
@@ -142,7 +143,7 @@ nav ul li a.subActiveNavLink {
     }
     
     ul li:nth-of-type(even) {
-        background: #14141444;
+        background: #202020;
     }
 }
 
