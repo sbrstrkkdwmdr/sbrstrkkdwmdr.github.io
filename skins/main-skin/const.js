@@ -1078,6 +1078,14 @@ const skins = [
                 isGameplay: true,
             },
         ]
+    },
+    {
+        id: '15',
+        name: 'sbrstrkkdw v15',
+        date_start: '2024-11-18',
+        date_end: 'present',
+        url: 'https://www.mediafire.com/folder/vrz1duyers8r5/14',
+        video_url: 'https://www.youtube.com/embed/1HOm9G-7lEs',
+        images: []
     }
-
 ]
