@@ -75,7 +75,7 @@ ${skin.date_start} --- ${skin.date_end}
         iframe1.height = "405";
         iframe1.src = skin.video_url;
         iframe1.title = "Skin video preview";
-        iframe1.frameBorder = "0";
+        // iframe1.frameBorder = "0";
         iframe1.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
         iframe1.allowFullscreen = true;
         itemYoutubePreview.append(p1, iframe1);

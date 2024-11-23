@@ -96,7 +96,7 @@ iframe {
     transform: translate(-50%, -50%);
     width: 100vw;
     height: 100vh;
-    background-color: #00000055;
+    background-color: #000000bb;
     z-index: 1000;
     position: fixed;
 }
@@ -123,6 +123,7 @@ iframe {
     background-color: #646a6d4b;
     border-radius: 5px;
     padding: 5px;
+    clear:both;
 }
 
 #dlButton {
