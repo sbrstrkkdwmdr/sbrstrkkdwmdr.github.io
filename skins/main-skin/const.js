@@ -1090,21 +1090,33 @@ const skins = [
             {
                 name: 'Song select',
                 url: 'url',
-                image_url: '15/screenshot1142.jpg',
+                image_url: '15/screenshot1147.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
                 url: 'url',
-                image_url: '15/screenshot1143.jpg',
+                image_url: '15/screenshot1148.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
                 url: 'url',
-                image_url: '15/screenshot1145.jpg',
+                image_url: '15/screenshot1149.jpg',
                 isGameplay: false,
-            }
+            },
+            {
+                name: '- h',
+                url: 'https://www.mediafire.com/file/cd8esbc9zkcbza3/-_sbrstrkkdw_v15_%255B-_h%255D.osk/file',
+                image_url: '15/game-h.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'banana',
+                url: 'https://www.mediafire.com/file/zeutacnwy4tt9ch/-_sbrstrkkdw_v15_%255Bbanana%255D.osk/file',
+                image_url: '15/game-banana.jpg',
+                isGameplay: true,
+            },
         ]
     }
 ]
