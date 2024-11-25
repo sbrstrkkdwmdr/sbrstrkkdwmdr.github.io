@@ -129,13 +129,13 @@ function displayCommand(cmd, mainDiv) {
             cell1.classList.add('tdEx', 'extxt');
             cell1.innerHTML = example.text.replace('PREFIXMSG', 'sbr-');
             cell2.classList.add('tdEx', 'exdesc');
-            cell2.innerHTML = example.descriptor;
+            cell2.innerHTML = example.description;
         }
         examplesDiv.append(exampleTable);
         details.append(examplesDiv);
     }
 
-    if (cmd.options.length > 0) {
+    if (cmd.args.length > 0) {
         const table = document.createElement('table');
         table.classList.add('table');
         table.insertRow();
@@ -145,7 +145,7 @@ function displayCommand(cmd, mainDiv) {
         table.rows[0].insertCell().innerHTML = 'Description';
         table.rows[0].insertCell().innerHTML = 'Options';
         table.rows[0].insertCell().innerHTML = 'Default Value';
-        for (const option of cmd.options) {
+        for (const option of cmd.args) {
             const row = table.insertRow();
             row.insertCell().innerHTML = option.name;
             row.insertCell().innerHTML = option.type;
