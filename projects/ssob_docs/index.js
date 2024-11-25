@@ -29,6 +29,7 @@ function toList(commands, div, name) {
         cmddiv.classList.add('commandButton')
         cmddiv.id = `${name}-${command.name}`
         cmddiv.innerHTML = command.name;
+        cmddiv.dataset.allNames = [command.name].concat(command.aliases)
         cmddiv.addEventListener('click', () => {
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -332,10 +333,14 @@ document.getElementById("command-search").addEventListener("input", (e) => {
     const commands = document.getElementsByClassName("commandButton");
     for (var i = 0; i < commands.length; i++) {
         element = commands[i];
-        if(val.includes(element.innerHTML) || element.innerHTML.includes(val)){
+        if (['"', "'", "`", "="].some(x => val.includes(x)) && element.dataset.allNames.split(',').includes(val.replaceAll(/[\"\'\`\=]/g, ''))) {
             element.style.display = 'inherit';
         } else {
-            element.style.display = 'none';
+            if (val.includes(element.dataset.allNames) || element.dataset.allNames.includes(val)) {
+                element.style.display = 'inherit';
+            } else {
+                element.style.display = 'none';
+            }
         }
     }
 });
