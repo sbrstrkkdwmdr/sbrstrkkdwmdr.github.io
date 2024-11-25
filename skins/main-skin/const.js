@@ -1085,7 +1085,7 @@ const skins = [
         date_start: '2024-11-18',
         date_end: 'present',
         url: 'https://www.mediafire.com/folder/za6emwzaaawqo/15',
-        video_url: 'no_yt.png',
+        video_url: '../image/no_yt.png',
         images: [
             {
                 name: 'Song select',
