@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.spaceForNav {
+    padding-top: 12px;
+    /* padding-bottom: 100px; */
+}
+
+.titlenav {
+    font-size: xx-large;
+}
+
+.cmdnav {
+    font-size: medium;
+}
+
+.divSubheading {
+    display: flex;
+    flex: content;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.divCommandDetailsList {
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.divCommandName {
+    margin-left: 3%;
+    justify-content: left;
+}
+
+.divCommandDetails {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+#helpSummary {
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    padding: 20px;
+    /* white-space: pre; */
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". .";
+}
+
+p {
+    font-size: 16px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+/* details {
+    overscroll-behavior: smooth;
+} */
+
+.commandDesc {
+    margin: 1.5em 0;
+}
+
+.commandUsage {
+    margin: 1.5em 0;
+}
+
+.extxt {
+    color: #99ff00;
+    background-color: rgb(66, 72, 75);
+    border-radius: 5px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.exdesc {
+    font-family: 'Ubuntu';
+    word-wrap: break-word;
+}
+
+.cmdexample {
+    border: rgba(0, 0, 0, 0.50);
+
+}
+
+.fullClear {
+    margin-bottom: 75px;
+    clear: both;
+}
+
+.table {
+    background-color: rgb(45, 49, 51);
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 16px;
+    table-layout: fixed;
+    width: 100%;
+    td:nth-child(1) {
+        font-weight: 1000;
+        text-align: center;
+        color: #ff9100;
+    }
+    td {
+        border: 1px solid #d8d8d8;
+        padding: 10px;
+        width: 5%;
+        word-wrap: normal;
+        border-radius: 2px;
+        font-family: 'Consolas';
+        font-weight: 500;
+    }
+
+    tr:first-child td {
+        font-weight: 1000;
+        text-align: center;
+        color: #ffff00
+    }
+}
+
+.tableBG {
+    background-color: rgba(50, 50, 50, 0.5);
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+tr {
+    border: 1px solid #ffffff;
+    padding: 0px;
+}
+
+th {
+    max-width: 175px;
+    min-width: 175px;
+    word-wrap: break-word;
+}
+
+.tdOpts {
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    width: 5%;
+    word-wrap: normal;
+    border-radius: 2px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+}
+
+.tdEx {
+    border: 1px solid #d8d8d8;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.tdTypes {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.title {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bodytype {
+    z-index: 98;
+    height: 78.1vh;
+}
+
+.commandButton {
+    background-color: rgba(49, 49, 49, 0.5);
+    color: white;
+    margin: 10px 3%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.commandButton:hover {
+    background-color: #4c93af80;
+    color: #4c93af;
+}
+
+.commandSelected {
+    background-color: #4caf5080;
+    color: #4CAF50;
+}
+
+#commandDisplay {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    /* grid-auto-flow: row; */
+    grid-template-areas: ". .";
+    overflow-y: hidden;
+    height: 52.3vh;
+}
+
+#commandSelector {
+    max-width: 50vw;
+    width: max-content;
+    min-width: 15vw;
+    overflow-y: auto;
+}
+
+#commandDetails {
+    padding: 0 2em;
+    overflow: auto;
+    h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+
+.commandGridItem {
+    background-color: #161616;
+    border-radius: 5px;
+    clear: none;
+    height: 100%;
+}
+
+.keepPre {
+    white-space: pre;
+}
+
+#showLink {
+    color: #ff8080
+}
+
+/* search elements */
+#command-search {
+    background-color: rgba(0, 0, 0, 0.50);
+    color:white;
+    margin-top: 0.5em;
+    gap: .25rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* Ensure padding is included in width/height */
+    position: relative;
+    /* Ensure z-index works */
+    padding: 5px;
+    border-radius: 0.5em;
+    width: 15vw;
+}
+
+label {
+    font-size: 24px;
+}
