@@ -189,3 +189,9 @@ iframe {
 .sourceLink:active {
     color: #fc6450
 }
+
+.sourcetable {
+    td {
+        padding: 0 0.5rem;
+    }
+}
