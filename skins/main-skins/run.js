@@ -145,5 +145,28 @@ ${skin.date_start} --- ${skin.date_end}
         previewer.style.display = 'block';
         previewbg.style.display = 'block';
     }
-
+    if (skin.sources) {
+        const div = document.getElementById('sources')
+        const header = document.createElement('h2');
+        header.innerText = 'Sources';
+        div.append(header);
+        skin.sources.forEach(category => {
+            const sourceCat = document.createElement('div');
+            const catName = document.createElement('h3');
+            catName.innerText = category.name;
+            const table = document.createElement('table');
+            table.className = 'sourcetable';
+            category.items.forEach(item => {
+                const row = document.createElement('tr');
+                const name = document.createElement('td');
+                name.innerHTML = item.name;
+                const desc = document.createElement('td');
+                desc.innerHTML = item.desc.replaceAll('\n', '<br>');
+                row.append(name, desc);
+                table.append(row);
+            })
+            sourceCat.append(catName, table);
+            div.append(sourceCat);
+        });
+    }
 }
