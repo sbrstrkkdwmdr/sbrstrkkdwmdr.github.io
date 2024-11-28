@@ -1151,7 +1151,7 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                     },
                     {
                         name: `HR`,
-                        desc: `hitcircles based off<a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
+                        desc: `hitcircles based off <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
 cursor based off <a class="sourceLink" href="https://osuskins.net/skin/Cs3wuu3">Seoul v9</a> and nebuwua skin
 hit sfx from <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`
                     },
@@ -1609,8 +1609,7 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                     },
                     {
                         name: `scorebar (top left)`,
-                        desc: `<a class="sourceLink"
-                        href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
+                        desc: `<a class="sourceLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
                     },
                     {
                         name: `scorebar (bottom right)`,
@@ -1622,8 +1621,7 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                     },
                     {
                         name: `sectionpass/fail`,
-                        desc: `<a class="sourceLink"
-                        href='https://www.reddit.com/r/SewayakiKitsune/comments/ss99ru/i_remastered_poggersnotpoggers/'>senko poggers</a>`,
+                        desc: `<a class="sourceLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/ss99ru/i_remastered_poggersnotpoggers/'>senko poggers</a>`,
                     },
                 ]
             },
