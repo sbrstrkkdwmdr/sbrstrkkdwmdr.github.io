@@ -2286,7 +2286,7 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
         id: '14',
         name: 'sbrstrkkdw v14',
         date_start: '2024-02-27',
-        date_end: 'present',
+        date_end: '2024-11-18',
         description: 'SD/HD, STD',
         url: 'https://www.mediafire.com/folder/vrz1duyers8r5/14',
         video_url: 'https://www.youtube.com/embed/1HOm9G-7lEs',
