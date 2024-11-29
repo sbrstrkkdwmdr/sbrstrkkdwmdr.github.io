@@ -37,7 +37,8 @@ const buttonsObjs = {
             random: '.\\img\\buttons\\random.png', //🎲
             graph: '.\\img\\buttons\\graph.png', //'📈',
             map: '.\\img\\buttons\\map.png', //🗺
-            user: '.\\img\\buttons\\user.png'
+            user: '.\\img\\buttons\\user.png',
+            leaderboard: '.\\img\\buttons\\leaderboard.png'
         },
         page_old: {
             first: '⬅',
@@ -2401,7 +2402,7 @@ const buttons = [
         name: 'Leaderboard',
         description: 'Displays the leaderboard of the map or other scores the user has on that map',
         emoji: buttonsObjs.label.extras.leaderboard
-    }, {
+    }, /* {
         name: 'Time',
         description: 'Displays the time for the given region',
         emoji: buttonsObjs.label.extras.time
@@ -2409,7 +2410,7 @@ const buttons = [
         name: 'Weather',
         description: 'Displays the weather for the given region',
         emoji: buttonsObjs.label.extras.weather
-    }
+    } */
 
 ];
 

@@ -114,7 +114,7 @@ function displayCommand(cmd, mainDiv) {
         details.append(aliasDiv);
     }
 
-    if (cmd.examples.length > 0) {
+    if (cmd?.examples?.length > 0) {
         const examplesDiv = document.createElement('div');
         examplesDiv.classList.add('fullClear')
         const exampleName = document.createElement('h3');
@@ -135,7 +135,7 @@ function displayCommand(cmd, mainDiv) {
         details.append(examplesDiv);
     }
 
-    if (cmd.args.length > 0) {
+    if (cmd?.args?.length > 0) {
         const table = document.createElement('table');
         table.classList.add('table');
         table.insertRow();
@@ -156,9 +156,9 @@ function displayCommand(cmd, mainDiv) {
                     option.description.includes('http') ?
                         urlToHTML(option.description) :
                         option.description;
-            row.insertCell().innerHTML = option.options.map(opt =>
+            row.insertCell().innerHTML = option?.options?.map(opt =>
                 opt?.includes('[') && opt?.includes(']') && opt?.includes('(') && opt?.includes(')') ?
-                    markdownURLtoHTML(opt) : opt).join(', ');
+                    markdownURLtoHTML(opt) : opt).join(', ') ?? null;
             row.insertCell().innerHTML = option.defaultValue;
         }
         details.append(table);
@@ -206,12 +206,10 @@ function urlToHTML(str) {
     //get index of URL
     let i = 0
     for (null; i < args.length; i++) {
-        console.log(args[i])
         if (args[i].includes('http')) break;
     }
     const init = args.slice(0, i - 1).join(' ');
     const fin = args.slice(i + 1, args.length).join(' ');
-    console.log(`${init} <a class="minA" href=${args[i]}>url</a> ${fin}`)
     return `${init} <a class="minA" href=${args[i]}>url</a> ${fin}`
 }
 
@@ -307,15 +305,12 @@ function toInlineCode(string) {
     let newArr = string.split('`');
     let newString = "";
     for (let i = 0; i < newArr.length - 1; i++) {
-        console.log(i);
-        console.log(newArr[i]);
         if (i % 2 == 0) {
             newString += newArr[i] + "<span class=\"inlineCodeblock\">";
         } else {
             newString += newArr[i] + "</span>";
         }
     }
-    console.log(newString);
     return newString;
 }
 
@@ -329,7 +324,6 @@ function fixCharacters(string) {
 
 document.getElementById("command-search").addEventListener("input", (e) => {
     const val = e.target.value.trim();
-    console.log(val);
     const commands = document.getElementsByClassName("commandButton");
     for (var i = 0; i < commands.length; i++) {
         element = commands[i];
