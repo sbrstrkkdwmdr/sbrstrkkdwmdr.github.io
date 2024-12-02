@@ -54,6 +54,15 @@
     color: #fc6450;
 }
 
+.mainDownload {
+    margin: 2rem 0;
+    font-size: 5rem;
+    color: #67e6c6;
+    background-color: #35383f;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 .itemName {
     text-align: center;
     margin: 0 auto;

@@ -12,10 +12,9 @@ ${skin.date_start} --- ${skin.date_end}
 `
     {
         const p1 = document.createElement("p");
-        p1.style.fontSize = "50px";
         const a1 = document.createElement("a");
         a1.rel = "noopener noreferrer";
-        a1.className = "dl";
+        a1.className = "dl mainDownload";
         a1.href = skin.url;
         a1.innerText = "download link";
         p1.appendChild(a1);
