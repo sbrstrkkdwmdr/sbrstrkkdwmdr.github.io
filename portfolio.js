@@ -1,43 +1,43 @@
 let doc = document.getElementsByTagName('main')[0];
 
 // add special preview image functionality
-const previewer = document.createElement('div');
-previewer.id = "previewDiv";
+// const previewer = document.createElement('div');
+// previewer.id = "previewDiv";
 
-const previewerButtonLink = document.createElement('a');
-previewerButtonLink.className = "dl previewButton";
-previewerButtonLink.id = "dlButton";
-previewerButtonLink.innerText = "download";
-previewerButtonLink.rel = "noopener noreferrer";
-previewerButtonLink.target = "_blank";
+// const previewerButtonLink = document.createElement('a');
+// previewerButtonLink.className = "dl previewButton";
+// previewerButtonLink.id = "dlButton";
+// previewerButtonLink.innerText = "download";
+// previewerButtonLink.rel = "noopener noreferrer";
+// previewerButtonLink.target = "_blank";
 
-const previewSwitchers = document.createElement('div');
-previewSwitchers.className = 'imageSwitcher';
-const previewButtonPrevious = document.createElement('a');
-const previewButtonNext = document.createElement('a');
-previewButtonNext.innerHTML = "Next &raquo;";
-previewButtonPrevious.innerHTML = "&laquo; Prev";
-previewButtonPrevious.className = "previewButton";
-previewButtonPrevious.id = "previewPrevious";
-previewButtonNext.className = "previewButton";
-previewButtonNext.id = "previewNext";
-previewSwitchers.append(previewButtonPrevious, previewButtonNext);
+// const previewSwitchers = document.createElement('div');
+// previewSwitchers.className = 'imageSwitcher';
+// const previewButtonPrevious = document.createElement('a');
+// const previewButtonNext = document.createElement('a');
+// previewButtonNext.innerHTML = "Next &raquo;";
+// previewButtonPrevious.innerHTML = "&laquo; Prev";
+// previewButtonPrevious.className = "previewButton";
+// previewButtonPrevious.id = "previewPrevious";
+// previewButtonNext.className = "previewButton";
+// previewButtonNext.id = "previewNext";
+// previewSwitchers.append(previewButtonPrevious, previewButtonNext);
 
-const previewimg = document.createElement('img');
-previewimg.className = 'previewImage'
-const previewDescription = document.createElement('p');
-const previewContent = document.createElement('div');
-previewContent.id = 'previewContent';
-previewContent.append(previewimg, previewDescription);
+// const previewimg = document.createElement('img');
+// previewimg.className = 'previewImage'
+// const previewDescription = document.createElement('p');
+// const previewContent = document.createElement('div');
+// previewContent.id = 'previewContent';
+// previewContent.append(previewimg, previewDescription);
 
-previewer.append(previewerButtonLink, previewContent, previewSwitchers);
-previewer.style.display = 'none';
-doc.appendChild(previewer);
+// previewer.append(previewerButtonLink, previewContent, previewSwitchers);
+// previewer.style.display = 'none';
+// doc.appendChild(previewer);
 
-const previewbg = document.createElement('div');
-previewbg.id = "previewOverlay";
-previewbg.style.display = 'none';
-doc.appendChild(previewbg);
+// const previewbg = document.createElement('div');
+// previewbg.id = "previewOverlay";
+// previewbg.style.display = 'none';
+// doc.appendChild(previewbg);
 
 const portfolioItems = [
     {
@@ -51,6 +51,7 @@ const portfolioItems = [
     // { // uncomment when i've actually finished this lmfao
     //     name: 'ProjectBandana',
     //     shortdescription: 'A simple 2d game I\'ve been working on',
+    //      description: 'A simple top-down 2d shooter.',
     //     img: './image/portfolio/projectbandana.png',
     //     url: 'https://www.youtube.com/playlist?list=PLbYkgKLVlgu-Pn0iwrOIO60E4CGjWUU0_',
     //     pixelArt: true,
@@ -71,6 +72,13 @@ const portfolioItems = [
         pixelArt: false,
     },
     {
+        name: 'COS20007',
+        shortdescription: 'Portfolio for COS20007 (Object Oriented Programming)',
+        img: 'https://avatars.githubusercontent.com/u/71379681?v=4',
+        url: 'https://github.com/sbrstrkkdwmdr/cos20007',
+        pixelArt: false,
+    },
+    {
         name: 'freeCodeCamp Certificates',
         shortdescription: 'Certificates I got from freeCodeCamp',
         img: 'https://avatars.githubusercontent.com/u/71379681?v=4',
@@ -78,13 +86,6 @@ const portfolioItems = [
         pixelArt: false,
         longName: true,
     }
-    // {
-    //     name: 'COS20007',
-    //     shortdescription: 'Portfolio for COS20007 (Object Oriented Programming)',
-    //     img: './image/portfolio/xxx.png',
-    //     url: 'https://github.com/sbrstrkkdwmdr/cos20007',
-    //     pixelArt: false,
-    // },
 ]
 
 function generatePortfolio() {
@@ -111,43 +112,46 @@ function generatePortfolio() {
 
         content.append(img, info)
         elem.append(title, content)
-        elem.addEventListener('click', e => {
-            previewIndex = portfolioItems.indexOf(item);
-            createPreview(item)
-        })
-        itemContainer.append(elem);
+        // elem.addEventListener('click', e => {
+        //     previewIndex = portfolioItems.indexOf(item);
+        //     createPreview(item)
+        // })
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.append(elem);
+        itemContainer.append(a);
     });
 
-    let previewIndex = 0;
-    previewbg.addEventListener('click', e => {
-        previewer.style.display = 'none';
-        previewbg.style.display = 'none';
-    });
-    previewButtonPrevious.addEventListener('click', e => {
-        previewIndex--;
-        if (previewIndex < 0) {
-            previewIndex = portfolioItems.length - 1;
-        }
-        createPreview(portfolioItems[previewIndex]);
-    });
-    previewButtonNext.addEventListener('click', e => {
-        previewIndex++;
-        if (previewIndex >= portfolioItems.length) {
-            previewIndex = 0;
-        }
-        createPreview(portfolioItems[previewIndex]);
-    });
-    previewimg.addEventListener('click', e => {
-        window.open(curprevimg, '_blank')
-    });
+    // let previewIndex = 0;
+    // previewbg.addEventListener('click', e => {
+    //     previewer.style.display = 'none';
+    //     previewbg.style.display = 'none';
+    // });
+    // previewButtonPrevious.addEventListener('click', e => {
+    //     previewIndex--;
+    //     if (previewIndex < 0) {
+    //         previewIndex = portfolioItems.length - 1;
+    //     }
+    //     createPreview(portfolioItems[previewIndex]);
+    // });
+    // previewButtonNext.addEventListener('click', e => {
+    //     previewIndex++;
+    //     if (previewIndex >= portfolioItems.length) {
+    //         previewIndex = 0;
+    //     }
+    //     createPreview(portfolioItems[previewIndex]);
+    // });
+    // previewimg.addEventListener('click', e => {
+    //     window.open(curprevimg, '_blank')
+    // });
 
-    function createPreview(item) {
-        previewimg.src = item.img;
-        previewerButtonLink.href = item.url;
-        previewerButtonLink.innerText = item.name;
-        previewDescription.innerText = item?.description ?? item?.shortdescription ?? '';
+    // function createPreview(item) {
+    //     previewimg.src = item.img;
+    //     previewerButtonLink.href = item.url;
+    //     previewerButtonLink.innerText = item.name;
+    //     previewDescription.innerText = item?.description ?? item?.shortdescription ?? '';
 
-        previewer.style.display = 'block';
-        previewbg.style.display = 'block';
-    }
+    //     previewer.style.display = 'block';
+    //     previewbg.style.display = 'block';
+    // }
 }
