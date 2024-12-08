@@ -2515,6 +2515,12 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                 image_url: '15/game-banana.jpg',
                 isGameplay: true,
             },
+            {
+                name: 'citrus',
+                url: 'https://www.mediafire.com/file/zeutacnwy4tt9ch/-_sbrstrkkdw_v15_%255Bcitrus%255D.osk/file',
+                image_url: '15/game-citrus.jpg',
+                isGameplay: true,
+            },
         ],
         sources: [
             {
