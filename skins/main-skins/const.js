@@ -2488,13 +2488,13 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
             {
                 name: 'Song select',
                 url: 'url',
-                image_url: '15/screenshot1147.jpg',
+                image_url: '15/screenshot1157.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
                 url: 'url',
-                image_url: '15/screenshot1155.jpg',
+                image_url: '15/screenshot1158.jpg',
                 isGameplay: false,
             },
             {
@@ -2519,6 +2519,12 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                 name: 'citrus',
                 url: 'https://www.mediafire.com/file/zeutacnwy4tt9ch/-_sbrstrkkdw_v15_%255Bcitrus%255D.osk/file',
                 image_url: '15/game-citrus.jpg',
+                isGameplay: true,
+            },
+            {
+                name: 'apple',
+                url: 'https://www.mediafire.com/file/zeutacnwy4tt9ch/-_sbrstrkkdw_v15_%255Bapple%255D.osk/file',
+                image_url: '15/game-apple.jpg',
                 isGameplay: true,
             },
         ],
