@@ -915,7 +915,7 @@ const osucommands = [
                 name: 'ppcalc',
                 type: 'boolean',
                 required: false,
-                description: 'Shows only the pp calculations for the map. See [here](https://sbrstrkkdwmdr.github.io/sbrbot/commands.html#osucmd-ppcalc) for more info.',
+                description: 'Shows only the pp calculations for the map. See [here](https://sbrstrkkdwmdr.github.io/projects/ssob_docs/commands.html#osucmd-ppcalc) for more info.',
 
                 defaultValue: 'false',
             },
@@ -1237,7 +1237,7 @@ const osucommands = [
 
             }
         ],
-        aliases: [],
+        aliases: ['pins'],
         args: scoreListCommandOptions
     },
     {
@@ -1500,7 +1500,17 @@ const osucommands = [
                 description: 'Shows your recent scores with the map name/difficulty/artist/creator matching "shinbatsu", excluding fails'
             }
         ],
-        aliases: ['rs', 'r', 'rt', 'rf', 'rm', 'rctb', 'rl', 'rlt', 'rlf', 'rlm', 'rlctb', 'rsbest', 'recentbest', 'rb'],
+        aliases: [
+            'recentscore', 'rs', 'r',
+            'recenttaiko', 'rt',
+            'recentfruits', 'rf', 'rctb',
+            'recentmania', 'rm',
+            'rb', 'recentbest', 'rsbest',
+            'rslist', 'recentlist', 'rl',
+            'recentlisttaiko', 'rlt',
+            'recentlistfruits', 'rlf', 'rlctb', 'rlc',
+            'recentlistmania', 'rlm',
+        ],
         args: scoreListCommandOptions.slice(0, 9).concat(
             scoreListCommandOptions.slice(11))
             .concat([
