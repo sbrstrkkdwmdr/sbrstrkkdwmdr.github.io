@@ -50,7 +50,7 @@ function activateNav(str, isSubpage) {
         li.append(a);
         ul.append(li);
     });
-    if (window.devicePixelRatio > 1) {
+    if (isMobileDevice()) {
         ul.style.display = 'none';
         const hamburger = document.createElement('img');
         hamburger.id = 'hamburgerButton';
@@ -68,3 +68,12 @@ function activateNav(str, isSubpage) {
         nav.append(ul)
     }
 };
+
+// https://medium.com/geekculture/detecting-mobile-vs-desktop-browsers-in-javascript-ad46e8d23ce5
+function isMobileDevice(){
+    const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    return window.devicePixelRatio > 1
+    // && ('ontouchstart' in window || navigator.maxTouchPoints > 0)
+    && (window.innerWidth < 768 || screen.width < 768)
+    && regex.test(navigator.userAgent);
+}

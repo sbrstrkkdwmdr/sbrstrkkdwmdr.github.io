@@ -355,12 +355,12 @@ function otherNav() {
     const nav = document.getElementById('nav');
     const ul = document.createElement('ul');
 
-    // if (window.devicePixelRatio > 1) {
+    // if (isMobileDevice()) {
     //     const li = document.createElement('li');
     //     li.innerText = '---------'
     //     ul.append(li);
     // }
-    if (window.devicePixelRatio <= 1) {
+    if (!isMobileDevice()) {
         onavitems.forEach(item => {
             const li = document.createElement('li');
             const a = document.createElement('a');
@@ -371,7 +371,7 @@ function otherNav() {
         });
         nav.append(ul);
     }
-    // if (window.devicePixelRatio > 1) {
+    // if (isMobileDevice()) {
     //     ul.style.display = 'none';
     //     const hamburger = document.getElementById('hamburgerButton');
     //     hamburger.addEventListener('click', e => {
@@ -387,3 +387,12 @@ function otherNav() {
 };
 otherNav();
 main();
+
+// https://medium.com/geekculture/detecting-mobile-vs-desktop-browsers-in-javascript-ad46e8d23ce5
+function isMobileDevice(){
+    const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    return window.devicePixelRatio > 1
+    // && ('ontouchstart' in window || navigator.maxTouchPoints > 0)
+    && (window.innerWidth < 768 || screen.width < 768)
+    && regex.test(navigator.userAgent);
+}
