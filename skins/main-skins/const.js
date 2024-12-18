@@ -2483,7 +2483,7 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
         date_end: 'present',
         description: 'SD/HD, STD',
         url: 'https://www.mediafire.com/folder/za6emwzaaawqo/15',
-        video_url: '../image/no_yt.png',
+        video_url: 'https://www.youtube.com/embed/ASn1_QNc0_0', 
         images: [
             {
                 name: 'Song select',
