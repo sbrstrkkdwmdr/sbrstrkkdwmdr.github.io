@@ -204,7 +204,7 @@ function genSideNav(level, cd, cur) {
         if (page.url == cur) {
             page.icon = page.icon.includes('dir') ? 'dir_current.png' : 'page_current.png';
             item.classList.add('sidebarItemActive');
-        } else if (page.url == cd + '/index.html' || page.url == 'index.html') {
+        } else if (page.url == cd + '/index.html' || page.url == 'index.html' || page.url == cd) {
             page.icon = page.icon.includes('dir') ? 'dir_index.png' : 'page_index.png';
         }
         const img = document.createElement('img');
