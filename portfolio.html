@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <!--idk how to code-->
-<title>Portfolio | SBRSTRKKDWMDR</title>
-<link rel="shortcut icon" type="image/png" href="image/logo.png" />
-<link rel="stylesheet" href="nav.css">
-<link rel="stylesheet" href="base.css">
-<link rel="stylesheet" href="portfolio-style.css">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
 <meta charset="utf-8" />
 <html lang="en">
 
 <head>
+    <title>Portfolio</title>
     <meta name="description" content="">
     <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Home page | SBRSTRKKDWMDR" />
-    <meta property="og:description" content="The home page for sbrstrkkdwmdr" />
-    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/" />
-    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/image/sbrstrkkdwmdr.png" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io" />
+    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/page_portfolio.css">
 </head>
-<script src="base.js"></script>
-<script src="index.js"></script>
+<script src="rootnav.js"></script>
+<script src="page_portfolio.js"></script>
 
-<body id="body" onload="activateNav('linkPortfolio'); ">
-    <header>
-        <h1>Portfolio</h1>
-        <p>In no particular order</p>
-    </header>
-    <nav id="nav">
-
+<body>
+    <nav class="external" id="topbar">
+        <div id="socialLinks"></div>
+        <div id="addressBar"></div>
     </nav>
-    <main>
-        <section id="items">
 
-        </section>
+    <nav class="external" id="sidebar">
+    </nav>
+    <main id="content">
     </main>
-    <script src="portfolio.js"></script>
-    <script>generatePortfolio();</script>
+
 </body>
+<script>
+    genPage(0, null, 'portfolio.html')
+    generatePortfolio()
+</script>
 
 </html>

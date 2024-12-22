@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<title>OniisanBaka osu! skins | SBRSTRKKDWMDR</title>
-<link rel="shortcut icon" type="image/png" href="../../image/logo.png" />
-<link rel="stylesheet" href="../../nav.css">
-<link rel="stylesheet" href="../../base.css">
-<link rel="stylesheet" href="../skinlayout.css">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
+<!--idk how to code-->
 <meta charset="utf-8" />
-<html>
+<html lang="en">
 
 <head>
-    <meta name="description" content="sbrstrk-r osu! skins">
-    <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr, sbrstrk-r">
+    <title>OniisanBaka's skins</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="sbrstrk-r osu! skins | SBRSTRKKDWMDR" />
-    <meta property="og:description" content="sbrstrk-r skins: OniisanBaka" />
-    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/skins/sbrstrk-r/1main-page" />
-    <meta property="og:image" content="https://a.ppy.sh/13780464" />
+    <meta property="og:title" content="OniisanBaka's skins" />
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io" />
+    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="../../styles/base.css">
+    <link rel="stylesheet" href="../../styles/skinlayout.css">
 </head>
 
-<script src="../skinnav.js"></script>
-<script src="./run.js"></script>
-<body onload="generate('oniisanbaka')">
-    <header>
-        <a class="sourceLink" href="https://osu.ppy.sh/u/13780464">
-            <h1>OniisanBaka</h1>
-        </a>
-    </header>
-    <nav id="nav">
+<script src="../../rootnav.js"></script>
+<script src="run.js"></script>
+
+<body>
+    <nav class="external" id="topbar">
+        <div id="socialLinks"></div>
+        <div id="addressBar"></div>
     </nav>
-    <main id="main">
-    </main>
+    <nav class="external" id="sidebar">
+    </nav>
+        <main id="content">
+        </main>
 </body>
+
+<script>
+        genPage(2, 'skins/sbrstrk-r', 'skins/sbrstrk-r/oniisanbaka.html')
+        generate('oniisanbaka');
+</script>
 
 </html>
