@@ -219,6 +219,9 @@ function genSideNav(level, cd, cur) {
         list.append(aWrap);
     });
     let show = true;
+    if(devicePixelRatio > 1){
+        show = false
+    }
     show = displaySide(show, list);
     {
         const sideButton = document.createElement('div');
@@ -253,9 +256,9 @@ function displaySide(show, list) {
  * @param {string} cur 
  */
 function genPage(level, cd, cur) {
+    genTitle(level, cur);
     genSideNav(level, cd, cur);
     genSocials(level);
-    genTitle(level, cur);
 }
 
 const socials = [
