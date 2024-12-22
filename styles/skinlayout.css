@@ -1,0 +1,270 @@
+/* layout for skin list page */
+
+/* based off material theme ocean high contrast */
+:root {
+    --bg-main: #0F111A;
+    --bg-aside: #090B10;
+    --border: #1E212D;
+    --clrs-blue: #82aaff;
+    --clrs-cyan: #89ddff;
+    --clrs-green: #c3e88d;
+    --clrs-magenta: #c792ea;
+    --clrs-red: #f07178;
+    --clrs-orange: #F78C6C;
+    --clrs-yellow: #ffcb6b;
+    --basic-text: #B2CCD6;
+    --unimportant-text: #505a5e;
+    --none: #00000000;
+    --highlight: #1E212D;
+    --highlightAlt: #313649;
+    --sidebarAnim: 500ms ease-in-out;
+    --gradient: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
+    --linkHighlight: #fc6450;
+    --linkDefault: var(--clrs-magenta);
+}
+
+.itemGrid {
+    /* margin: 0 10vw; */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /* margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+    grid-auto-columns: auto;
+    gap: 50px;
+    justify-content: center; */
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--bg-aside);
+    border: 3px solid var(--border);
+    width: 420px;
+}
+
+.itemHomeGrid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+}
+
+.itemProfileGrid {
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+}
+
+.itemHomeHeight {
+    height: 200px;
+}
+
+.itemHomeWidth {
+    width: 400px;
+}
+
+.itemProfile {
+    width: 256px;
+}
+
+#skinName {
+    h1 {
+        font-size: 48px;
+        padding: 0;
+        margin: 0;
+        color: var(--clrs-green);
+    }
+
+    p {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#skinNameLink,
+#skinNameLink:visited {
+    color: var(--clrs-green);
+}
+
+#skinNameLink:hover,
+#skinNameLink:active {
+    color: var(--linkHighlight);
+}
+
+#rSkinName {
+    width: fit-content;
+    font-size: 24px;
+}
+
+.dl,
+.dl:visited {
+    color: var(--linkDefault);
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.dl:hover,
+.dl:active {
+    color: var(--linkHighlight);
+}
+
+.mainDownload {
+    margin: 10px;
+    padding: 0;
+    font-size: 48px;
+    color: var(--clrs-magenta);
+    background-color: var(--bg-aside);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 3px solid var(--border);
+}
+
+.itemName {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--clrs-yellow);
+    background-color: var(--bg-main);
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.itemLongName {
+    font-size: 30px;
+}
+
+.itemAsLink {}
+
+/* doesnt work :( */
+.itemAsLink:hover {
+    color: var(--linkHighlight);
+}
+
+img,
+iframe {
+    border-radius: 15px;
+}
+
+.itemDescription {
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    margin: 5px;
+}
+
+#previewOverlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000bb;
+    z-index: 1000;
+    position: fixed;
+}
+
+#previewDiv {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    font-size: 50px;
+    color: white;
+    background-color: #15171B;
+    border-radius: 15px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.previewButton {
+    display: inline-block;
+    background-color: #646a6d4b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#dlButton {}
+
+.imageSwitcher {
+    a {
+        margin: 0 0.25em;
+    }
+
+    a:hover {
+        color: var(--linkHighlight);
+    }
+}
+
+.itemSmall {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #15171B;
+    width: 270px;
+}
+
+.itemNameSmall {
+    text-align: center;
+    margin: 0 auto;
+    color: #e2dfdb;
+    background-color: #42484b30;
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#sources {
+    font-size: 24px;
+    background-color: var(--bg-aside);
+    margin: 0 10vw;
+    padding: 35px;
+    border-radius: 2rem;
+    border: 3px solid var(--border);
+
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    /* white-space: pre; */
+}
+
+.sourceLink:link,
+.sourceLink:visited {
+    color: var(--linkDefault);
+}
+
+.sourceLink:hover,
+.sourceLink:active {
+    color: var(--linkHighlight);
+}
+
+.sourcetable {
+    td {
+        padding: 0 0.5rem;
+    }
+}

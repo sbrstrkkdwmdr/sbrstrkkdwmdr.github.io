@@ -1,0 +1,74 @@
+:root {
+    --bg-main: #0F111A;
+    --bg-aside: #090B10;
+    --border: #1E212D;
+    --clrs-blue: #82aaff;
+    --clrs-cyan: #89ddff;
+    --clrs-green: #c3e88d;
+    --clrs-magenta: #c792ea;
+    --clrs-red: #f07178;
+    --clrs-orange: #F78C6C;
+    --clrs-yellow: #ffcb6b;
+    --basic-text: #B2CCD6;
+    --unimportant-text: #505a5e;
+    --none: #00000000;
+    --highlight: #1E212D;
+    --highlightAlt: #313649;
+    --sidebarAnim: 500ms ease-in-out;
+    --gradient: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
+    --linkHighlight: #fc6450;
+    --linkDefault: var(--clrs-magenta);
+}
+
+#items {
+    display:inline-block;
+    text-align: center;
+}
+
+.portfolioItem {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--bg-aside);
+    border: 3px solid var(--border);
+    width: 420px;
+    height: auto;
+}
+
+.portfolioName {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--clrs-yellow);
+    background-color: var(--bg-main);
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolioContent {
+    display: inline-block;
+    img {
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+        height: 245px;
+        max-width: 420px;
+        max-height: 245px;
+        object-fit: cover;
+    }
+
+    p {
+        margin-left: 1vw;
+        float: right;
+        overflow-wrap: break-word;
+        flex: 1;
+    }
+}

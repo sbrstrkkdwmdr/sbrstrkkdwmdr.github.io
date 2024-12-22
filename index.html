@@ -1,70 +1,40 @@
 <!DOCTYPE html>
 <!--idk how to code-->
-<title>Home page | SBRSTRKKDWMDR</title>
-<link rel="shortcut icon" type="image/png" href="image/logo.png" />
-<link rel="stylesheet" href="nav.css">
-<link rel="stylesheet" href="base.css">
-<link rel="stylesheet" href="index-style.css">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
 <meta charset="utf-8" />
 <html lang="en">
 
 <head>
+    <title>Home page</title>
     <meta name="description" content="">
     <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Home page | SBRSTRKKDWMDR" />
+    <meta property="og:title" content="Home page" />
     <meta property="og:description" content="The home page for sbrstrkkdwmdr" />
     <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/" />
     <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/image/sbrstrkkdwmdr.png" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/page_index.css">
 </head>
-<script src="base.js"></script>
-<script src="index.js"></script>
+<script src="rootnav.js"></script>
+<script src="page_index.js"></script>
 
 <body>
-    <nav id="nav">
+    <nav class="external" id="topbar">
+        <div id="socialLinks">
+        </div>
+        <div id="addressBar"></div>
     </nav>
-    <main>
-        <div style="padding-top: 40px;"></div>
-        <h1 class="gradDef" id="mainName">SaberStrike</h3>
-            <h3 id="minor">aka sbrstrkkdwmdr
-        </h1>
-        <img src="image/sbrstrkkdwmdr.png" id="profileImg">
-        <p></p>
-        <p style="margin-bottom: 100px;"></p>
+    
+        <nav class="external" id="sidebar">
+        </nav>
+        <main id="content">
 
-        <div id="centreGrid">
-            <div></div>
-            <div id="home-links">
-
-            </div>
-            <div></div>
-        </div>
-
-    <div style="margin-top:100px;">
-        <div id="aboutMeCard">
-            <h2 id="abtMeTitle">About me</h2>
-            <p id="abt">
-            </p>
-        </div>
-
-    </div>
-
-
-
-    <p style="margin-bottom:40000px; color:white"></p>
-
-    pepeJAM
-    <audio controls>
-        <source src="image/warthogrun8bit.mp3" type="audio/mpeg">
-    </audio>
-
-    <p style="margin-top:30481px"></p>
-    <div></div>
-    </main>
-    <script>
-        activateNav('linkHome'); 
-        setupPage();
-    </script>
+        </main>
 </body>
+<script>
+    genPage(0, null, 'index.html')
+    generate();
+</script>
+
 </html>

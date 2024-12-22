@@ -1,84 +1,60 @@
 <!DOCTYPE html>
-<title>osu! skins | SBRSTRKKDWMDR</title>
-<link rel="shortcut icon" type="image/png" href="../image/logo.png" />
-<link rel="stylesheet" href="../nav.css">
-<link rel="stylesheet" href="../base.css">
-<link rel="stylesheet" href="./skinlayout.css">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
+<!--idk how to code-->
 <meta charset="utf-8" />
-<html>
+<html lang="en">
 
 <head>
+    <title>Skins</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="osu! skins | SBRSTRKKDWMDR" />
-    <meta property="og:description" content="main skins page" />
-    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/skins/HOME.html" />
-    <meta property="og:image" content="../image/logo.png" />
+    <meta property="og:title" content="Skins" />
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io" />
+    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="../img/logo.png" />
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/skinlayout.css">
 </head>
-<script src="./skinnav.js"></script>
 
-<body onload="activateNav('linkAllSkins')">
-    <header>
-        <h1>All skins</h1>
-        <p>Mostly just a skin list for myself</p>
-    </header>
-    <nav id="nav">
+<script src="../rootnav.js"></script>
+
+<body >
+    <nav class="external" id="topbar">
+        <div id="socialLinks"></div>
+        <div id="addressBar"></div>
     </nav>
-    <!--skin categories-->
-    <main>
+        
+        <nav class="external" id="sidebar">
+    </nav>
+    <main id="content">
+        <div>
+            <h1 class="pageTitle">osu! skins</h1>
+            <p class="pageTitleSubText">Just my personal skin list</p>
+        </div>
         <div class="itemGrid">
-            <a href="main-skins.html">
+            <a href="main">
                 <section class="item">
                     <h2 class="itemName">Main skins</h2>
-                    <img src="image/main.jpg" alt="main skins" width="720" height="405">
+                    <img src="img/main.jpg" alt="main skins" width="400" height="225">
                 </section>
             </a>
-            <a href="mixed-skins.html">
-                <section class="item">
-                    <h2 class="itemName">Mixed skins</h2>
-                    <img src="image/mixed.jpg" alt="mixed skins" width="720" height="405">
-                </section>
-            </a>
-            <a href="extra-skins.html">
-                <section class="item">
-                    <h2 class="itemName">Other skins</h2>
-                    <img src="image/other.jpg" alt="other skins" width="720" height="405">
-                </section>
-            </a>
-            <a href="sbrstrk-r/1main-page.html">
+            <a href="sbrstrk-r">
                 <section class="item"">
                     <h2 class=" itemName">sbrstrk-r skins</h2>
-                    <img src="image/sbrstrk.jpg" alt="sbrstrk-r skins" width="720" height="405">
+                    <img src="img/sbrstrk.jpg" alt="sbrstrk-r skins" width="400" height="225">
                 </section>
             </a>
-        </div>
-        <div class="grid">
-            <section class="itemSmall">
-                <a class="dl" href="skin-sites.html" target="_self">
-                    <h2 class="itemNameSmall">Skin websites</h2>
-                    <div style="display:inline-block">
-                        <img src="../image/osusk-h.png" alt="sbrstrkkdw v14" width="225" height="225">
-                    </div>
-                </a>
-            </section>
-            <section class="itemSmall">
-                <a class="dl" href="https://www.mediafire.com/folder/5jpbvk1np6jfl/skins" target="_blank">
-                    <h2 class="itemNameSmall">Mediafire folder</h2>
-                    <div style="display:inline-block">
-                        <img src="../image/mediafireBig.png" alt="sbrstrkkdw v14" width="225" height="225">
-                    </div>
-                </a>
-            </section>
-            <section class="itemSmall">
-                <a class="dl" href="https://mega.nz/folder/XcVGhLgQ#S4NFge0JWWVqSi3s4x1x-w" target="_blank">
-                    <h2 class="itemNameSmall">Mega.nz folder</h2>
-                    <div style="display:inline-block">
-                        <img src="../image/megaBig.png" alt="sbrstrkkdw v14" width="225" height="225">
-                    </div>
-                </a>
-            </section>
+            <a href="other.html">
+                <section class="item">
+                    <h2 class="itemName">Other skins</h2>
+                    <img src="img/other.jpg" alt="other skins" width="400" height="225">
+                </section>
+            </a>
         </div>
     </main>
 </body>
+<script>
+    genPage(1, 'skins', 'skins')
+</script>
 
 </html>
