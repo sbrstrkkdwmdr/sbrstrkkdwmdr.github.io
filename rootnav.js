@@ -359,5 +359,5 @@ function genTitle(level, cur) {
     });
     main.style.marginLeft =
         'calc(' +
-        document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px)'
+        document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px + 30px)'
 }
