@@ -165,6 +165,7 @@ const defpages = [
 function genSideNav(level, cd, cur) {
     const sidenav = document.getElementById('sidebar');
     const list = document.createElement('ul');
+    list.id = 'sidenavList';
     sidenav.append(list)
     let subs = '';
     for (let i = 0; i < level; i++) {
@@ -218,8 +219,17 @@ function genSideNav(level, cd, cur) {
         aWrap.append(item);
         list.append(aWrap);
     });
+}
+
+function genSideButton(level) {
     let show = true;
-    if(devicePixelRatio > 1){
+    const sidenav = document.getElementById('sidebar');
+    let list = document.getElementById('sidenavList');
+    let subs = '';
+    for (let i = 0; i < level; i++) {
+        subs += '../';
+    }
+    if (devicePixelRatio > 1) {
         show = false
     }
     show = displaySide(show, list);
@@ -256,9 +266,10 @@ function displaySide(show, list) {
  * @param {string} cur 
  */
 function genPage(level, cd, cur) {
-    genTitle(level, cur);
     genSideNav(level, cd, cur);
     genSocials(level);
+    genTitle(level, cur);
+    genSideButton(level);
 }
 
 const socials = [
@@ -295,6 +306,7 @@ function genSocials(level) {
         item.href = social.url;
         const img = document.createElement('img');
         img.src = subs + './img/social/' + social.icon;
+        img.className = 'socialItemImg';
         item.append(img)
         section.append(item);
     })
