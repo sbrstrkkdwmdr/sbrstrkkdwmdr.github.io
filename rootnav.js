@@ -165,6 +165,7 @@ const defpages = [
 function genSideNav(level, cd, cur) {
     const sidenav = document.getElementById('sidebar');
     const list = document.createElement('ul');
+    list.id = 'sidenavList';
     sidenav.append(list)
     let subs = '';
     for (let i = 0; i < level; i++) {
@@ -203,7 +204,7 @@ function genSideNav(level, cd, cur) {
         if (page.url == cur) {
             page.icon = page.icon.includes('dir') ? 'dir_current.png' : 'page_current.png';
             item.classList.add('sidebarItemActive');
-        } else if (page.url == cd + '/index.html' || page.url == 'index.html') {
+        } else if (page.url == cd + '/index.html' || page.url == 'index.html' || page.url == cd) {
             page.icon = page.icon.includes('dir') ? 'dir_index.png' : 'page_index.png';
         }
         const img = document.createElement('img');
@@ -218,7 +219,19 @@ function genSideNav(level, cd, cur) {
         aWrap.append(item);
         list.append(aWrap);
     });
+}
+
+function genSideButton(level) {
     let show = true;
+    const sidenav = document.getElementById('sidebar');
+    let list = document.getElementById('sidenavList');
+    let subs = '';
+    for (let i = 0; i < level; i++) {
+        subs += '../';
+    }
+    if (devicePixelRatio > 1) {
+        show = false
+    }
     show = displaySide(show, list);
     {
         const sideButton = document.createElement('div');
@@ -256,6 +269,7 @@ function genPage(level, cd, cur) {
     genSideNav(level, cd, cur);
     genSocials(level);
     genTitle(level, cur);
+    genSideButton(level);
 }
 
 const socials = [
@@ -292,6 +306,7 @@ function genSocials(level) {
         item.href = social.url;
         const img = document.createElement('img');
         img.src = subs + './img/social/' + social.icon;
+        img.className = 'socialItemImg';
         item.append(img)
         section.append(item);
     })
@@ -344,5 +359,5 @@ function genTitle(level, cur) {
     });
     main.style.marginLeft =
         'calc(' +
-        document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px)'
+        document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px + 30px)'
 }

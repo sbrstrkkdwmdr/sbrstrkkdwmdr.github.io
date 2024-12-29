@@ -93,9 +93,11 @@ a {
     transition: 250ms;
 
     /* vertical-align: middle; */
-    img {
-        width: 40px;
-    }
+}
+
+.socialItemImg {
+    width: 40px;
+    border-radius: 0px;
 }
 
 #addressBar {
@@ -149,6 +151,7 @@ a {
 
     li {
         list-style: none;
+        transition: var(--sidebarAnim);
     }
 }
 

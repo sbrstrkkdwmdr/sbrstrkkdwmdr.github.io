@@ -2462,28 +2462,28 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
         name: 'sbrstrkkdw v15',
         date_start: '2024-11-18',
         date_end: 'present',
-        description: 'SD/HD, STD',
+        description: 'non-gameplay still WIP',
         url: 'https://www.mediafire.com/folder/za6emwzaaawqo/15',
         video_url: 'https://www.youtube.com/embed/ASn1_QNc0_0',
         images: [
-            {
-                name: 'Song select',
-                url: 'url',
-                image_url: '15/screenshot1157.jpg',
-                isGameplay: false,
-            },
-            {
-                name: 'Mode select',
-                url: 'url',
-                image_url: '15/screenshot1158.jpg',
-                isGameplay: false,
-            },
-            {
-                name: 'Ranking panel',
-                url: 'url',
-                image_url: '15/screenshot1149.jpg',
-                isGameplay: false,
-            },
+            // {
+            //     name: 'Song select',
+            //     url: 'url',
+            //     image_url: '15/screenshot1157.jpg',
+            //     isGameplay: false,
+            // },
+            // {
+            //     name: 'Mode select',
+            //     url: 'url',
+            //     image_url: '15/screenshot1158.jpg',
+            //     isGameplay: false,
+            // },
+            // {
+            //     name: 'Ranking panel',
+            //     url: 'url',
+            //     image_url: '15/screenshot1149.jpg',
+            //     isGameplay: false,
+            // },
             {
                 name: '- h',
                 url: 'https://www.mediafire.com/file/cd8esbc9zkcbza3/-_sbrstrkkdw_v15_%255B-_h%255D.osk/file',
@@ -2626,6 +2626,9 @@ function showSkin(id) {
         h1.className = 'pageTitle'
         const subtxt = document.createElement('p');
         subtxt.innerText = skin.date_start + ' --- ' + skin.date_end;
+        if (skin.description) {
+            subtxt.innerText += '\n' + skin.description;
+        }
         subtxt.className = 'pageTitleSubText'
         const titleDiv = document.createElement('div');
         titleDiv.id = 'skinName';
@@ -2634,6 +2637,7 @@ function showSkin(id) {
         doc.append(titleDiv);
 
         const p1 = document.createElement("p");
+        p1.id = 'mainDlContainer'
         const a1 = document.createElement("a");
         a1.rel = "noopener noreferrer";
         a1.className = "dl mainDownload";
