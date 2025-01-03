@@ -55,12 +55,13 @@ const mods = 'See [here](https://sbrstrkkdwmdr.github.io/sbrbot/commandtypes.htm
 const scoreListString =
     `Mods can be specified with +[mods], -mx [exact mods] or -me [exclude mods]
 The arguments \`pp\`, \`score\`, \`acc\`, \`bpm\` and \`miss\` use the following format:
-\`-key value\` to filter by that exact value (ie. -bpm 220)
-\`-key >value\` to filter scores below value (ie. -pp >500)
-\`-key <value\` to filter scores above value (ie. -acc <90)
-\`-key min..max\` to filter scores between min and max (ie. -miss 1..3)
+\`-key value\` to filter by that exact value (eg. -bpm 220)
+\`-key >value\` to filter scores below value (eg. -pp >500)
+\`-key <value\` to filter scores above value (eg. -acc <90)
+\`-key min..max\` to filter scores between min and max (eg. -miss 1..3)
+\`-key !value\` to filter scores that dont equal that value (eg. -bpm !200)
 The \`sort\` arg can be specified using -value (ie -recent)
-You can also show a single score by using \`-parse <id>\` (ie. -parse 5)
+You can also show a single score by using \`-parse <id>\` (eg. -parse 5)
 `;
 
 const user = {
@@ -113,8 +114,6 @@ const scoreListCommandOptions = [
         description: 'The sort order of the scores',
         options: ['pp', 'score', 'recent', 'acc', 'combo', 'miss', 'rank'],
         defaultValue: 'pp',
-        examples: ['sort:score', '-recent', '-sort acc'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'reverse',
@@ -123,30 +122,22 @@ const scoreListCommandOptions = [
         description: 'Whether to reverse the sort order',
         options: ['true', 'false'],
         defaultValue: 'false',
-        examples: ['reverse:true', '-reverse'],
-        commandTypes: ['message', 'interaction'],
-        aliases: ['-rev']
     },
     {
         name: 'page',
         type: 'integer',
         required: false,
         description: 'The page of scores to show',
-        options: ['N/A'],
+
         defaultValue: '1',
-        examples: ['page:6', '-p 4'],
-        commandTypes: ['message', 'interaction', 'button'],
-        aliases: ['-p'],
     },
     {
         name: 'mapper',
         type: 'string',
         required: false,
         description: 'The mapper to filter the scores by',
-        options: ['N/A'],
+
         defaultValue: 'null',
-        examples: ['mapper:Sotarks'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'mods',
@@ -155,31 +146,22 @@ const scoreListCommandOptions = [
         description: `Filter scores including these mods. ${mods}`,
         options: ['+(mods)', '-mods (mods)'],
         defaultValue: 'null',
-        examples: ['mods:HDHR', '-mods HDHR'],
-        commandTypes: ['message', 'interaction'],
-        aliases: ['-mods']
     },
     {
         name: 'exact mods',
         type: 'string',
         required: false,
         description: `Filter scores with these exact mods. ${mods}`,
-        options: ['N/A'],
+
         defaultValue: 'null',
-        examples: ['-modx HDHR'],
-        commandTypes: ['message', 'interaction'],
-        aliases: ['-modx', '-mx']
     },
     {
         name: 'exclude mods',
         type: 'string',
         required: false,
         description: `Filter scores to exclude these mods. ${mods}`,
-        options: ['N/A'],
+
         defaultValue: 'null',
-        examples: ['-me NF'],
-        commandTypes: ['message', 'interaction'],
-        aliases: ['-me', 'exmod']
     },
     {
         name: 'detailed',
@@ -188,29 +170,22 @@ const scoreListCommandOptions = [
         description: 'How much information to show about the scores. 0 = less details, 2 = more details',
         options: ['-c', '-d',],
         defaultValue: '1',
-        examples: ['detailed:true', '-detailed', '-compress'],
-        commandTypes: ['message', 'interaction', 'button']
     },
     {
         name: 'parse',
         type: 'integer',
         required: false,
         description: 'Parse the score with the specific index',
-        options: ['N/A'],
+
         defaultValue: '0',
-        examples: ['-parse 5', 'parse:5'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'filter',
         type: 'string',
         required: false,
         description: 'Filters all scores to only show maps with the specified string',
-        options: ['N/A'],
+
         defaultValue: 'null',
-        examples: ['-? "Mismagius The Big Black"', '-? sotarks', 'filter:kira kira days'],
-        aliases: ['?'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'grade',
@@ -219,69 +194,54 @@ const scoreListCommandOptions = [
         description: 'Filters all scores to only show scores matching the given grade/rank',
         options: ['XH', 'SSH', 'X', 'SS', 'SH', 'S', 'A', 'B', 'C', 'D', 'F'],
         defaultValue: 'null',
-        examples: ['-grade XH', 'grade:S'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'pp',
         type: 'float/range',
         required: false,
-        description: 'Filters scores to have more/less pp than this value',
-        options: ['>(number)', '<(number)', '(min)..(max)', '(number)'],
+        description: 'Filters scores to have more/less/equal/not equal pp than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-pp >100', '-pp <500', '100..500'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'score',
         type: 'int/range',
         required: false,
-        description: 'Filters scores to have more/less score than this value',
-        options: ['>number', '<number', 'min..max', 'number'],
+        description: 'Filters scores to have more/less/equal/not equal total score than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-score >1000000', '-score 1000000'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'acc',
         type: 'float/range',
         required: false,
-        description: 'Filters scores to have more/less accuracy than this value',
-        options: ['>(number)', '<(number)', '(min)..(max)', '(number)'],
+        description: 'Filters scores to have more/less/equal/not equal accuracy than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-acc >98.80', '-acc <90',],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'combo',
         type: 'integer/range',
         required: false,
-        description: 'Filters scores to have more/less maximum combo than this value',
-        options: ['>(number)', '<(number)', '(min)..(max)', '(number)'],
+        description: 'Filters scores to have more/less/equal/not equal max combo than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-combo >2000', '-combo <100'],
-        commandTypes: ['message', 'interaction']
     },
     {
         name: 'miss',
         type: 'integer/range',
         required: false,
-        description: 'Filters scores to have more/less/equal misses than this value',
-        options: ['>(number)', '<(number)', '(min)..(max)', '(number)'],
+        description: 'Filters scores to have more/less/equal/not equal misses than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-miss <10', '-miss >20'],
-        commandTypes: ['message', 'interaction'],
-        aliases: ['-misses']
     },
     {
         name: 'bpm',
         type: 'float/range',
         required: false,
-        description: 'Filters scores to have more/less/equal bpm than this value',
-        options: ['>(number)', '<(number)', '(min)..(max)', '(number)'],
+        description: 'Filters scores to have more/less/equal/not equal bpm than/to this value',
+        options: ['>(number)', '<(number)', '(min)..(max)', '(number)', '!(number)'],
         defaultValue: 'null',
-        examples: ['-bpm <10', '-bpm >20'],
-        commandTypes: ['message', 'interaction']
     },
 ];
 
@@ -348,7 +308,7 @@ const generalcommands = [
                 name: 'to',
                 type: 'string',
                 required: true,
-                description: 'The unit to convert to. see [here](https://sbrstrkkdwmdr.github.io/sbrbot/commandtypes.html#conv) for units',
+                description: 'The unit to convert to. see [here](https://sbrstrkkdwmdr.github.io/projects/ssob_docs/commandtypes.html#conv) for units',
                 options: ['help', 'SI units',],
                 defaultValue: 'N/A',
             },
@@ -1702,7 +1662,7 @@ const osucommands = [
     {
         name: 'simulate',
         description: 'Simulates a score on a beatmap.',
-        usage: 'simulate [id] +[(mods)]  [-acc] [-combo] [-n300] [-n100] [-n50] [-miss] [-bpm] [-speed]',
+        usage: 'simulate [id] +[(mods)]  [-acc] [-combo] [-n300] [-n100] [-n50] [-miss] [-bpm] [-speed] [-cs] [-ar] [-od] [-hp]',
         examples: [
             {
                 text: 'PREFIXMSGsimulate +HDHR misses=0 acc=97.86',
@@ -1780,8 +1740,36 @@ const osucommands = [
                 type: 'float',
                 required: false,
                 description: 'The speed multiplier to simulate the score with',
-                defaultValue: '1',
-            }
+                defaultValue: '1 (or mod)',
+            },
+            {
+                name: 'cs',
+                type: 'float',
+                required: false,
+                description: 'The circle size to simulate the score with',
+                defaultValue: 'Map CS',
+            },
+            {
+                name: 'ar',
+                type: 'float',
+                required: false,
+                description: 'The approach to simulate the score with',
+                defaultValue: 'Map AR',
+            },
+            {
+                name: 'od',
+                type: 'float',
+                required: false,
+                description: 'The overall difficulty to simulate the score with',
+                defaultValue: 'Map OD',
+            },
+            {
+                name: 'hp',
+                type: 'float',
+                required: false,
+                description: 'The hp/drain to simulate the score with',
+                defaultValue: 'Map HP',
+            },
         ]
     },
     {
@@ -2167,6 +2155,23 @@ const admincommands = [
         ]
     },
     {
+        name: 'clear',
+        description: 'Clears cached data within the bot',
+        usage: 'clear <arg>',
+        examples: [],
+        aliases: [],
+        args: [
+            {
+                name: 'arg',
+                type: 'integer/string',
+                required: false,
+                description: 'the types of files to clear (read the options section)',
+                options: ['normal', 'all (only cmd data)', 'trueall', 'map', 'users', 'previous', 'pmaps', 'pscores', 'pusers', 'errors', 'graph'],
+                defaultValue: 'temporary files only',
+            }
+        ]
+    },
+    {
         name: 'debug',
         description: 'Runs a debugging command.',
         usage: 'debug <type> [arg]',
@@ -2225,9 +2230,9 @@ const admincommands = [
                 name: 'arg',
                 type: 'integer/string',
                 required: false,
-                description: 'commandfile -> the id of the command to search for\ncommandfiletype -> the name of the command to search\nlogs -> the ID of the guild to send logs from\nclear -> the types of files to clear (read the options section)',
+                description: 'commandfile -> the id of the command to search for\ncommandfiletype -> the name of the command to search\nlogs -> the ID of the guild to send logs from',
                 options: ['normal', 'all (only cmd data)', 'trueall', 'map', 'users', 'previous', 'pmaps', 'pscores', 'pusers', 'errors', 'graph'],
-                defaultValue: 'commandfile -> latest command\ncommandfiletype -> list options\nlogs -> current server\n clear -> temporary files only',
+                defaultValue: 'commandfile -> latest command\ncommandfiletype -> list options\nlogs -> current server',
             }
         ]
     },
