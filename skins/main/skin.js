@@ -2717,7 +2717,7 @@ function showSkin(id) {
         p1.className = "itemName";
         p1.innerText = image.name;
         const img1 = document.createElement('img');
-        img1.src = `../img/${image.image_url}`;
+        img1.src = `../img/${image.image_url.replace('.jpg', '_preview.jpg')}`;
         img1.alt = "Skin screenshot - " + image.name;
         img1.width = width;
         img1.height = height;
@@ -2840,4 +2840,11 @@ function genList() {
             grid.append(section);
         }
     })
+}
+
+function image(text){
+    return {
+        fullsize: text.replace('.jpg', '_full.jpg'),
+        preview: text.replace('.jpg', '_preview.jpg')
+    }
 }
