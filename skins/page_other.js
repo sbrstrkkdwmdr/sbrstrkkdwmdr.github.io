@@ -50,7 +50,7 @@ function generate() {
         h2.className = 'itemName';
         h2.innerText = skin.name;
         const img = document.createElement('img');
-        img.src = 'img/extra/' + skin.img;
+        img.src = 'img/extra/' + skin.img.replace('.jpg', '_preview.jpg');
         img.width = '400';
         img.height = '225';
 
