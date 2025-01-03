@@ -1,12 +1,14 @@
 function generate(){
     const ctn = document.getElementById('content');
     {
-        const h1 = document.createElement('h1');
-        h1.innerText = 'SaberStrike';
-        h1.id = 'mainTitle'
-        h1.classList.add('pageTitle');
-        h1.classList.add('mainObject');
-        ctn.append(h1);
+        // const h1 = document.createElement('h1');
+        // h1.innerText = 'SaberStrike';
+        const img = document.createElement('img')
+        img.src = 'img/logo_text.svg'
+        img.id = 'mainTitle'
+        // img.classList.add('pageTitle');
+        img.classList.add('mainObject');
+        ctn.append(img);
     }
     {
         const img = document.createElement('img');
