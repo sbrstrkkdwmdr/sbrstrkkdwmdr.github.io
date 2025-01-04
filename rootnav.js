@@ -232,12 +232,12 @@ function genSideButton(level) {
     if (devicePixelRatio > 1) {
         show = false
     }
-    show = displaySide(show, list);
+    show = displaySide(show, list, sidenav);
     {
         const sideButton = document.createElement('div');
         sideButton.id = 'sidebarButton'
         sideButton.addEventListener('click', () => {
-            show = displaySide(show, list);
+            show = displaySide(show, list, sidenav);
         });
         const sideButtonImgOffset = document.createElement('span');
         sideButtonImgOffset.id = 'sideButtonImgOffset'
@@ -247,15 +247,28 @@ function genSideButton(level) {
         sideButton.append(sideButtonImgOffset, sideButtonImg);
         sidenav.append(sideButton);
     }
+    let ctn = document.getElementById('content');
+    ctn.style.left = sidenav.offsetWidth + 'px';
 }
 
-function displaySide(show, list) {
+/**
+ * 
+ * @param {boolean} show 
+ * @param {HTMLULElement} list 
+ * @param {HTMLDivElement} sidebar
+ * @returns 
+ */
+function displaySide(show, list, sidebar) {
+    let ctn = document.getElementById('content');
+    let button = document.getElementById('sidebarButton');
     if (show) {
-        list.style.maxWidth = null;
-        list.style.padding = null;
+        sidebar.style.transform = `translateX(0)`
+        ctn.style.transform = `translateX(0)`
+        ctn.style.width = `calc(100vw - ${sidebar.offsetWidth}px)`
     } else {
-        list.style.maxWidth = 0;
-        list.style.padding = '0px';
+        sidebar.style.transform = `translateX(-${list.clientWidth}px)`
+        ctn.style.transform = `translateX(-${list.clientWidth}px)`
+        ctn.style.width = `calc(100vw - ${button.offsetWidth}px)`
     }
     return !show;
 }

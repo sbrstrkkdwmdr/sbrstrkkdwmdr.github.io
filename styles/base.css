@@ -155,6 +155,14 @@ a {
     }
 }
 
+#sidenavList {
+    transition: var(--sidebarAnim);
+    padding: 15px;
+    margin: 0;
+    float: left;
+    width: calc(100% - 60px)
+}
+
 #sidebarButton {
     transition: var(--sidebarAnim);
     float: right;
@@ -234,11 +242,13 @@ a {
     /* background-color: var(--bg-main); */
     background-image: var(--gradient);
     overflow: auto;
-    position: relative;
+    position: fixed;
     height: calc(100vh - 147px);
     padding: 35px;
     /* padding-top: calc(15% + 3px); */
     /* padding-left: calc(15% + 3px); */
+    transition: var(--sidebarAnim);
+    width: auto;
 }
 
 .mono {
