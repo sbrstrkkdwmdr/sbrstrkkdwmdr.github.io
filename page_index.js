@@ -1,4 +1,4 @@
-function generate(){
+function generate() {
     const ctn = document.getElementById('content');
     {
         // const h1 = document.createElement('h1');
@@ -29,10 +29,10 @@ function generate(){
             img.src = './img/social/' + social.icon;
             item.append(img)
             socialSection.append(item);
-            img.addEventListener('mouseover', e => {
+            item.addEventListener('mouseover', e => {
                 img.src = './img/social/white/' + social.icon;
             });
-            img.addEventListener('mouseout', e => {
+            item.addEventListener('mouseout', e => {
                 img.src = './img/social/' + social.icon;
             });
         })
