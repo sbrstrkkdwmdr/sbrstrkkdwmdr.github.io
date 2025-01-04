@@ -232,7 +232,6 @@ function genSideButton(level) {
     if (devicePixelRatio > 1) {
         show = false
     }
-    show = displaySide(show, list, sidenav);
     {
         const sideButton = document.createElement('div');
         sideButton.id = 'sidebarButton'
@@ -249,6 +248,7 @@ function genSideButton(level) {
     }
     let ctn = document.getElementById('content');
     ctn.style.left = sidenav.offsetWidth + 'px';
+    show = displaySide(show, list, sidenav);
 }
 
 /**
@@ -261,14 +261,16 @@ function genSideButton(level) {
 function displaySide(show, list, sidebar) {
     let ctn = document.getElementById('content');
     let button = document.getElementById('sidebarButton');
+    let big = sidebar.offsetWidth + button.offsetWidth + button.offsetWidth
     if (show) {
         sidebar.style.transform = `translateX(0)`
         ctn.style.transform = `translateX(0)`
-        ctn.style.width = `calc(100vw - ${sidebar.offsetWidth}px)`
+        ctn.style.width = `calc(100vw - ${big}px)`
     } else {
+        let t = big - sidebar.offsetWidth;
         sidebar.style.transform = `translateX(-${list.clientWidth}px)`
         ctn.style.transform = `translateX(-${list.clientWidth}px)`
-        ctn.style.width = `calc(100vw - ${button.offsetWidth}px)`
+        ctn.style.width = `calc(100vw - ${t}px)`
     }
     return !show;
 }
