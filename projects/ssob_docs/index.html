@@ -2,8 +2,10 @@
 <html>
 <meta charset="utf-8">
 <title>SSoB | Main page</title>
-<link rel="stylesheet" href="styles/base.css">
-<link rel="stylesheet" href="styles/nav.css">
+<link rel="stylesheet" href="../../styles/base.css">
+<link rel="stylesheet" href="../../styles/projects.css">
+<link rel="stylesheet" href="styles/docs.css">
+<!-- <link rel="stylesheet" href="styles/nav.css"> -->
 <link rel="stylesheet" href="styles/grid.css">
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
 
@@ -17,19 +19,16 @@
 <!--nav-->
 
 <body>
-    <header>
-        <h1>SSoB</h1>
-    </header>
-    <nav class="nBar">
-        <div>
-            <ul class="ulcmdnav">
-                <li><a href="./index.html" class="cmdnav activeNavLink">Home</a></li>
-                <li><a href="./commands.html" class="cmdnav">Command list</a></li>
-                <li><a href="https://sbrstrkkdwmdr.github.io/" class="cmdnav">Contact</a></li>
-            </ul>
-        </div>
+    <nav class="external" id="topbar">
+        <div id="socialLinks"></div>
+        <div id="addressBar"></div>
     </nav>
-    <main>
+    <nav class="external" id="sidebar">
+    </nav>
+    <main id="content">
+        <header>
+            <h1 class="pageTitle">SSoB</h1>
+        </header>
         <p style="margin-bottom:50px;">
 
         </p>
@@ -76,8 +75,12 @@
             </a>
 
         </div>
-        <div style="margin-top: 900px;">
+        <!-- <div style="margin-top: 900px;"> -->
     </main>
+    <script src="../../rootnav.js"></script>
+    <script>
+        genPage(2, 'projects/ssob_docs', 'projects/ssob_docs')
+    </script>
 </body>
 
 </html>

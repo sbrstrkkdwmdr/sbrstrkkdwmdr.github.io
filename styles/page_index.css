@@ -21,14 +21,17 @@
 }
 
 #mainTitle {
-    background: linear-gradient(to right, #FF6A00 1%, #FF00DC 99%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    /* text-align: center; */
+    /* background: linear-gradient(to right, #FF6A00 1%, #FF00DC 99%); */
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
+    text-align: center;
+    width: 500px;
+
 }
 
 .mainObject {
     /* display: ; */
+    display: block;
     clear: both;
     margin: auto;
 }
@@ -50,5 +53,19 @@
     /* vertical-align: middle; */
     img {
         width: 100px;
+    }
+}
+
+#socialSection {
+    opacity: 100%;
+}
+
+#socialSection:hover {
+    transition: 250ms;
+    .indexSocialItem {
+        opacity: 20%;
+    }
+    .indexSocialItem:hover {
+        opacity: 100%;
     }
 }

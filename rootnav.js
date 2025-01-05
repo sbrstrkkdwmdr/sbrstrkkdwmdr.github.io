@@ -15,6 +15,7 @@ const defpages = [
         url: 'other.html',
         icon: 'page.png',
     },
+    // skins
     {
         name: 'osu! Skins',
         url: 'skins',
@@ -155,6 +156,27 @@ const defpages = [
         url: 'skins/other.html',
         icon: 'page.png',
     },
+    // projects
+    {
+        name: 'Projects',
+        url: 'projects',
+        icon: 'dir.png',
+    },
+    {
+        name: 'SSoB',
+        url: 'projects/ssob_docs',
+        icon: 'dir.png',
+    },
+    {
+        name: 'Commands',
+        url: 'projects/ssob_docs/commands.html',
+        icon: 'page.png',
+    },
+    {
+        name: 'Types',
+        url: 'projects/ssob_docs/types.html',
+        icon: 'page.png',
+    },
 ]
 
 /**
@@ -211,6 +233,8 @@ function genSideNav(level, cd, cur) {
         img.src = subs + './img/icons/' + page.icon;
         const text = document.createElement('span');
         text.innerText = page.name;
+        console.log(page.url)
+        console.log(level)
         if (page.url.split('/').length > level && !(page.url == cd + '/index.html' || page.url == 'index.html')) {
             item.classList.add('sidebarChildItem')
         }
@@ -232,12 +256,11 @@ function genSideButton(level) {
     if (devicePixelRatio > 1) {
         show = false
     }
-    show = displaySide(show, list);
     {
         const sideButton = document.createElement('div');
         sideButton.id = 'sidebarButton'
         sideButton.addEventListener('click', () => {
-            show = displaySide(show, list);
+            show = displaySide(show, list, sidenav);
         });
         const sideButtonImgOffset = document.createElement('span');
         sideButtonImgOffset.id = 'sideButtonImgOffset'
@@ -247,15 +270,31 @@ function genSideButton(level) {
         sideButton.append(sideButtonImgOffset, sideButtonImg);
         sidenav.append(sideButton);
     }
+    let ctn = document.getElementById('content');
+    ctn.style.left = sidenav.offsetWidth + 'px';
+    show = displaySide(show, list, sidenav);
 }
 
-function displaySide(show, list) {
+/**
+ * 
+ * @param {boolean} show 
+ * @param {HTMLULElement} list 
+ * @param {HTMLDivElement} sidebar
+ * @returns 
+ */
+function displaySide(show, list, sidebar) {
+    let ctn = document.getElementById('content');
+    let button = document.getElementById('sidebarButton');
+    let big = sidebar.offsetWidth + 3;
     if (show) {
-        list.style.maxWidth = null;
-        list.style.padding = null;
+        sidebar.style.transform = `translateX(0)`
+        ctn.style.transform = `translateX(0)`
+        ctn.style.width = `calc(98vw - ${big + button.offsetWidth}px)`
     } else {
-        list.style.maxWidth = 0;
-        list.style.padding = '0px';
+        let t = big - sidebar.offsetWidth + button.offsetWidth + button.offsetWidth;
+        sidebar.style.transform = `translateX(-${list.clientWidth}px)`
+        ctn.style.transform = `translateX(-${list.clientWidth}px)`
+        ctn.style.width = `calc(98vw - ${t}px)`
     }
     return !show;
 }

@@ -1,4 +1,4 @@
-/* layout for skin list page */
+/* layout for skin list pages */
 
 /* based off material theme ocean high contrast */
 :root {
@@ -264,6 +264,7 @@ iframe {
     /* white-space: pre; */
 }
 
+/* 
 .sourceLink:link,
 .sourceLink:visited {
     color: var(--linkDefault);
@@ -271,8 +272,8 @@ iframe {
 
 .sourceLink:hover,
 .sourceLink:active {
-    color: var(--linkHighlight);
-}
+color: var(--linkHighlight);
+} */
 
 .sourcetable {
     td {

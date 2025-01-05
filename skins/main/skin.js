@@ -87,11 +87,11 @@ const skins = [
                 items: [
                     {
                         name: 'cursor',
-                        desc: 'recoloured from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
+                        desc: 'recoloured from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
                     },
                     {
                         name: 'followpoints, hitcircles, cn mod, slider follow, warning-arrow',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
                     },
                     {
                         name: 'scorebar, mod HT, NF, SD, pause-overlay',
@@ -107,11 +107,11 @@ const skins = [
                     },
                     {
                         name: 'spinner',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
                     },
                     {
                         name: 'menu-button-background',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
                     },
                     {
                         name: 'spinner-spin',
@@ -123,11 +123,11 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
+                        name: '<a class="highlightLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
                         desc: 'numbers',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'text',
                     }
                 ]
@@ -190,7 +190,7 @@ const skins = [
                     },
                     {
                         name: 'spinner',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
                     },
                     {
                         name: 'spinner-background',
@@ -202,7 +202,7 @@ const skins = [
                     },
                     {
                         name: 'menu-button-background',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
                     },
                     {
                         name: 'mod HT, NF, SD and pause-overlay',
@@ -218,11 +218,11 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
+                        name: '<a class="highlightLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
                         desc: 'letters',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'numbers, spinner-spin',
                     },
                 ]
@@ -273,11 +273,11 @@ const skins = [
                     },
                     {
                         name: 'hitcircles and cursor (recoloured)',
-                        desc: '<a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1107">whitecat 1.0 CK</a>',
+                        desc: '<a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1107">whitecat 1.0 CK</a>',
                     },
                     {
                         name: 'follow points',
-                        desc: '<a class="sourceLink" href="https://github.com/BTMC-techteam/skins/blob/master/README.md#new-noel">New Noel (BTMC)</a>',
+                        desc: '<a class="highlightLink" href="https://github.com/BTMC-techteam/skins/blob/master/README.md#new-noel">New Noel (BTMC)</a>',
                     },
                     {
                         name: 'anime girls used',
@@ -285,7 +285,7 @@ const skins = [
                     },
                     {
                         name: 'menu-button-background',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
                     },
                     {
                         name: 'sectionfail',
@@ -306,11 +306,11 @@ const skins = [
                     },
                     {
                         name: 'check, click, gos, key, match, menu and hit sounds',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
                     },
                     {
                         name: 'other stuff',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>',
                     },
                 ]
             },
@@ -318,11 +318,11 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'ranking letters',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
+                        name: '<a class="highlightLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
                         desc: 'other',
                     },
                 ]
@@ -369,7 +369,7 @@ const skins = [
                 items: [
                     {
                         name: 'approach circle',
-                        desc: '<a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=16">selyu 2.2</a>',
+                        desc: '<a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=16">selyu 2.2</a>',
                     },
                     {
                         name: 'arrow-pause',
@@ -377,11 +377,11 @@ const skins = [
                     },
                     {
                         name: 'cursor(1x)',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>',
                     },
                     {
                         name: 'cursor(2x)',
-                        desc: '<a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owoTuna</a>',
+                        desc: '<a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owoTuna</a>',
                     },
                     {
                         name: 'fail-background',
@@ -389,7 +389,7 @@ const skins = [
                     },
                     {
                         name: 'follow points',
-                        desc: '<a class="sourceLink" href="https://github.com/BTMC-techteam/skins/blob/master/README.md#new-noel">New Noel (BTMC)</a>',
+                        desc: '<a class="highlightLink" href="https://github.com/BTMC-techteam/skins/blob/master/README.md#new-noel">New Noel (BTMC)</a>',
                     },
                     {
                         name: 'fruit catcher',
@@ -397,11 +397,11 @@ const skins = [
                     },
                     {
                         name: 'input-overlay',
-                        desc: 'senko from sewayaki kitsune no senko san. <a class="sourceLink" href="https://twitter.com/ponchio39/status/1093986316079980545">drawn by @ponchio39 on twitter</a>',
+                        desc: 'senko from sewayaki kitsune no senko san. <a class="highlightLink" href="https://twitter.com/ponchio39/status/1093986316079980545">drawn by @ponchio39 on twitter</a>',
                     },
                     {
                         name: 'menu-button-background',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>',
                     },
                 ]
             },
@@ -409,7 +409,7 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'numbers',
                     }
                 ]
@@ -456,19 +456,19 @@ const skins = [
                 items: [
                     {
                         name: 'menu',
-                        desc: '<a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1328">BlooMoon 1.1</a>',
+                        desc: '<a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1328">BlooMoon 1.1</a>',
                     },
                     {
                         name: 'scorebar-colour',
-                        desc: '<a class="sourceLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#rafis--necrofantasia---never-forgottengreen-cursor-by-rk">rafis 2020</a>',
+                        desc: '<a class="highlightLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#rafis--necrofantasia---never-forgottengreen-cursor-by-rk">rafis 2020</a>',
                     },
                     {
                         name: 'followpoints',
-                        desc: '<a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR">new noel</a>',
+                        desc: '<a class="highlightLink" href="https://osuskins.net/skin/3sXe0RR">new noel</a>',
                     },
                     {
                         name: 'scorebar (top left)',
-                        desc: '<a class="sourceLink" href="https://store.line.me/stickershop/product/11419726/en?from=sticker">line</a>',
+                        desc: '<a class="highlightLink" href="https://store.line.me/stickershop/product/11419726/en?from=sticker">line</a>',
                     },
                 ]
             },
@@ -477,11 +477,11 @@ const skins = [
                 items: [
                     {
                         name: 'hitsounds',
-                        desc: '<a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>',
+                        desc: '<a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>',
                     },
                     {
                         name: 'combobreak',
-                        desc: '<a class="sourceLink" href="https://www.youtube.com/watch?v=7U6eHY1M9WM">gura A</a>',
+                        desc: '<a class="highlightLink" href="https://www.youtube.com/watch?v=7U6eHY1M9WM">gura A</a>',
                     },
                 ]
             },
@@ -489,15 +489,15 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
                         desc: 'everything except score-n, combo-n and buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
+                        name: '<a class="highlightLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
                         desc: '',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'score-n',
                     },
                 ]
@@ -550,31 +550,31 @@ const skins = [
                 items: [
                     {
                         name: 'cursor',
-                        desc: '<a class="sourceLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#fast-elohere-2020-ft-rk---17122020">Fast EloHere 2020 ft [RK]</a>',
+                        desc: '<a class="highlightLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#fast-elohere-2020-ft-rk---17122020">Fast EloHere 2020 ft [RK]</a>',
                     },
                     {
                         name: 'fail-screen',
-                        desc: '<a class="sourceLink" href="https://www.youtube.com/watch?v=O_2HnzozHRA">sakura miko</a>',
+                        desc: '<a class="highlightLink" href="https://www.youtube.com/watch?v=O_2HnzozHRA">sakura miko</a>',
                     },
                     {
                         name: 'pause-background',
-                        desc: '<a class="sourceLink" href="https://twitter.com/kaynimatic/status/1294982862710611968">pekora</a>',
+                        desc: '<a class="highlightLink" href="https://twitter.com/kaynimatic/status/1294982862710611968">pekora</a>',
                     },
                     {
                         name: 'mode-fruits',
-                        desc: '<a class="sourceLink" href="https://guardian-tales.fandom.com/wiki/Heavenhold">heavenhold</a>',
+                        desc: '<a class="highlightLink" href="https://guardian-tales.fandom.com/wiki/Heavenhold">heavenhold</a>',
                     },
                     {
                         name: 'scorebar(bottom right)',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/GuardianTales/comments/k54ux5/tired_miya/">miya</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/GuardianTales/comments/k54ux5/tired_miya/">miya</a>',
                     },
                     {
                         name: 'scorebar(top left)',
-                        desc: '<a class="sourceLink" href="https://www.zerochan.net/3414490">miya</a>',
+                        desc: '<a class="highlightLink" href="https://www.zerochan.net/3414490">miya</a>',
                     },
                     {
                         name: 'back button',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/kg33o1/%E6%9D%B1%E6%96%B9project_rereisen_udongein_inaba_hd_std_169/">re;reisen</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/kg33o1/%E6%9D%B1%E6%96%B9project_rereisen_udongein_inaba_hd_std_169/">re;reisen</a>',
                     },
                     {
                         name: 'mod icons',
@@ -582,7 +582,7 @@ const skins = [
                     },
                     {
                         name: 'scorebar health + score numbers + ranking grades',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/jqhznd/std_codename_bloo_169_1610_43_54_hdsd/">Codename Bloo</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/jqhznd/std_codename_bloo_169_1610_43_54_hdsd/">Codename Bloo</a>',
                     },
                 ]
             },
@@ -591,7 +591,7 @@ const skins = [
                 items: [
                     {
                         name: 'combobreak',
-                        desc: '<a class="sourceLink" href="https://www.youtube.com/watch?v=7U6eHY1M9WM">gura A</a>',
+                        desc: '<a class="highlightLink" href="https://www.youtube.com/watch?v=7U6eHY1M9WM">gura A</a>',
                     },
                     {
                         name: 'failsound',
@@ -599,7 +599,7 @@ const skins = [
                     },
                     {
                         name: 'hitsounds',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>',
                     },
                 ]
             },
@@ -607,15 +607,15 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
                         desc: 'everything except score-n, combo-n and buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
+                        name: '<a class="highlightLink" href="https://www.cdnfonts.com/minecraft-4.font">minecraft</a>',
                         desc: '',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'score-n',
                     },
                 ]
@@ -656,7 +656,7 @@ const skins = [
                 items: [
                     {
                         name: 'back button',
-                        desc: '<a class="sourceLink" href="https://www.reddit.com/r/GuardianTales/comments/jjifrz/so_i_heard_there_will_be_this_new_hero_yeah/">Miya from Guardian Tales</a>',
+                        desc: '<a class="highlightLink" href="https://www.reddit.com/r/GuardianTales/comments/jjifrz/so_i_heard_there_will_be_this_new_hero_yeah/">Miya from Guardian Tales</a>',
                     },
                     {
                         name: 'fail screen',
@@ -668,27 +668,27 @@ const skins = [
                     },
                     {
                         name: 'ranking-panel',
-                        desc: '<a class="sourceLink" href="https://www.halopedia.org/File:FloatingCityConcept.jpg">Halo 4 Reqiuem concept art</a>',
+                        desc: '<a class="highlightLink" href="https://www.halopedia.org/File:FloatingCityConcept.jpg">Halo 4 Reqiuem concept art</a>',
                     },
                     {
                         name: 'scorebar (top left)',
-                        desc: '<a class="sourceLink" href="https://danbooru.donmai.us/posts/6149512">Senko</a> (originally got from a different source)',
+                        desc: '<a class="highlightLink" href="https://danbooru.donmai.us/posts/6149512">Senko</a> (originally got from a different source)',
                     },
                     {
                         name: 'scorebar(bottom right)',
-                        desc: '<a class="sourceLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
+                        desc: '<a class="highlightLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
                     },
                     {
                         name: 'section-pass',
-                        desc: '<a class="sourceLink" href="https://www.pixiv.net/en/artworks/82441273">Shamiko</a>',
+                        desc: '<a class="highlightLink" href="https://www.pixiv.net/en/artworks/82441273">Shamiko</a>',
                     },
                     {
                         name: 'section-fail',
-                        desc: '<a class="sourceLink" href="https://www.pixiv.net/en/artworks/82108561">Shamiko</a>',
+                        desc: '<a class="highlightLink" href="https://www.pixiv.net/en/artworks/82108561">Shamiko</a>',
                     },
                     {
                         name: 'taiko bg',
-                        desc: 'Shamiko <a class="sourceLink" href="https://www.pixiv.net/en/artworks/70453045">(deleted pixiv link)</a> | <a class="sourceLink" href="https://www.reddit.com/r/MachikadoMazoku/comments/ijlgfm/yuukos_hair_flowing_in_the_wind/">reddit</a>',
+                        desc: 'Shamiko <a class="highlightLink" href="https://www.pixiv.net/en/artworks/70453045">(deleted pixiv link)</a> | <a class="highlightLink" href="https://www.reddit.com/r/MachikadoMazoku/comments/ijlgfm/yuukos_hair_flowing_in_the_wind/">reddit</a>',
                     },
                 ]
             },
@@ -709,7 +709,7 @@ const skins = [
                     },
                     {
                         name: 'hitsounds',
-                        desc: '<a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>',
+                        desc: '<a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>',
                     },
                 ]
             },
@@ -717,15 +717,15 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
                         desc: 'everything except score-n, combo-n and buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>',
                         desc: 'menu buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'score-n',
                     },
                 ]
@@ -810,23 +810,23 @@ const skins = [
                     },
                     {
                         name: 'pause-overlay',
-                        desc: '<a class="sourceLink" href="https://danbooru.donmai.us/posts/3607937">Shamiko + Momo</a>',
+                        desc: '<a class="highlightLink" href="https://danbooru.donmai.us/posts/3607937">Shamiko + Momo</a>',
                     },
                     {
                         name: 'scorebar (top left)',
-                        desc: '<a class="sourceLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>',
+                        desc: '<a class="highlightLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>',
                     },
                     {
                         name: 'scorebar(bottom right)',
-                        desc: '<a class="sourceLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
+                        desc: '<a class="highlightLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
                     },
                     {
                         name: 'section-pass',
-                        desc: '<a class="sourceLink" href="https://www.pixiv.net/en/artworks/82441273">Shamiko</a>',
+                        desc: '<a class="highlightLink" href="https://www.pixiv.net/en/artworks/82441273">Shamiko</a>',
                     },
                     {
                         name: 'section-fail',
-                        desc: '<a class="sourceLink" href="https://www.pixiv.net/en/artworks/82108561">Shamiko</a>',
+                        desc: '<a class="highlightLink" href="https://www.pixiv.net/en/artworks/82108561">Shamiko</a>',
                     },
                 ]
             },
@@ -851,15 +851,15 @@ const skins = [
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
                         desc: 'everything except score-n, combo-n and buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>',
                         desc: 'menu buttons',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
+                        name: '<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>',
                         desc: 'score-n,combo-n',
                     },
                 ]
@@ -869,41 +869,41 @@ const skins = [
                 items: [
                     {
                         name: '-s',
-                        desc: 'hitsounds <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=640">owoTuna Selyu</a>',
+                        desc: 'hitsounds <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=640">owoTuna Selyu</a>',
                     },
                     {
                         name: 'DT',
-                        desc: `hitcircles+hitsounds based off of <a class="sourceLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
+                        desc: `hitcircles+hitsounds based off of <a class="highlightLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
 sliderstartcircles based off of Koifishu base
-slider colours from <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owotuna CK v1.1.1</a>
+slider colours from <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owotuna CK v1.1.1</a>
 hitwhistle from azerite 
 `,
                     },
                     {
                         name: 'EZ',
-                        desc: `numbers based off <a class="sourceLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>
-hit sfx from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
+                        desc: `numbers based off <a class="highlightLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>
+hit sfx from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
                     },
                     {
                         name: 're-[2]',
-                        desc: `cursor based off <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
-hitcircles based off <a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>
-hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
+                        desc: `cursor based off <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
+hitcircles based off <a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>
+hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
 `,
                     },
                     {
                         name: 're-[X]',
-                        desc: `cursor edited off <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1107">WhiteCat CK 1.0</a>
-sfx from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
-followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR">new noel</a>`,
+                        desc: `cursor edited off <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1107">WhiteCat CK 1.0</a>
+sfx from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
+followpoints from <a class="highlightLink" href="https://osuskins.net/skin/3sXe0RR">new noel</a>`,
                     },
                     {
                         name: 're-[Y]',
-                        desc: `hitsounds from <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=166">rafis hddt 2018</a>`,
+                        desc: `hitsounds from <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=166">rafis hddt 2018</a>`,
                     },
                     {
                         name: 're-[Z]',
-                        desc: `hitsounds from <a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>`,
+                        desc: `hitsounds from <a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>`,
                     },
                 ]
             }
@@ -1013,11 +1013,11 @@ followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR"
                     },
                     {
                         name: `scoreboard-explosion-2`,
-                        desc: `<a class="sourceLink" href='https://www.reddit.com/r/osugame/comments/62sfnt/reddits_new_algorithm_was_created_to_keep_peppy/'>peppy</a>`,
+                        desc: `<a class="highlightLink" href='https://www.reddit.com/r/osugame/comments/62sfnt/reddits_new_algorithm_was_created_to_keep_peppy/'>peppy</a>`,
                     },
                     {
                         name: `sectionpass`,
-                        desc: `<a class="sourceLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>senko poggers</a> | <a class="sourceLink" href='https://imgur.com/gallery/GqTvcOJ'>w/o speech bubble</a>`,
+                        desc: `<a class="highlightLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>senko poggers</a> | <a class="highlightLink" href='https://imgur.com/gallery/GqTvcOJ'>w/o speech bubble</a>`,
                     },
                     {
                         name: `sectionfail`,
@@ -1042,15 +1042,15 @@ followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR"
                     },
                     {
                         name: `nightcore clap`,
-                        desc: `<a class="sourceLink" href='https://www.ghosthack.de'>ghosthack</a>`,
+                        desc: `<a class="highlightLink" href='https://www.ghosthack.de'>ghosthack</a>`,
                     },
                     {
                         name: `welcome.mp3 + seeya.mp3`,
-                        desc: `<a class="sourceLink" href='https://www.youtube.com/playlist?list=PLHeIKIUgnbJC4yB7k1AygJa1bn-pY8owx'>ayunda risu march soundboard</a>`,
+                        desc: `<a class="highlightLink" href='https://www.youtube.com/playlist?list=PLHeIKIUgnbJC4yB7k1AygJa1bn-pY8owx'>ayunda risu march soundboard</a>`,
                     },
                     {
                         name: `menu sfx`,
-                        desc: `<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/mxm967/sumi_169_animated_hdsd/">« Sumi »</a>`,
+                        desc: `<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/mxm967/sumi_169_animated_hdsd/">« Sumi »</a>`,
                     },
                 ]
             },
@@ -1058,11 +1058,11 @@ followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR"
                 name: 'Fonts',
                 items: [
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
                         desc: `mods, default`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/edo-sz.font">Edo SZ</a>`,
                         desc: ``,
                     },
                     {
@@ -1070,27 +1070,27 @@ followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR"
                         desc: ``,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/minecraft.font">Minecraft</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/minecraft.font">Minecraft</a>`,
                         desc: ``,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>`,
+                        name: `<a class="highlightLink" href="https://fontmeme.com/fonts/minecraft-enchantment-font/">minecraft enchantment (standard galactic)</a>`,
                         desc: `combo`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
                         desc: ``,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/press-start-2p-font-f11591">Press Start 2P</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/press-start-2p-font-f11591">Press Start 2P</a>`,
                         desc: `ranking-panel`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
                         desc: `pause, fail, ranking-panel, score`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
                         desc: `menu-back`,
                     },
                 ]
@@ -1100,59 +1100,59 @@ followpoints from <a class="sourceLink" href="https://osuskins.net/skin/3sXe0RR"
                 items: [
                     {
                         name: `Main`,
-                        desc: `hitnormals from <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
+                        desc: `hitnormals from <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
 hitclap from default skin`
                     },
                     {
                         name: `DT`,
-                        desc: `hitcircles+hitsounds based off of <a class="sourceLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
+                        desc: `hitcircles+hitsounds based off of <a class="highlightLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
 sliderstartcircles based off of Koifishu base
-slider colours from <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owotuna CK v1.1.1</a>
+slider colours from <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owotuna CK v1.1.1</a>
 hitwhistle from azerite 
 hitfinish from main skin
 `,
                     },
                     {
                         name: `EZ`,
-                        desc: `numbers based off <a class="sourceLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>
-hit sfx from <a class="sourceLink" href="https://skins.osuck.net/skins/640?v=0">owotuna selyu v1.4</a>`
+                        desc: `numbers based off <a class="highlightLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>
+hit sfx from <a class="highlightLink" href="https://skins.osuck.net/skins/640?v=0">owotuna selyu v1.4</a>`
                     },
                     {
                         name: `Hanoji`,
-                        desc: `edit of Main by <a class="sourceLink" href="https://osu.ppy.sh/users/18707960">hanoji</a> | <a class="sourceLink" href="https://twitter.com/Hanoji_FN">Twitter</a>
+                        desc: `edit of Main by <a class="highlightLink" href="https://osu.ppy.sh/users/18707960">hanoji</a> | <a class="highlightLink" href="https://twitter.com/Hanoji_FN">Twitter</a>
 originally from sbr -hANOJI
 hitsounds from sbr`
                     },
                     {
                         name: `Alt`,
-                        desc: `cursor based off <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
-hitcircles based off <a class="sourceLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>
-hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
+                        desc: `cursor based off <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
+hitcircles based off <a class="highlightLink" href="https://osuskins.net/skin/4Og4YW2">filsdelama 2017-10-14</a>
+hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cetbku/nezuko_kamadokimetsu_no_yaiba_std/">Nezunyan - Pink</a>
 `
                     },
                     {
                         name: `HR`,
-                        desc: `hitcircles based off <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
-cursor based off <a class="sourceLink" href="https://osuskins.net/skin/Cs3wuu3">Seoul v9</a> and nebuwua skin
-hit sfx from <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`
+                        desc: `hitcircles based off <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
+cursor based off <a class="highlightLink" href="https://osuskins.net/skin/Cs3wuu3">Seoul v9</a> and nebuwua skin
+hit sfx from <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`
                     },
                     {
                         name: `EZ2`,
-                        desc: `numbers based off <a class="sourceLink" href="https://skins.osuck.net/skins/35?v=0">boom 0524 -GN edit</a>
-hit sfx from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`
+                        desc: `numbers based off <a class="highlightLink" href="https://skins.osuck.net/skins/35?v=0">boom 0524 -GN edit</a>
+hit sfx from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`
                     },
                     {
                         name: `HOLO`,
-                        desc: `cursor based off <a class="sourceLink" href="https://skins.osuck.net/skins/1672?v=0">Ponytail</a>`
+                        desc: `cursor based off <a class="highlightLink" href="https://skins.osuck.net/skins/1672?v=0">Ponytail</a>`
                     },
                     {
                         name: `RAW`,
-                        desc: `cursor based off <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>
-hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`
+                        desc: `cursor based off <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>
+hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`
                     },
                     {
                         name: `FL`,
-                        desc: `based off <a class="sourceLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>`
+                        desc: `based off <a class="highlightLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>`
                     },
                 ]
 
@@ -1343,15 +1343,15 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                 items: [
                     {
                         name: `scorebar pfp, taiko pics`,
-                        desc: `<a class="sourceLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
+                        desc: `<a class="highlightLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
                     },
                     {
                         name: `sectionpass/fail`,
-                        desc: `Senko poggers <a class="sourceLink" href='https://imgur.com/gallery/GqTvcOJ'>imgur</a> | <a class="sourceLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>reddit</a>`,
+                        desc: `Senko poggers <a class="highlightLink" href='https://imgur.com/gallery/GqTvcOJ'>imgur</a> | <a class="highlightLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>reddit</a>`,
                     },
                     {
                         name: `mania hits`,
-                        desc: `Oniichan wa oshimai LINE stickers <a class="sourceLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="sourceLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
+                        desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                 ]
             },
@@ -1423,15 +1423,15 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                 items: [
                     {
                         name: `scorebar pfp, taiko pics`,
-                        desc: `<a class="sourceLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
+                        desc: `<a class="highlightLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
                     },
                     {
                         name: `sectionpass/fail`,
-                        desc: `Senko poggers <a class="sourceLink" href='https://imgur.com/gallery/GqTvcOJ'>imgur</a> | <a class="sourceLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>reddit</a>`,
+                        desc: `Senko poggers <a class="highlightLink" href='https://imgur.com/gallery/GqTvcOJ'>imgur</a> | <a class="highlightLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/jmvye2/senko_poggers_hd/'>reddit</a>`,
                     },
                     {
                         name: `mania hits`,
-                        desc: `Oniichan wa oshimai LINE stickers <a class="sourceLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="sourceLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
+                        desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                 ]
             },
@@ -1578,7 +1578,7 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                     },
                     {
                         name: `mania hits`,
-                        desc: `Oniichan wa oshimai LINE stickers <a class="sourceLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="sourceLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
+                        desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                     {
                         name: `mod icons`,
@@ -1590,19 +1590,19 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                     },
                     {
                         name: `scorebar (top left)`,
-                        desc: `<a class="sourceLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
+                        desc: `<a class="highlightLink" href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
                     },
                     {
                         name: `scorebar (bottom right)`,
-                        desc: `<a class="sourceLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>`,
+                        desc: `<a class="highlightLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>`,
                     },
                     {
                         name: `selection-mode`,
-                        desc: `<a class="sourceLink" href="https://danbooru.donmai.us/posts/3498092">Senko</a>`,
+                        desc: `<a class="highlightLink" href="https://danbooru.donmai.us/posts/3498092">Senko</a>`,
                     },
                     {
                         name: `sectionpass/fail`,
-                        desc: `<a class="sourceLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/ss99ru/i_remastered_poggersnotpoggers/'>senko poggers</a>`,
+                        desc: `<a class="highlightLink" href='https://www.reddit.com/r/SewayakiKitsune/comments/ss99ru/i_remastered_poggersnotpoggers/'>senko poggers</a>`,
                     },
                 ]
             },
@@ -1620,91 +1620,91 @@ hitsounds from <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/com
                 items: [
                     {
                         name: `main`,
-                        desc: `hitsounds - default + <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - default + <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `AR11`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `Dot`,
-                        desc: `cursor - <a class="sourceLink" href="https://twitter.com/_sgr_10/status/1392477113702252547">Minato Aqua</a>
-hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `cursor - <a class="highlightLink" href="https://twitter.com/_sgr_10/status/1392477113702252547">Minato Aqua</a>
+hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `DT (old)`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>`,
                     },
                     {
                         name: `DT`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `EZ`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=640">owoTuna Selyu</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=640">owoTuna Selyu</a>`,
                     },
                     {
                         name: `EZ2`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
                     },
                     {
                         name: `Farming`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `FullCircle`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/Cs3wuu3">Seoul v9</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/Cs3wuu3">Seoul v9</a>`,
                     },
                     {
                         name: `Holo`,
-                        desc: `<a class="sourceLink" href="https://skins.osuck.net/skins/602?v=0">Dereban skin (bakanakyanakya)</a>`,
+                        desc: `<a class="highlightLink" href="https://skins.osuck.net/skins/602?v=0">Dereban skin (bakanakyanakya)</a>`,
                     },
                     {
                         name: `NM`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `NM2`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `NM3`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owoTuna</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1552">re;owoTuna</a>`,
                     },
                     {
                         name: `UD 00`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `UD DT`,
-                        desc: `cursor - <a class="sourceLink" href="https://skins.osuck.net/index.php?newsid=1672">Ponytail 20-Sep-2019 </a>
-<a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `cursor - <a class="highlightLink" href="https://skins.osuck.net/index.php?newsid=1672">Ponytail 20-Sep-2019 </a>
+<a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `UD DOT DT`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `ssx`,
-                        desc: `WhiteCat CK 1.0 <a class="sourceLink" href='https://skins.osuck.net/index.php?newsid=1107'>osuck</a>`,
+                        desc: `WhiteCat CK 1.0 <a class="highlightLink" href='https://skins.osuck.net/index.php?newsid=1107'>osuck</a>`,
                     },
                     {
                         name: `ssy`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `ssz`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `ss0`,
-                        desc: `cursor - <a class="sourceLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#fast-elohere-2020-ft-rk---17122020">Fast EloHere ft [RK]</a>
-numbers - <a class="sourceLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
-hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`,
+                        desc: `cursor - <a class="highlightLink" href="https://gist.github.com/Dinoxe/0f89bbe0c88ef9d468e49df3da8f8932#fast-elohere-2020-ft-rk---17122020">Fast EloHere ft [RK]</a>
+numbers - <a class="highlightLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>
+hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`,
                     },
                     {
                         name: `ss0Final`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/cfyqd4/chillmegumin_10_std_hdsd/">ChillMegumin</a>`,
                     },
                     {
                         name: `ss0v2020HR`,
@@ -1712,11 +1712,11 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                     },
                     {
                         name: `ss0v2020newpc`,
-                        desc: `<a class="sourceLink" href="https://www.mediafire.com/file/kj6rayzu6u8rg7e/file">- # Hitagi - End #</a>`,
+                        desc: `<a class="highlightLink" href="https://www.mediafire.com/file/kj6rayzu6u8rg7e/file">- # Hitagi - End #</a>`,
                     },
                     {
                         name: `ss1`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/211396?n=1">redd glass HD</a>`,
                     },
                 ]
             }
@@ -1830,11 +1830,11 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                     },
                     {
                         name: `mania hits`,
-                        desc: `Oniichan wa oshimai LINE stickers <a class="sourceLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="sourceLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
+                        desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                     {
                         name: `mod icons`,
-                        desc: `<a class="sourceLink" href="https://thenounproject.com/">the noun project</a>`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">the noun project</a>`,
                     },
                     {
                         name: `mod icons (HR)`,
@@ -1842,11 +1842,11 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                     },
                     {
                         name: `scorebar (top left)`,
-                        desc: `<a class='sourceLink' href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
+                        desc: `<a class='highlightLink' href="https://www.pixiv.net/en/artworks/74258479">Senko</a>`,
                     },
                     {
                         name: 'scorebar(bottom right)',
-                        desc: '<a class="sourceLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
+                        desc: '<a class="highlightLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>',
                     },
                     {
                         name: `section-pass`,
@@ -1871,7 +1871,7 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                     },
                     {
                         name: `section fail`,
-                        desc: `<a class="sourceLink" href="https://www.youtube.com/watch?v=Zw5_TRAYrWU&t=58s">jeff steitzer saying skill issue (1:02)</a>`,
+                        desc: `<a class="highlightLink" href="https://www.youtube.com/watch?v=Zw5_TRAYrWU&t=58s">jeff steitzer saying skill issue (1:02)</a>`,
                     },
                 ]
             },
@@ -1879,32 +1879,32 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                 name: 'Fonts',
                 items: [
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
                         desc: `ranking-panel`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/press-start-2p.font">Press Start 2P</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/press-start-2p.font">Press Start 2P</a>`,
                         desc: `ranking-panel`,
                     },
                     {
                         name: `default`,
-                        desc: `<a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        desc: `<a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                     },
                     {
                         name: `score`,
-                        desc: `<a class="sourceLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
+                        desc: `<a class="highlightLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
                     },
                     {
                         name: `scoreentry`,
-                        desc: `<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
+                        desc: `<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
                     },
                     {
                         name: `combo`,
-                        desc: `<a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        desc: `<a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                     },
                     {
                         name: `mod icons`,
-                        desc: `<a class="sourceLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
+                        desc: `<a class="highlightLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
                     },
                     {
                         name: `default (OldStyle)`,
@@ -1917,32 +1917,32 @@ hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/commen
                 items: [
                     {
                         name: `main`,
-                        desc: `hitsounds - default + <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `hitsounds - default + <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `DT`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://mega.nz/file/NvxgFYpS#nmwQl93gPlWjuyXj39g7cceh-BBcAEEQt4VOV2zpKtw">Quantum</a>`,
                     },
                     {
                         name: `EZ`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/hbe3w4/kingling_cynthia_gen_iv_skin_by_nikstrim_std_hdsd/">kingling - Pokemon Gen IV v1.2</a>`,
                     },
                     {
                         name: `Flashlight`,
-                        desc: `hitsounds <a class="sourceLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>`,
+                        desc: `hitsounds <a class="highlightLink" href="https://skins.osuck.net/skins/348?v=0"># cent hr</a>`,
                     },
                     {
                         name: `Stream`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://skins.osuck.net/skins/1552">re;owoTuna 『MK』</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://skins.osuck.net/skins/1552">re;owoTuna 『MK』</a>`,
                     },
                     {
                         name: `Dot`,
-                        desc: `cursor - <a class="sourceLink" href="https://twitter.com/_sgr_10/status/1392477113702252547">Minato Aqua</a>
-hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `cursor - <a class="highlightLink" href="https://twitter.com/_sgr_10/status/1392477113702252547">Minato Aqua</a>
+hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `Farming`,
-                        desc: `slider balls/follow - <a class="sourceLink" href="https://skins.osuck.net/skins/2156?v=0">LifeLinev3 DT</a>`,
+                        desc: `slider balls/follow - <a class="highlightLink" href="https://skins.osuck.net/skins/2156?v=0">LifeLinev3 DT</a>`,
                     },
                 ]
             }
@@ -2146,11 +2146,11 @@ hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis
                     },
                     {
                         name: `mania hits`,
-                        desc: `Oniichan wa oshimai LINE stickers <a class="sourceLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="sourceLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
+                        desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                     {
                         name: `mods icons`,
-                        desc: `<a class="sourceLink" href="https://thenounproject.com/">the noun project</a>`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">the noun project</a>`,
                     },
                     {
                         name: `mod icons (HR)`,
@@ -2158,11 +2158,11 @@ hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis
                     },
                     {
                         name: `scorebar+selection-mode`,
-                        desc: `<a class="sourceLink" href="https://twitter.com/Axololtle/status/1633411056679927809">saber</a>`,
+                        desc: `<a class="highlightLink" href="https://twitter.com/Axololtle/status/1633411056679927809">saber</a>`,
                     },
                     {
                         name: `scorebar (bottom right)`,
-                        desc: `<a class="sourceLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>`,
+                        desc: `<a class="highlightLink" href="https://twitter.com/nekotou/status/1313151280726962188?s=20">Mahiro Oyama</a>`,
                     },
                     {
                         name: `section pass `,
@@ -2187,15 +2187,15 @@ hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis
                     },
                     {
                         name: `click-short, menuback, match-start (from match-ready)`,
-                        desc: `<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/lc1vld/suwumis_skin_final_release_std_only/">suwumi</a>`,
+                        desc: `<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/lc1vld/suwumis_skin_final_release_std_only/">suwumi</a>`,
                     },
                     {
                         name: `menuclick, match-join, match-leave`,
-                        desc: `<a class="sourceLink" href="https://skins.osuck.net/skins/1804?v=0">lifeline v2</a>`,
+                        desc: `<a class="highlightLink" href="https://skins.osuck.net/skins/1804?v=0">lifeline v2</a>`,
                     },
                     {
                         name: `match-confirm`,
-                        desc: `<a class="sourceLink" href="https://www.reddit.com/r/OsuSkins/comments/udzcmi/a_r_i_s_u_std_only/"># a r i s u</a>`,
+                        desc: `<a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/udzcmi/a_r_i_s_u_std_only/"># a r i s u</a>`,
                     },
                 ]
             },
@@ -2203,35 +2203,35 @@ hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis
                 name: 'Fonts',
                 items: [
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
                         desc: `back button, mod icons`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
                         desc: `ranking letters`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/press-start-2p.font">Press Start 2P</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/press-start-2p.font">Press Start 2P</a>`,
                         desc: `ranking-panel`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
                         desc: `fail menu buttons, pause menu, perfect, replay button, score`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
                         desc: `scoreentry`,
                     },
                     {
-                        name: `<a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        name: `<a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                         desc: `combo`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
                         desc: `song select`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.freejapanesefont.com/kei-font-download/">keifont</a>`,
+                        name: `<a class="highlightLink" href="https://www.freejapanesefont.com/kei-font-download/">keifont</a>`,
                         desc: `fail menu fail text`,
                     },
                 ]
@@ -2241,23 +2241,23 @@ hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis
                 items: [
                     {
                         name: `- h`,
-                        desc: `hitsounds - <a class="sourceLink" href="http://bit.ly/2P4P6qm">Seoul v9</a>
-default-n - <a class="sourceLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="http://bit.ly/2P4P6qm">Seoul v9</a>
+default-n - <a class="highlightLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
                     },
                     {
                         name: `- ho`,
-                        desc: `hitsounds - <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
-                        default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        desc: `hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
+                        default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                     },
                     {
                         name: `- s`,
-                        desc: `hitsounds - default + <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
-default-n - <a class="sourceLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
+                        desc: `hitsounds - default + <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>
+default-n - <a class="highlightLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
                     },
                     {
                         name: `DT`,
-                        desc: `hitsounds - <a class='sourceLink' href='https://osu.ppy.sh/beatmapsets/1180982#osu/2462439'>Pink Kurage to, Sotto, Kiss wo Shita</a>
-default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        desc: `hitsounds - <a class='highlightLink' href='https://osu.ppy.sh/beatmapsets/1180982#osu/2462439'>Pink Kurage to, Sotto, Kiss wo Shita</a>
+default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                     },
                 ]
             }
@@ -2333,7 +2333,7 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                 items: [
                     {
                         name: `arrow-warning`,
-                        desc: `Warning by Dewanata Visuals from <a class="sourceLink" href="https://thenounproject.com/browse/icons/term/warning/" target="_blank" title="Warning Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `Warning by Dewanata Visuals from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/warning/" target="_blank" title="Warning Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `fail background`,
@@ -2341,15 +2341,15 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                     },
                     {
                         name: `pause-replay`,
-                        desc: `Camera by Miss Ok from <a class="sourceLink" href="https://thenounproject.com/browse/icons/term/camera/" target="_blank" title="Camera Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `Camera by Miss Ok from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/camera/" target="_blank" title="Camera Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `pause-retry`,
-                        desc: `redo by Sita Raisita from <a class="sourceLink" href="https://thenounproject.com/browse/icons/term/redo/" target="_blank" title="redo Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `redo by Sita Raisita from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/redo/" target="_blank" title="redo Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `pause-back`,
-                        desc: `Exit by Syaeful Amri from <a class="sourceLink" href="https://thenounproject.com/browse/icons/term/exit/" target="_blank" title="Exit Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `Exit by Syaeful Amri from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/exit/" target="_blank" title="Exit Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `scorebar`,
@@ -2357,15 +2357,15 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                     },
                     {
                         name: `selection-mode`,
-                        desc: `<a class="sourceLink" href="https://twitter.com/Axololtle/status/1633411056679927809">saber</a>`,
+                        desc: `<a class="highlightLink" href="https://twitter.com/Axololtle/status/1633411056679927809">saber</a>`,
                     },
                     {
                         name: `selection-mode options button`,
-                        desc: `edit by The Icon Z from <a class="sourceLink" href="https://thenounproject.com/browse/icons/term/edit/" target="_blank" title="edit Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `edit by The Icon Z from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/edit/" target="_blank" title="edit Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `mod icons`,
-                        desc: `<a class="sourceLink" href="https://thenounproject.com/">the noun project</a>`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">the noun project</a>`,
                     },
                     {
                         name: `mod icons (HR)`,
@@ -2394,15 +2394,15 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                     },
                     {
                         name: `hitsounds`,
-                        desc: `<a class="sourceLink" href="http://bit.ly/2P4P6qm">Seoul v9</a> `,
+                        desc: `<a class="highlightLink" href="http://bit.ly/2P4P6qm">Seoul v9</a> `,
                     },
                     {
                         name: `- s hitsounds`,
-                        desc: `default + <a class="sourceLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
+                        desc: `default + <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Rafis skin</a>`,
                     },
                     {
                         name: `menu sounds`,
-                        desc: `<a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/1628514?n=1">霜滅 SOUMETSU</a>`,
+                        desc: `<a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/1628514?n=1">霜滅 SOUMETSU</a>`,
                     },
                 ]
             },
@@ -2410,7 +2410,7 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                 name: 'Fonts',
                 items: [
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>`,
                         desc: `scoreentry numbers`,
                     },
                     {
@@ -2418,39 +2418,39 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                         desc: `mode-fruits-med, ranking-panel`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/kei.font">Kei</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/kei.font">Kei</a>`,
                         desc: `selection-mode`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.freejapanesefont.com/kei-font-download/">Keifont</a>`,
+                        name: `<a class="highlightLink" href="https://www.freejapanesefont.com/kei-font-download/">Keifont</a>`,
                         desc: `scorebar-bg (jp text)`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/lemon-milk.font">LEMON MILK</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/lemon-milk.font">LEMON MILK</a>`,
                         desc: `pause menu buttons, play-skip`,
                     },
                     {
-                        name: `custom based off <a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment font</a>`,
+                        name: `custom based off <a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment font</a>`,
                         desc: `default numbers (DT, Lifelinev3DT)`,
                     },
                     {
-                        name: `<a class='sourceLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment</a>`,
+                        name: `<a class='highlightLink' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment</a>`,
                         desc: `combo numbers`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/nikkyou-sans-font-f31053">Nikkyou Sans</a>`,
                         desc: `back button, mod icons`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>`,
                         desc: `ranking letters`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
+                        name: `<a class="highlightLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>`,
                         desc: `ranking-panel, scorebar-bg, score numbers`,
                     },
                     {
-                        name: `<a class="sourceLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
+                        name: `<a class="highlightLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>`,
                         desc: `default numbers, ranking-panel`,
                     },
                 ]
@@ -2556,11 +2556,11 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                     },
                     {
                         name: 'hitsounds',
-                        desc: '<a class="sourceLink" href="http://bit.ly/2P4P6qm">Seoul v9</a>',
+                        desc: '<a class="highlightLink" href="http://bit.ly/2P4P6qm">Seoul v9</a>',
                     },
                     {
                         name: 'menu sounds',
-                        desc: '<a class="sourceLink" href="https://osu.ppy.sh/community/forums/topics/1628514?n=1">霜滅 SOUMETSU</a>',
+                        desc: '<a class="highlightLink" href="https://osu.ppy.sh/community/forums/topics/1628514?n=1">霜滅 SOUMETSU</a>',
                     },
                 ]
             },
@@ -2568,11 +2568,11 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                 name: 'Fonts',
                 items: [
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/bebas.font">Bebas</a>',
                         desc: 'scoreentry numbers',
                     },
                     {
-                        name: '<a class="sourceLink" href="#">Calibri</a>',
+                        name: '<a class="highlightLink" href="#">Calibri</a>',
                         desc: 'Mod icons',
                     },
                     {
@@ -2580,23 +2580,23 @@ default-n - based off <a class='sourceLink' href="https://fontmeme.com/fonts/min
                         desc: 'mode-fruits-med, ranking-panel (scroll to the very bottom)',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.freejapanesefont.com/kei-font-download/">Keifont</a>',
+                        name: '<a class="highlightLink" href="https://www.freejapanesefont.com/kei-font-download/">Keifont</a>',
                         desc: 'scorebar-bg (jp text)',
                     },
                     {
-                        name: '<a class=\'sourceLink\' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="sourceLink">Minecraft Enchantment</a>',
+                        name: '<a class=\'highlightLink\' href="https://fontmeme.com/fonts/minecraft-enchantment-font/" class="highlightLink">Minecraft Enchantment</a>',
                         desc: 'combo numbers',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/road-rage.font">Road Rage</a>',
                         desc: 'Ranking letters',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>',
+                        name: '<a class="highlightLink" href="https://www.fontspace.com/octapost-nbp-font-f17102">Octapost NBP</a>',
                         desc: 'ranking-panel, scorebar-bg, score numbers',
                     },
                     {
-                        name: '<a class="sourceLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>',
+                        name: '<a class="highlightLink" href="https://www.dafont.com/oxanium.font">Oxanium Medium</a>',
                         desc: 'default numbers, ranking-panel',
                     },
                 ]

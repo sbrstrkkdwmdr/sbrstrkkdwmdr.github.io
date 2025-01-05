@@ -70,7 +70,7 @@ body {
     font-size: medium;
 }
 
-main {
+section {
     background-color: #252525;
     margin-left: 3%;
     margin-right: 3%;
@@ -90,4 +90,20 @@ li {
     border-radius: 0.5em;
     padding: 0 0.15em;
     color: #C3E88D;
+}
+
+.noOverflow {
+    overflow-y: hidden;
+}
+
+header {
+    /* background-color: #334465; */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    cursor: default;
+
+    h1 {
+        color: white;
+    }
 }
