@@ -20,6 +20,7 @@ html {
     flex: content;
     justify-content: center;
     font-size: 24px;
+    margin: 0;
 }
 
 .divCommandDetailsList {
@@ -106,11 +107,13 @@ pre {
     font-size: 16px;
     table-layout: fixed;
     width: 100%;
+
     td:nth-child(1) {
         font-weight: 1000;
         text-align: center;
         color: #ff9100;
     }
+
     td {
         border: 1px solid #d8d8d8;
         padding: 10px;
@@ -227,14 +230,17 @@ th {
 #commandDetails {
     padding: 0 2em;
     overflow: auto;
-    h1 {
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-    h3 {
-        font-size: 18px;
-        margin-top: 15px;
-    }
+}
+
+#commandInfoTitle {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#commandInfoSubTitle {
+    font-size: 18px;
+    margin-top: 15px;
+    color: var(--clrs-magenta);
 }
 
 .commandGridItem {
@@ -255,7 +261,7 @@ th {
 /* search elements */
 #command-search {
     background-color: rgba(0, 0, 0, 0.50);
-    color:white;
+    color: white;
     margin-top: 0.5em;
     gap: .25rem;
     display: flex;
@@ -267,6 +273,7 @@ th {
     padding: 5px;
     border-radius: 0.5em;
     width: 15vw;
+    border: 0px;
 }
 
 label {

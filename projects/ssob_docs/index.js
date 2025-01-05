@@ -58,6 +58,9 @@ function displayCommand(cmd, mainDiv) {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     const title = document.createElement('h1');
     title.innerHTML = cmd.name;
+    title.id = 'commandInfoTitle'
+    title.classList.add("pageSecondaryTitle")
+    // title.classList.add("secondTitleToLeft")
     mainDiv.append(title);
 
     const details = document.createElement('div');
@@ -75,11 +78,14 @@ function displayCommand(cmd, mainDiv) {
 
     const usage = document.createElement('p');
     usage.classList.add("commandUsage");
-    usage.innerHTML = '<h3>Command:</h3>'
+    usage.innerHTML = '<h3 id="commandInfoSubTitle">Command:</h3>'
+    const usageTitle = document.createElement('h3');
+    usageTitle.id = 'commandInfoSubTitle';
+    usage.append(usageTitle);
     if (cmd.usage) {
         const usediv = document.createElement('div');
         usediv.classList.add('codeblock');
-        usediv.innerHTML = 'sbr-' + arrToAscii(cmd.usage);
+        usediv.innerText = 'sbr-' + arrToAscii(cmd.usage);
         usage.append(usediv, document.createElement('br'), document.createElement('br'));
     }
     // if (cmd.slashusage) {
@@ -88,11 +94,11 @@ function displayCommand(cmd, mainDiv) {
     //     usediv.innerHTML = '/' + arrToAscii(cmd.slashusage);
     //     usage.append(usediv, document.createElement('br'), document.createElement('br'));
     // }
-    if (cmd.linkusage && cmd.linkusage.length > 0) {
-        for (const string of cmd.linkusage) {
+    if (cmd.linkUsage && cmd.linkUsage.length > 0) {
+        for (const string of cmd.linkUsage) {
             const usediv = document.createElement('div');
             usediv.classList.add('codeblock');
-            usediv.innerHTML = arrToAscii(string);
+            usediv.innerText = arrToAscii(string);
             usage.append(usediv, document.createElement('br'), document.createElement('br'));
         }
     }
@@ -102,12 +108,13 @@ function displayCommand(cmd, mainDiv) {
         const aliasDiv = document.createElement('div');
         aliasDiv.classList.add('fullClear')
         const aliasName = document.createElement('h3');
-        aliasName.innerHTML = 'Aliases: '
+        aliasName.innerText = 'Aliases: '
+        aliasName.id = 'commandInfoSubTitle';
         aliasDiv.append(aliasName);
         for (const alias of cmd.aliases) {
             const div = document.createElement('div');
             div.classList.add('codeblock');
-            div.innerHTML = alias;
+            div.innerText = alias;
             aliasDiv.append(div)
         }
 
@@ -118,7 +125,8 @@ function displayCommand(cmd, mainDiv) {
         const examplesDiv = document.createElement('div');
         examplesDiv.classList.add('fullClear')
         const exampleName = document.createElement('h3');
-        exampleName.innerHTML = 'Examples: '
+        exampleName.id = 'commandInfoSubTitle';
+        exampleName.innerText = 'Examples: '
         examplesDiv.append(exampleName)
         const exampleTable = document.createElement('table');
         exampleTable.className = 'cmdexample'
@@ -127,9 +135,9 @@ function displayCommand(cmd, mainDiv) {
             const cell1 = row.insertCell();
             const cell2 = row.insertCell();
             cell1.classList.add('tdEx', 'extxt');
-            cell1.innerHTML = example.text.replace('PREFIXMSG', 'sbr-');
+            cell1.innerText = example.text.replace('PREFIXMSG', 'sbr-');
             cell2.classList.add('tdEx', 'exdesc');
-            cell2.innerHTML = example.description;
+            cell2.innerText = example.description;
         }
         examplesDiv.append(exampleTable);
         details.append(examplesDiv);
@@ -139,17 +147,17 @@ function displayCommand(cmd, mainDiv) {
         const table = document.createElement('table');
         table.classList.add('table');
         table.insertRow();
-        table.rows[0].insertCell().innerHTML = 'Name';
-        table.rows[0].insertCell().innerHTML = 'Type';
-        table.rows[0].insertCell().innerHTML = 'Required';
-        table.rows[0].insertCell().innerHTML = 'Description';
-        table.rows[0].insertCell().innerHTML = 'Options';
-        table.rows[0].insertCell().innerHTML = 'Default Value';
+        table.rows[0].insertCell().innerText = 'Name';
+        table.rows[0].insertCell().innerText = 'Type';
+        table.rows[0].insertCell().innerText = 'Required';
+        table.rows[0].insertCell().innerText = 'Description';
+        table.rows[0].insertCell().innerText = 'Options';
+        table.rows[0].insertCell().innerText = 'Default Value';
         for (const option of cmd.args) {
             const row = table.insertRow();
-            row.insertCell().innerHTML = option.name;
-            row.insertCell().innerHTML = option.type;
-            row.insertCell().innerHTML = option.required;
+            row.insertCell().innerText = option.name;
+            row.insertCell().innerText = option.type;
+            row.insertCell().innerText = option.required;
             row.insertCell().innerHTML =
                 option.description.includes('[') && option.description.includes(']') ?
                     markdownURLtoHTML(option.description) + ', ' :
@@ -192,7 +200,7 @@ function markdownURLtoHTML(str) {
     const fin = str.split(')')[1]
     const namae = str.split('[')[1].split(']')[0]
     const url = str.split('(')[1].split(')')[0]
-    return `${int} <a class="minA" href=${url}>${namae}</a> ${fin}`
+    return `${int} <a class="highlightLink" href=${url}>${namae}</a> ${fin}`
 }
 
 /**
@@ -210,93 +218,94 @@ function urlToHTML(str) {
     }
     const init = args.slice(0, i - 1).join(' ');
     const fin = args.slice(i + 1, args.length).join(' ');
-    return `${init} <a class="minA" href=${args[i]}>url</a> ${fin}`
+    return `${init} <a class="highlightLink" href=${args[i]}>url</a> ${fin}`
 }
 
 generateCommands();
 
 //https://css-tricks.com/how-to-animate-the-details-element/
-class smoothOpen {
-    constructor(el) {
-        this.el = el;
-        this.summary = el.querySelector('summary');
-        this.content = el.querySelector('.divCommandDetails');
+// NO LONGER USING DUE TO NEW PAGE LAYOUT
+// class smoothOpen {
+//     constructor(el) {
+//         this.el = el;
+//         this.summary = el.querySelector('summary');
+//         this.content = el.querySelector('.divCommandDetails');
 
-        this.animation = null;
-        this.isClosing = false;
-        this.isExpanding = false;
-        this.summary.addEventListener('click', (e) => this.onClick(e));
-    }
+//         this.animation = null;
+//         this.isClosing = false;
+//         this.isExpanding = false;
+//         this.summary.addEventListener('click', (e) => this.onClick(e));
+//     }
 
-    onClick(e) {
-        e.preventDefault();
-        this.el.style.overflow = 'hidden';
-        if (this.isClosing || !this.el.open) {
-            this.open();
-        } else if (this.isExpanding || this.el.open) {
-            this.shrink();
-        }
+//     onClick(e) {
+//         e.preventDefault();
+//         this.el.style.overflow = 'hidden';
+//         if (this.isClosing || !this.el.open) {
+//             this.open();
+//         } else if (this.isExpanding || this.el.open) {
+//             this.shrink();
+//         }
 
-    }
+//     }
 
-    shrink() {
-        this.isClosing = true;
+//     shrink() {
+//         this.isClosing = true;
 
-        const startHeight = `${this.el.offsetHeight}px`;
-        const endHeight = `${this.summary.offsetHeight}px`;
+//         const startHeight = `${this.el.offsetHeight}px`;
+//         const endHeight = `${this.summary.offsetHeight}px`;
 
-        if (this.animation) {
-            this.animation.cancel();
-        }
+//         if (this.animation) {
+//             this.animation.cancel();
+//         }
 
-        this.animation = this.el.animate({
-            height: [startHeight, endHeight]
-        }, {
-            duration: 400,
-            easing: 'ease-out'
-        });
+//         this.animation = this.el.animate({
+//             height: [startHeight, endHeight]
+//         }, {
+//             duration: 400,
+//             easing: 'ease-out'
+//         });
 
-        this.animation.onfinish = () => this.onAnimationFinish(false);
-        this.animation.oncancel = () => this.isClosing = false;
-    }
+//         this.animation.onfinish = () => this.onAnimationFinish(false);
+//         this.animation.oncancel = () => this.isClosing = false;
+//     }
 
-    open() {
-        this.el.style.height = `${this.el.offsetHeight}px`;
-        this.el.open = true;
-        window.requestAnimationFrame(() => this.expand());
-    }
+//     open() {
+//         this.el.style.height = `${this.el.offsetHeight}px`;
+//         this.el.open = true;
+//         window.requestAnimationFrame(() => this.expand());
+//     }
 
-    expand() {
-        this.isExpanding = true;
-        const startHeight = `${this.el.offsetHeight}px`;
-        const endHeight = `${this.summary.offsetHeight + this.content.offsetHeight}px`;
+//     expand() {
+//         this.isExpanding = true;
+//         const startHeight = `${this.el.offsetHeight}px`;
+//         const endHeight = `${this.summary.offsetHeight + this.content.offsetHeight}px`;
 
-        if (this.animation) {
-            this.animation.cancel();
-        }
+//         if (this.animation) {
+//             this.animation.cancel();
+//         }
 
-        this.animation = this.el.animate({
-            height: [startHeight, endHeight]
-        }, {
-            duration: 400,
-            easing: 'ease-out'
-        });
-        this.animation.onfinish = () => this.onAnimationFinish(true);
-        this.animation.oncancel = () => this.isExpanding = false;
-    }
+//         this.animation = this.el.animate({
+//             height: [startHeight, endHeight]
+//         }, {
+//             duration: 400,
+//             easing: 'ease-out'
+//         });
+//         this.animation.onfinish = () => this.onAnimationFinish(true);
+//         this.animation.oncancel = () => this.isExpanding = false;
+//     }
 
-    onAnimationFinish(open) {
-        this.el.open = open;
-        this.animation = null;
-        this.isClosing = false;
-        this.isExpanding = false;
-        this.el.style.height = this.el.style.overflow = '';
-    }
-}
+//     onAnimationFinish(open) {
+//         this.el.open = open;
+//         this.animation = null;
+//         this.isClosing = false;
+//         this.isExpanding = false;
+//         this.el.style.height = this.el.style.overflow = '';
+//     }
+// }
 
-document.querySelectorAll('details').forEach((el) => {
-    new smoothOpen(el);
-});
+// document.querySelectorAll('details').forEach((el) => {
+//     new smoothOpen(el);
+// });
 
 /**
  * @param {string} string 

@@ -308,7 +308,7 @@ const generalcommands = [
                 name: 'to',
                 type: 'string',
                 required: true,
-                description: 'The unit to convert to. see [here](https://sbrstrkkdwmdr.github.io/projects/ssob_docs/commandtypes.html#conv) for units',
+                description: 'The unit to convert to. see [here](https://sbrstrkkdwmdr.github.io/projects/ssob_docs/types.html#conv) for units',
                 options: ['help', 'SI units',],
                 defaultValue: 'N/A',
             },

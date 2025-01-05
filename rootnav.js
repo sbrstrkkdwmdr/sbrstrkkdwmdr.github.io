@@ -15,6 +15,7 @@ const defpages = [
         url: 'other.html',
         icon: 'page.png',
     },
+    // skins
     {
         name: 'osu! Skins',
         url: 'skins',
@@ -155,6 +156,27 @@ const defpages = [
         url: 'skins/other.html',
         icon: 'page.png',
     },
+    // projects
+    {
+        name: 'Projects',
+        url: 'projects',
+        icon: 'dir.png',
+    },
+    {
+        name: 'SSoB',
+        url: 'projects/ssob_docs',
+        icon: 'dir.png',
+    },
+    {
+        name: 'Commands',
+        url: 'projects/ssob_docs/commands.html',
+        icon: 'page.png',
+    },
+    {
+        name: 'Types',
+        url: 'projects/ssob_docs/types.html',
+        icon: 'page.png',
+    },
 ]
 
 /**
@@ -211,6 +233,8 @@ function genSideNav(level, cd, cur) {
         img.src = subs + './img/icons/' + page.icon;
         const text = document.createElement('span');
         text.innerText = page.name;
+        console.log(page.url)
+        console.log(level)
         if (page.url.split('/').length > level && !(page.url == cd + '/index.html' || page.url == 'index.html')) {
             item.classList.add('sidebarChildItem')
         }

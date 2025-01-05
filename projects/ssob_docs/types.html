@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>SSoB | Types</title>
+<link rel="stylesheet" href="../../styles/base.css">
+<link rel="stylesheet" href="styles/docs.css">
+<link rel="stylesheet" href="styles/cmd.css">
+<!-- <link rel="stylesheet" href="styles/nav.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
+
+<head>
+    <meta name="description" content="SaberStrike osu! bot">
+    <meta property="og:title" content="SaberStrike osu! bot">
+    <meta property="og:description" content="SaberStrike osu! bot commands page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbrbot/commands">
+</head>
+
+<body style="margin:auto;">
+    <nav class="external" id="topbar">
+        <div id="socialLinks"></div>
+        <div id="addressBar"></div>
+    </nav>
+
+    <nav class="external" id="sidebar">
+    </nav>
+    <main id="content">
+        <header>
+            <h1 class="pageTitle">Types</h1>
+        </header>
+        <center>
+            <div>
+                <h2 class="pageSecondaryTitle">Options</h2>
+                <table style="margin:50px" class="tableBG">
+                    <tr>
+                        <th>Option Type</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">String</td>
+                        <td class="tdTypes">Plain text</td>
+                        <td class="tdTypes">Hello this is a string 1231313 lfs-fあああ</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Integer</td>
+                        <td class="tdTypes">A number without decimal points</td>
+                        <td class="tdTypes">1231313</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Float</td>
+                        <td class="tdTypes">A number with decimal points</td>
+                        <td class="tdTypes">1231313.123</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Boolean</td>
+                        <td class="tdTypes">True or False</td>
+                        <td class="tdTypes">True</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Range</td>
+                        <td class="tdTypes">A range between two numbers, formatted as (min)..(max)</td>
+                        <td class="tdTypes">23..502</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Mention</td>
+                        <td class="tdTypes">A mention of a user</td>
+                        <td class="tdTypes">&lt;@12319381231&gt; or @user_name</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Channel</td>
+                        <td class="tdTypes">A mention of a channel</td>
+                        <td class="tdTypes">&lt;#12319381231&gt; or #channel_name</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Role</td>
+                        <td class="tdTypes">A mention of a role</td>
+                        <td class="tdTypes">&lt;@&12319381231&gt; or @role_name</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Array</td>
+                        <td class="tdTypes">A collection of items</td>
+                        <td class="tdTypes">[1, 2, 3, 4, 5] or ['osu', 'game']</td>
+                    </tr>
+                </table>
+
+                <h2 id="conv" class="pageSecondaryTitle">Conversions </h2>
+                <table style="margin:50px" class="tableBG">
+                    <tr>
+                        <th>Type</th>
+                        <th>Options</th>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Temperature</td>
+                        <td class="tdTypes" id="conv_temp"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Distance</td>
+                        <td class="tdTypes" id="conv_dist"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Time</td>
+                        <td class="tdTypes" id="conv_time"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Volume</td>
+                        <td class="tdTypes" id="conv_vol"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Mass</td>
+                        <td class="tdTypes" id="conv_mass"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Pressure</td>
+                        <td class="tdTypes" id="conv_pres"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Energy</td>
+                        <td class="tdTypes" id="conv_nrg"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Power</td>
+                        <td class="tdTypes" id="conv_pow"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Area</td>
+                        <td class="tdTypes" id="conv_area"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Angle</td>
+                        <td class="tdTypes" id="conv_angle"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Speed</td>
+                        <td class="tdTypes" id="conv_speed"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Number base</td>
+                        <td class="tdTypes" id="conv_base"></td>
+                    </tr>
+                </table>
+
+                <h2 id="mods" class="pageSecondaryTitle">Mods </h2>
+                <table style="margin:50px" class="tableBG">
+                    <tr>
+                        <td class="tdTypes">Difficulty Decreasing</td>
+                        <td class="tdTypes">EZ (Easy),NF (No Fail),HT (Half Time), DC (Daycore),</td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Difficulty Increasing</td>
+                        <td class="tdTypes">HR (Hard Rock), SD (Sudden Death), PF (Perfect), DT (Double Time), NC
+                            (Nightcore), HD (Hidden),
+                            FI
+                            (Fade
+                            In), FL (Flashlight), </td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Special</td>
+                        <td class="tdTypes">None (NM), AT (Auto), CN (Cinema), RX (Relax), AP (Autopilot), SO (Spun
+                            Out), TP
+                            (Target
+                            Practice)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Mania</td>
+                        <td class="tdTypes">1/2/3/4/5/6/7/8/9K, RD (Random), MR (Mirror), CP (Co-Op or Dual Stages in
+                            Lazer)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdTypes">Lazer-Only (not implemented)</td>
+                        <td class="tdTypes">BL (Blinds), ST (Strict Tracking), AC (Accuracy Challenge), DA, CL, RD, MR,
+                            AL,
+                            SG, TR, WG, SI,
+                            GR,
+                            DF,
+                            WU, WD, TC, BR, AD, MU, NS, MG, RP, AS, FR, BU, SY</td>
+                    </tr>
+                </table>
+                <!-- <p style="margin-bottom: 900px;"></p> -->
+            </div>
+        </center>
+    </main>
+    <script src="./const.js" type="text/javascript"></script>
+    <script src="./cmdtypes.js" type="text/javascript"></script>
+    <script src="../../rootnav.js"></script>
+    <script>
+        genPage(2, 'projects/ssob_docs', 'projects/ssob_docs/types.html')
+    </script>
+</body>
