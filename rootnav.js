@@ -261,16 +261,16 @@ function genSideButton(level) {
 function displaySide(show, list, sidebar) {
     let ctn = document.getElementById('content');
     let button = document.getElementById('sidebarButton');
-    let big = sidebar.offsetWidth + button.offsetWidth + button.offsetWidth
+    let big = sidebar.offsetWidth + 3;
     if (show) {
         sidebar.style.transform = `translateX(0)`
         ctn.style.transform = `translateX(0)`
-        ctn.style.width = `calc(100vw - ${big}px)`
+        ctn.style.width = `calc(98vw - ${big + button.offsetWidth}px)`
     } else {
-        let t = big - sidebar.offsetWidth;
+        let t = big - sidebar.offsetWidth + button.offsetWidth + button.offsetWidth;
         sidebar.style.transform = `translateX(-${list.clientWidth}px)`
         ctn.style.transform = `translateX(-${list.clientWidth}px)`
-        ctn.style.width = `calc(100vw - ${t}px)`
+        ctn.style.width = `calc(98vw - ${t}px)`
     }
     return !show;
 }
