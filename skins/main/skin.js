@@ -2620,6 +2620,7 @@ function showSkin(id) {
     ${skin.date_start} --- ${skin.date_end}
     </p>
     ` */
+    // main page set up
     {
         const h1 = document.createElement('h1');
         h1.innerText = skin.name;
@@ -2646,41 +2647,6 @@ function showSkin(id) {
         p1.appendChild(a1);
         doc.appendChild(p1);
     }
-
-    // add special preview image functionality
-    const previewer = document.createElement('div');
-    previewer.id = "previewDiv";
-
-    const previewerButtonLink = document.createElement('a');
-    previewerButtonLink.className = "dl previewButton";
-    previewerButtonLink.id = "dlButton";
-    previewerButtonLink.innerText = "download";
-    previewerButtonLink.rel = "noopener noreferrer";
-    previewerButtonLink.target = "_blank";
-
-    const previewSwitchers = document.createElement('div');
-    previewSwitchers.className = 'imageSwitcher';
-    const previewButtonPrevious = document.createElement('a');
-    const previewButtonNext = document.createElement('a');
-    previewButtonNext.innerHTML = "Next &raquo;";
-    previewButtonPrevious.innerHTML = "&laquo; Prev";
-    previewButtonPrevious.className = "previewButton";
-    previewButtonPrevious.id = "previewPrevious";
-    previewButtonNext.className = "previewButton";
-    previewButtonNext.id = "previewNext";
-    previewSwitchers.append(previewButtonPrevious, previewButtonNext);
-
-    const previewimg = document.createElement('img');
-    previewimg.width = 960;
-    previewimg.height = 540;
-    previewer.append(previewerButtonLink, previewimg, previewSwitchers);
-    previewer.style.display = 'none';
-    doc.appendChild(previewer);
-
-    const previewbg = document.createElement('div');
-    previewbg.id = "previewOverlay";
-    previewbg.style.display = 'none';
-    doc.appendChild(previewbg);
 
     // create skin grid
     const skingrid = document.createElement('div');
@@ -2729,10 +2695,46 @@ function showSkin(id) {
         });
         skingrid.appendChild(itemImage);
     };
+    doc.appendChild(skingrid);
 
     let curprevimg = '';
 
-    doc.appendChild(skingrid);
+    // add special preview image functionality
+    const previewer = document.createElement('div');
+    previewer.id = "previewDiv";
+
+    const previewerButtonLink = document.createElement('a');
+    previewerButtonLink.className = "dl previewButton";
+    previewerButtonLink.id = "dlButton";
+    previewerButtonLink.innerText = "download";
+    previewerButtonLink.rel = "noopener noreferrer";
+    previewerButtonLink.target = "_blank";
+
+    const previewSwitchers = document.createElement('div');
+    previewSwitchers.className = 'imageSwitcher';
+    const previewButtonPrevious = document.createElement('a');
+    const previewButtonNext = document.createElement('a');
+    previewButtonNext.innerHTML = "Next &raquo;";
+    previewButtonPrevious.innerHTML = "&laquo; Prev";
+    previewButtonPrevious.className = "previewButton";
+    previewButtonPrevious.id = "previewPrevious";
+    previewButtonNext.className = "previewButton";
+    previewButtonNext.id = "previewNext";
+    previewSwitchers.append(previewButtonPrevious, previewButtonNext);
+
+    const previewimg = document.createElement('img');
+    previewimg.width = 960;
+    previewimg.height = 540;
+    previewer.append(previewerButtonLink, previewimg, previewSwitchers);
+    previewer.style.display = 'none';
+
+    const previewbg = document.createElement('div');
+    previewbg.id = "previewOverlay";
+    previewbg.style.display = 'none';
+
+    const mainBody = document.getElementsByTagName('body')[0]
+    mainBody.append(previewer, previewbg);
+
     previewbg.addEventListener('click', e => {
         previewer.style.display = 'none';
         previewbg.style.display = 'none';
@@ -2768,6 +2770,7 @@ function showSkin(id) {
         previewer.style.display = 'block';
         previewbg.style.display = 'block';
     }
+
     if (skin.sources) {
         const div = document.getElementById('sources');
         const header = document.createElement('h2');
@@ -2842,7 +2845,7 @@ function genList() {
     })
 }
 
-function image(text){
+function image(text) {
     return {
         fullsize: text.replace('.jpg', '_full.jpg'),
         preview: text.replace('.jpg', '_preview.jpg')
