@@ -18,6 +18,12 @@ const portfolioItems = [
         pixelArt: false,
     },
     {
+        name: 'Conversions',
+        img: 'https://opengraph.githubassets.com/d2551cf853591db8238ef4be1a9b8c66da4419fafbe56f569d7274b595e6548b/sbrstrkkdwmdr/conversions',
+        url: 'https://github.com/sbrstrkkdwmdr/conversions',
+        pixelArt: false,
+    },
+    {
         name: 'osu mod calculator',
         img: 'https://opengraph.githubassets.com/e61268d1fc262146e2c4b6c9cd69f3b4b93263e7b1fea6e85f6206492ae80499/sbrstrkkdwmdr/osumodcalculator',
         url: 'https://github.com/sbrstrkkdwmdr/osumodcalculator',
