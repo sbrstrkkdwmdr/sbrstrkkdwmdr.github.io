@@ -163,6 +163,11 @@ const defpages = [
         icon: 'dir.png',
     },
     {
+        name: 'Conversions',
+        url: 'projects/conversions',
+        icon: 'page.png',
+    },
+    {
         name: 'SSoB',
         url: 'projects/ssob_docs',
         icon: 'dir.png',
