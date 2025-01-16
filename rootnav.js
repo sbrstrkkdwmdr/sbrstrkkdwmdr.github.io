@@ -238,8 +238,6 @@ function genSideNav(level, cd, cur) {
         img.src = subs + './img/icons/' + page.icon;
         const text = document.createElement('span');
         text.innerText = page.name;
-        console.log(page.url)
-        console.log(level)
         if (page.url.split('/').length > level && !(page.url == cd + '/index.html' || page.url == 'index.html')) {
             item.classList.add('sidebarChildItem')
         }
@@ -366,6 +364,9 @@ function genTitle(level, cur) {
     for (let i = 0; i < level; i++) {
         subs += '../';
     }
+    if (subs == ''){
+        subs = './'
+    }
     let arr = [
         {
             text: 'HOME',
@@ -383,7 +384,7 @@ function genTitle(level, cur) {
     } else {
         arr.push({
             text: cur,
-            url: cur
+            url: subs + cur
         });
     }
     arr = arr.filter(x => x.text != 'index.html');
