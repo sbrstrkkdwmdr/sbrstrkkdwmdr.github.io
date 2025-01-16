@@ -2800,9 +2800,7 @@ function showSkin(id) {
 function genList() {
     let grid = document.getElementsByClassName("itemGrid")[0];
     let sk = skins.slice().reverse();
-    console.log('ha')
     sk.forEach(skin => {
-        console.log(skin.id)
         if (skin.ignore) {
 
         } else {
