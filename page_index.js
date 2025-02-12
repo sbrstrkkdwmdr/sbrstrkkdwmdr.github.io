@@ -9,6 +9,7 @@ function generate() {
         // img.classList.add('pageTitle');
         img.classList.add('mainObject');
         ctn.append(img);
+        img.draggable = false;
     }
     {
         const img = document.createElement('img');
@@ -16,6 +17,7 @@ function generate() {
         img.height = 400;
         img.src = 'img/main.png'
         img.classList.add('mainObject')
+        img.draggable = false;
         ctn.append(img);
     }
     {
@@ -35,6 +37,8 @@ function generate() {
             item.addEventListener('mouseout', e => {
                 img.src = './img/social/' + social.icon;
             });
+            item.draggable = false;
+            img.draggable = false;
         })
         ctn.append(socialSection)
     }

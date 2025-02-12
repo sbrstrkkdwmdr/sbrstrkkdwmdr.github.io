@@ -243,13 +243,15 @@ function genSideNav(level, cd, cur) {
         }
         text.classList.add('mono');
         item.append(img, text);
+        item.draggable = false;
+        aWrap.draggable = false;
         aWrap.append(item);
         list.append(aWrap);
     });
 }
 
 function genSideButton(level) {
-    let show = true;
+    let show = false;
     const sidenav = document.getElementById('sidebar');
     let list = document.getElementById('sidenavList');
     let subs = '';
@@ -271,11 +273,28 @@ function genSideButton(level) {
         sideButtonImg.src = subs + './img/icons/sidebarButton.png';
         sideButtonImg.id = 'sideButtonImg';
         sideButton.append(sideButtonImgOffset, sideButtonImg);
+        sideButtonImg.draggable = false;
+        sideButton.draggable = false;
         sidenav.append(sideButton);
     }
     let ctn = document.getElementById('content');
     ctn.style.left = sidenav.offsetWidth + 'px';
     show = displaySide(show, list, sidenav);
+    const section = document.getElementById('hamburger');
+
+    // set up hamburger
+    const item = document.createElement('div');
+    item.className = 'socialItem';
+    const img = document.createElement('img');
+    img.src = subs + './img/icons/hamburger.png';
+    img.className = 'socialItemImg';
+    item.append(img);
+    item.draggable = false;
+    img.draggable = false;
+    item.addEventListener('click', () => {
+        show = displaySide(show, list, sidenav);
+    });
+    section.append(item);
 }
 
 /**
@@ -350,6 +369,8 @@ function genSocials(level) {
         img.src = subs + './img/social/' + social.icon;
         img.className = 'socialItemImg';
         item.append(img)
+        item.draggable = false;
+        img.draggable = false;
         section.append(item);
     })
 }
@@ -399,7 +420,7 @@ function genTitle(level, cur) {
         item.innerText = url.text.replace('.html', '');
         item.href = url.url;
         item.classList.add('mono');
-
+        item.draggable = false;
         main.append(item);
     });
     main.style.marginLeft =
