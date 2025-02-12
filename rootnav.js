@@ -251,7 +251,7 @@ function genSideNav(level, cd, cur) {
 }
 
 function genSideButton(level) {
-    let show = true;
+    let show = false;
     const sidenav = document.getElementById('sidebar');
     let list = document.getElementById('sidenavList');
     let subs = '';
@@ -280,6 +280,21 @@ function genSideButton(level) {
     let ctn = document.getElementById('content');
     ctn.style.left = sidenav.offsetWidth + 'px';
     show = displaySide(show, list, sidenav);
+    const section = document.getElementById('hamburger');
+
+    // set up hamburger
+    const item = document.createElement('div');
+    item.className = 'socialItem';
+    const img = document.createElement('img');
+    img.src = subs + './img/icons/hamburger.png';
+    img.className = 'socialItemImg';
+    item.append(img);
+    item.draggable = false;
+    img.draggable = false;
+    item.addEventListener('click', () => {
+        show = displaySide(show, list, sidenav);
+    });
+    section.append(item);
 }
 
 /**

@@ -62,6 +62,12 @@ a {
     position: relative;
 }
 
+#hamburger {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+
 #socialLinks {
     height: 100%;
     /* min-width: 15%; */
