@@ -9,9 +9,9 @@ const skins = [
         images: [
             {
                 name: 'gameplay',
-                url: 'url',
+                url: null,
                 image_url: 'skin-asbenioartist.jpg',
-                isGameplay: false,
+                isGameplay: false, // if true, previewer download button will say "download \"<name>\"" instead of "download skin"
             }
         ]
     },
@@ -25,7 +25,7 @@ const skins = [
         images: [
             {
                 name: 'gameplay',
-                url: 'url',
+                url: null,
                 image_url: 'skin-unko.jpg',
                 isGameplay: false,
             }
@@ -41,7 +41,7 @@ const skins = [
         images: [
             {
                 name: 'gameplay',
-                url: 'url',
+                url: null,
                 image_url: 'skin-filsdelama.jpg',
                 isGameplay: false,
             }
@@ -58,19 +58,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '01/screenshot599.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '01/screenshot600.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '01/screenshot601.jpg',
                 isGameplay: false,
             },
@@ -78,7 +78,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/uMsFBQ7D#VvU2YpjK1ASbLqyffl2CgsDKNrT3dyX9U2e9C4OBz5Q',
                 image_url: '01/game.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -145,19 +145,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '02/screenshot602.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '02/screenshot603.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '02/screenshot604.jpg',
                 isGameplay: false,
             },
@@ -165,7 +165,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/jF1jxQiL#mmjKa14JM7THqo3HyBcYodadBhlCfEmWToj0vCg0nwk',
                 image_url: '--02_custom2.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -240,19 +240,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '03/screenshot605.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '03/screenshot606.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '03/screenshot607.jpg',
                 isGameplay: false,
             },
@@ -260,7 +260,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/yVt3HYzZ#2RG6H4tXymO_40m96oHz6iaPgsqkdf3Ov8S2_MbYkCk',
                 image_url: '03_typex.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -340,19 +340,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '04/screenshot608.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '04/screenshot609.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '04/screenshot610.jpg',
                 isGameplay: false,
             },
@@ -360,7 +360,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/6EkDQCDK#efa2XqGfH_wXNKsWVocpwiH2bxCMhZvf0Q6C_6ZT7gI',
                 image_url: '04_typey.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -427,19 +427,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '05/screenshot611.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '05/screenshot612.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '05/screenshot613.jpg',
                 isGameplay: false,
             },
@@ -447,7 +447,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/OVtjGYZJ#wjyqmyXSOG0UsGxec9gqZXveVLO77YX4bx3Lb2aI9Mk',
                 image_url: '05_typez.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -515,19 +515,19 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '06/songselect.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '06/rank.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '06/mods.jpg',
                 isGameplay: false,
             },
@@ -535,13 +535,13 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/LJ8VEIZS#SUSFCOdcD-9Q6k-JXMdSRbcnwswqftDQVj9as9mCQiA',
                 image_url: '06/game.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
             {
                 name: 'Gameplay (2)',
                 url: 'https://mega.nz/file/LJ8VEIZS#SUSFCOdcD-9Q6k-JXMdSRbcnwswqftDQVj9as9mCQiA',
                 image_url: '06/game2.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -633,13 +633,13 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '07/songsel.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '07/ranking.jpg',
                 isGameplay: false,
             },
@@ -647,7 +647,7 @@ const skins = [
                 name: 'Gameplay',
                 url: 'https://mega.nz/file/6ccTTSJA#b1XYKubUPjzfWHjobfd2vskDQQCsb3XRrD7bdTVJ_Kc',
                 image_url: '07/game.jpg',
-                isGameplay: true,
+                isGameplay: false,
             },
         ],
         sources: [
@@ -743,31 +743,31 @@ const skins = [
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '08/songselec.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '08/mode.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '08/mods.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Options',
-                url: 'url',
+                url: null,
                 image_url: '08/opt.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '08/ranking.jpg',
                 isGameplay: false,
             },
@@ -920,25 +920,25 @@ followpoints from <a class="highlightLink" href="https://osuskins.net/skin/3sXe0
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '09/songselec.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '09/mode.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '09/mods.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '09/ranking.jpg',
                 isGameplay: false,
             },
@@ -1170,25 +1170,25 @@ hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '10/songselect.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '10/mode.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '10/mods.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '10/rank.jpg',
                 isGameplay: false,
             },
@@ -1457,19 +1457,19 @@ hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '11/screenshot1150.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '11/screenshot1152.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '11/screenshot1153.jpg',
                 isGameplay: false,
             },
@@ -1733,25 +1733,25 @@ hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/com
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '12/songselect.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '12/mode.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mods select',
-                url: 'url',
+                url: null,
                 image_url: '12/mods.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking screen',
-                url: 'url',
+                url: null,
                 image_url: '12/rank.jpg',
                 isGameplay: false,
             },
@@ -1960,19 +1960,19 @@ hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Ra
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '12/12.1/songselect.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking screen',
-                url: 'url',
+                url: null,
                 image_url: '12/12.1/rank_1.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking screen',
-                url: 'url',
+                url: null,
                 image_url: '12/12.1/rank_2.jpg',
                 isGameplay: false,
             },
@@ -2085,19 +2085,19 @@ hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Ra
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '13/img_ss.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mod select',
-                url: 'url',
+                url: null,
                 image_url: '13/img_ms.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '13/img_rp.jpg',
                 isGameplay: false,
             },
@@ -2274,19 +2274,19 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
         images: [
             {
                 name: 'Song select',
-                url: 'url',
+                url: null,
                 image_url: '14/screenshot1098.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Mode select',
-                url: 'url',
+                url: null,
                 image_url: '14/screenshot1107.jpg',
                 isGameplay: false,
             },
             {
                 name: 'Ranking panel',
-                url: 'url',
+                url: null,
                 image_url: '14/screenshot1099.jpg',
                 isGameplay: false,
             },
@@ -2468,19 +2468,19 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
         images: [
             // {
             //     name: 'Song select',
-            //     url: 'url',
+            //     url: null,
             //     image_url: '15/screenshot1157.jpg',
             //     isGameplay: false,
             // },
             // {
             //     name: 'Mode select',
-            //     url: 'url',
+            //     url: null,
             //     image_url: '15/screenshot1158.jpg',
             //     isGameplay: false,
             // },
             // {
             //     name: 'Ranking panel',
-            //     url: 'url',
+            //     url: null,
             //     image_url: '15/screenshot1149.jpg',
             //     isGameplay: false,
             // },
@@ -2764,7 +2764,7 @@ function showSkin(id) {
             previewerButtonLink.href = image.url;
             previewerButtonLink.innerText = "download \"" + image.name + '"';
         } else {
-            previewerButtonLink.href = skin.url;
+            previewerButtonLink.href = image.url ?? skin.url;
             previewerButtonLink.innerText = "download skin";
         }
         previewer.style.display = 'block';
