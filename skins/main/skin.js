@@ -11,7 +11,7 @@ const skins = [
                 name: 'gameplay',
                 url: null,
                 image_url: 'skin-asbenioartist.jpg',
-                isGameplay: false,
+                isGameplay: false, // if true, previewer download button will say "download \"<name>\"" instead of "download skin"
             }
         ]
     },
