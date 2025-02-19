@@ -9,7 +9,7 @@ const skins = [
         images: [
             {
                 name: 'gameplay',
-                url: null,
+                url: null, // url to specific skin version
                 image_url: 'skin-asbenioartist.jpg',
                 isGameplay: false, // if true, previewer download button will say "download \"<name>\"" instead of "download skin"
             }
