@@ -2,6 +2,7 @@ const skins = [
     {
         id: 'skin_number',
         name: 'AS - Benio 紅緒 (Artist)',
+        modes: ['osu'],
         date_start: '2019-10-21',
         date_end: '2019-10-30',
         url: 'https://www.reddit.com/r/OsuSkins/comments/a6pqzk/as_benio_%E7%B4%85%E7%B7%92_artist/',
@@ -18,6 +19,7 @@ const skins = [
     {
         id: 'skin_number',
         name: 'unko 2017-08-10',
+        modes: ['osu'],
         date_start: '2019-10-30',
         date_end: '2019-11-16',
         url: 'https://osuskins.net/skin/tBTUiu6',
@@ -34,6 +36,7 @@ const skins = [
     {
         id: 'skin_number',
         name: 'filsdelama 2017-10-14',
+        modes: ['osu'],
         date_start: '2019-11-16',
         date_end: '2020-01-05',
         url: 'https://osuskins.net/skin/4Og4YW2',
@@ -50,6 +53,7 @@ const skins = [
     {
         id: '01',
         name: 'SaberStrikeCustomv1',
+        modes: ['osu'],
         date_start: '2020-01-05',
         date_end: '2020-05-09',
         description: 'SD, STD',
@@ -137,6 +141,7 @@ const skins = [
     {
         id: '02',
         name: 'SaberStrikeCustomv2',
+        modes: ['osu'],
         date_start: '2020-05-09',
         date_end: '2020-07-01',
         description: 'SD, STD',
@@ -232,6 +237,7 @@ const skins = [
     {
         id: '03',
         name: '『SaberStrike [Type X]』',
+        modes: ['osu', 'taiko', 'mania'],
         date_start: '2020-07-01',
         date_end: '2020-07-25',
         description: '2 variants, SD/HD, STD',
@@ -332,6 +338,7 @@ const skins = [
     {
         id: '04',
         name: 'SaberStrike 『Y』',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2020-07-25',
         date_end: '2020-09-24',
         description: '4 variants, SD/HD, std/ctb/taiko',
@@ -419,6 +426,7 @@ const skins = [
     {
         id: '05',
         name: 'SaberStrike 『Z』',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2020-09-24',
         date_end: '2020-12-05',
         description: 'SD/HD, std/ctb/taiko',
@@ -507,6 +515,7 @@ const skins = [
     {
         id: '06',
         name: 'SaberStrike 『0』',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2020-12-05',
         date_end: '2021-02-24',
         description: 'SD/HD, all modes',
@@ -625,6 +634,7 @@ const skins = [
     {
         id: '07',
         name: 'SaberStrike 『1』',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2021-02-24',
         date_end: '2021-06-12',
         description: '2 variants, SD/HD, all modes',
@@ -735,6 +745,7 @@ const skins = [
     {
         id: '08',
         name: 'sbr',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2021-06-12',
         date_end: '2021-09-05',
         description: '8 variants, SD/HD, STD',
@@ -912,6 +923,7 @@ followpoints from <a class="highlightLink" href="https://osuskins.net/skin/3sXe0
     {
         id: '09',
         name: 'prjct. sbr',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2021-09-05',
         date_end: '2021-10-18',
         description: '10 variants, SD/HD, STD',
@@ -1162,6 +1174,7 @@ hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/
     {
         id: '10',
         name: 'SBR UnDefined (UD)',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2021-10-12',
         date_end: '2022-03-12',
         description: '14 variants, all modes, SD/HD, STD',
@@ -1374,6 +1387,7 @@ hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/
         id: '10.1',
         name: 'SBR UnDefined (UD) 1.1',
         ignore: true,
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2021-10-12',
         date_end: '2022-03-12',
         description: '14 variants, all modes, SD/HD, STD',
@@ -1449,6 +1463,7 @@ hitsounds from <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/
     {
         id: '11',
         name: 'SBR v11',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2022-03-10',
         date_end: '2023-01-08',
         description: 'SD/HD, STD',
@@ -1725,6 +1740,7 @@ hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/com
     {
         id: '12',
         name: 'sbrstrkkdwmdr v12',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2023-01-08',
         date_end: '2023-06-01',
         description: 'SD/HD, STD',
@@ -1952,6 +1968,7 @@ hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Ra
         id: '12.1',
         name: 'sbrstrkkdwmdr v12.1',
         ignore: true,
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2023-03-17',
         date_end: '2023-06-01',
         description: 'SD/HD, STD',
@@ -2077,6 +2094,7 @@ hitsounds - <a class="highlightLink" href="https://osuskins.net/skin/ekynLzX">Ra
     {
         id: '13',
         name: 'sbrstrkkdw v13',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2023-06-01',
         date_end: '2024-03-03',
         description: 'SD/HD, STD',
@@ -2266,6 +2284,7 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
     {
         id: '14',
         name: 'sbrstrkkdw v14',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2024-02-27',
         date_end: '2024-11-18',
         description: 'SD/HD, STD',
@@ -2460,6 +2479,7 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
     {
         id: '15',
         name: 'sbrstrkkdw v15',
+        modes: ['osu', 'taiko', 'fruits', 'mania'],
         date_start: '2024-11-18',
         date_end: 'present',
         description: 'non-gameplay still WIP',
@@ -2625,6 +2645,14 @@ function showSkin(id) {
         const h1 = document.createElement('h1');
         h1.innerText = skin.name;
         h1.className = 'pageTitle'
+        const modeIcons = document.createElement('div');
+        modeIcons.className = 'itemModes'
+        for (const mode of skin.modes) {
+            const img = document.createElement('img');
+            img.src = '../img/modes/' + mode + '.png'
+            img.className = 'itemMode'
+            modeIcons.append(img);
+        }
         const subtxt = document.createElement('p');
         subtxt.innerText = skin.date_start + ' --- ' + skin.date_end;
         if (skin.description) {
@@ -2634,7 +2662,7 @@ function showSkin(id) {
         const titleDiv = document.createElement('div');
         titleDiv.id = 'skinName';
         titleDiv.className = 'pageTitle'
-        titleDiv.append(h1, subtxt);
+        titleDiv.append(h1, modeIcons, subtxt);
         doc.append(titleDiv);
 
         const p1 = document.createElement("p");
@@ -2809,6 +2837,14 @@ function genList() {
             const name = document.createElement('h2');
             name.className = 'itemName';
             name.innerText = skin.name
+            const modeIcons = document.createElement('div');
+            modeIcons.className = 'itemModes'
+            for (const mode of skin.modes) {
+                const img = document.createElement('img');
+                img.src = '../img/modes/' + mode + '.png'
+                img.className = 'itemMode'
+                modeIcons.append(img);
+            }
             const desc = document.createElement('p');
             desc.className = 'itemDescription'
             desc.innerText = skin.date_start + ' --- ' + skin.date_end;
@@ -2837,7 +2873,7 @@ function genList() {
             skPage.append(previewImg)
             div.append(skPage)
 
-            section.append(name, desc, dl, div);
+            section.append(name, desc, dl, div, modeIcons);
             grid.append(section);
         }
     })
