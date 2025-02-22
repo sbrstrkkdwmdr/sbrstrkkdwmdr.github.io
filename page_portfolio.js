@@ -5,12 +5,12 @@ const portfolioItems = [
         url: 'https://github.com/sbrstrkkdwmdr/sbrbot',
         pixelArt: false,
     },
-    // { // uncomment when i've actually finished this lmfao
-    //     name: 'ProjectBandana',
-    //     img: './img/portfolio/projectbandana.png',
-    //     url: 'https://www.youtube.com/playlist?list=PLbYkgKLVlgu-Pn0iwrOIO60E4CGjWUU0_',
-    //     pixelArt: true,
-    // },
+    {
+        name: 'ProjectBandana',
+        img: './img/portfolio/projectbandana.png',
+        url: 'https://www.youtube.com/playlist?list=PLbYkgKLVlgu-Pn0iwrOIO60E4CGjWUU0_',
+        pixelArt: true,
+    },
     {
         name: 'WeatherAppTauri',
         img: './img/portfolio/weatherapptauri.png',
