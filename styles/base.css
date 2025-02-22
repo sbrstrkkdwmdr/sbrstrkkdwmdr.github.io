@@ -269,6 +269,7 @@ a {
     color: var(--clrs-yellow);
     clear: both;
     margin: auto;
+    text-align: center;
 }
 
 .pageTitleSubText {
@@ -277,6 +278,7 @@ a {
     color: var(--basic-text);
     clear: both;
     margin: auto;
+    text-align: center;
 }
 
 .pageSecondaryTitle {

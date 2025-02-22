@@ -156,6 +156,11 @@ const defpages = [
         url: 'skins/other.html',
         icon: 'page.png',
     },
+    {
+        name: 'Skin dump',
+        url: 'skins/dump.html',
+        icon: 'page.png',
+    },
     // projects
     {
         name: 'Projects',
