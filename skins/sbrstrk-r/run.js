@@ -2,11 +2,13 @@ const rafisskin = {
     name: 'Rafis 2018 HDDT',
     url: 'https://www.mediafire.com/file/phcsum9n4np44wh/Rafis_2018-03-26_HDDT.osk/file',
     image: 'Rafis2018HDDT.jpg',
+    modes: ['osu'],
 };
 const bluebudgieskinmixv1_1 = {
     name: 'BlueBudgie Mix v1.1',
     url: 'https://drive.google.com/file/d/1OmKr9YPWc-o48-v0UwN2a0cok8Kkd8bk/view',
     image: 'bluebudgiemix1dot1.jpg',
+    modes: ['osu'],
 }
 
 const skins = [
@@ -20,16 +22,19 @@ const skins = [
                 name: 'seungwons_elaina',
                 url: 'https://drive.google.com/file/d/1sO05Vpu0vxcDpEYBDhzfIrGX6HOIAHCq/view',
                 image: 'seungwonselaina.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'SaberStrike 1.5',
                 url: 'https://drive.google.com/file/d/1OmKr9YPWc-o48-v0UwN2a0cok8Kkd8bk/view',
                 image: 'SaberStrike1dot5.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
             {
                 name: 'SaberStrike 1.2/1.3',
                 url: 'https://www.mediafire.com/file/ouzknrd07gstnrd/',
                 image: 'SaberStrike1dot2.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
             rafisskin,
         ]
@@ -43,6 +48,7 @@ const skins = [
                 name: 'SaberStrike DT1.3',
                 url: 'https://drive.google.com/file/d/1V1LAmdeexmpipsZFc9XmQ4BmiMByvUzD/view',
                 image: 'saberstrikedt1dot3.jpg',
+                modes: ['osu'],
             },
         ]
     },
@@ -55,6 +61,7 @@ const skins = [
                 name: 'Byonick 1.1',
                 url: 'https://drive.google.com/file/d/1f_LHTP3FYky9qXp_dAJfdLi7_I3ZhU3m/view',
                 image: 'byonick1dot1.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
         ]
     },
@@ -67,6 +74,7 @@ const skins = [
                 name: 'MonkoEdit',
                 url: 'https://skins.osuck.net/index.php?newsid=2011',
                 image: 'https://files.osuck.link/images/skins/ab358180380acd6b11f7def15b844b20.webp',
+                modes: ['osu'],
             },
             rafisskin,
         ]
@@ -80,11 +88,13 @@ const skins = [
                 name: 'H4N0J1 NM - 2.1',
                 url: 'https://drive.google.com/file/d/1TY82O-vDvhiy5zBhZ2-pcsF5671CckZy/view?usp=sharing',
                 image: 'hanoji2dot1nm.jpg',
+                modes: ['osu', 'fruits', 'taiko'],
             },
             {
                 name: 'H4N0J1 HDDT - 2.1',
                 url: 'https://drive.google.com/file/d/1AgJ-xMHPhi1jTEBsYvNWtHqn_QvR4Zl5/view?usp=sharing',
                 image: 'hanoji2dot1dt.jpg',
+                modes: ['osu', 'fruits', 'taiko'],
             },
         ]
     },
@@ -97,21 +107,25 @@ const skins = [
                 name: 'Skadi Waverider NM',
                 url: 'https://drive.google.com/drive/u/0/mobile/folders/1fMTLeZld5G7NsidkJGsvnW-azQPApFa3?usp=sharing',
                 image: 'BYSkadiWaveriderNM.jpg',
+                modes: ['osu', 'mania'],
             },
             {
                 name: 'Spazza17 Fumo Fade',
                 url: 'https://github.com/Spazza17/Spazza17-Skins/blob/main/spazza17-skins.md#spazza17-fumo-fade',
                 image: 'spazzav2fumofade.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'Walnut 1.0 『clrs』',
                 url: 'https://drive.google.com/file/d/1Lgs-Yfyqwx8TjtBDzrPvEoe8YK17e7Pe/view',
                 image: 'vaxeiwalnut1.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'Mrekk 3.0 - Aristia',
                 url: 'https://drive.google.com/file/d/1tAKVY6ZQslhOsHlGguqQonnWygK-uC0B/view',
                 image: 'mrekk3aristia.jpg',
+                modes: ['osu'],
             },
         ]
     },
@@ -124,6 +138,7 @@ const skins = [
                 name: 'SaberStrike『0』',
                 url: 'https://www.mediafire.com/file/kjo5xg0egnorauc/-_%2540_SaberStrike_%25E3%2580%258E0%25E3%2580%258FDommisanbaka.osk/file',
                 image: 'saberstrike0oniisan.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
         ]
     },
@@ -136,11 +151,13 @@ const skins = [
                 name: 'Spazza17 Fumo Bacon',
                 url: 'https://drive.google.com/file/d/1UFAdS-EbO4GiPQgZS95fcA3fQfq6WYE9/view',
                 image: 'spazzafumobacon.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'Rafis HDDT mrekk',
                 url: 'https://github.com/DevenRam/mrekk-skinss#rafis-hddt',
                 image: 'rafishddtmrekk.jpg',
+                modes: ['osu'],
             },
         ]
     },
@@ -153,22 +170,26 @@ const skins = [
                 name: 'Aristia(edit)+white',
                 url: 'https://drive.google.com/file/d/1-rq_4VAVROH8IbS0gAIMpGcM4sIVU0mR/view',
                 image: 'aristiaeditwhite.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
             bluebudgieskinmixv1_1,
             {
                 name: 'WhiteCat 2.0 old',
                 url: 'https://skins.osuck.net/index.php?newsid=2021',
                 image: 'whitecatckold2.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'WhiteCat 1.0 『CK』',
                 url: 'https://skins.osuck.net/index.php?newsid=1107',
                 image: 'whitecatck1.jpg',
+                modes: ['osu'],
             },
             {
                 name: 'SaberStrike『1.2SORAGATON』',
                 url: 'https://drive.google.com/file/d/1-pRLecUTaoUNXpHj1TLSMBayvWC09CT2/view',
                 image: 'saberstrikesora.jpg',
+                modes: ['osu', 'taiko', 'fruits', 'mania'],
             },
             rafisskin,
         ]
@@ -214,7 +235,17 @@ function generate(name) {
             img.width = 400;
             img.height = 225;
             a.append(img);
-            section.append(itemname, a);
+            const modeIcons = document.createElement('div');
+            modeIcons.className = 'itemModes'
+            if (skin?.modes){
+                for (const mode of skin.modes) {
+                    const img = document.createElement('img');
+                    img.src = '../img/modes/' + mode + '.png'
+                    img.className = 'itemMode'
+                    modeIcons.append(img);
+                } 
+            }
+            section.append(itemname, a, modeIcons);
             grid.append(section);
         });
     } else {

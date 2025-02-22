@@ -167,6 +167,20 @@ iframe {
     border: 0px;
 }
 
+.itemModes {
+    margin: auto;
+    /* height: 30px; */
+    height: fit-content;
+    padding: 0;
+    text-align: center;
+}
+
+.itemMode {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
 .itemDescription {
     font-size: 24px;
     color: rgb(200, 200, 200);
