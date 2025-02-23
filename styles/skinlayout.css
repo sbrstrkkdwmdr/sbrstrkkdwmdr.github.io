@@ -290,8 +290,10 @@ color: var(--linkHighlight);
 } */
 
 .sourcetable {
+    border-spacing: 0 10px;
     td {
         padding: 0 0.5rem;
+        vertical-align: top;
     }
 }
 
