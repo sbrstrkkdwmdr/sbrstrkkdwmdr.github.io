@@ -2544,12 +2544,16 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                         desc: 'Guardian Tales fail screen world 11 female knight with witch skin',
                     },
                     {
+                        name: 'ranking-panel',
+                        desc: '<a class="highlightLink" href="https://skins.osuck.net/skins/4064?v=0">osu! deskmat</a>'
+                    },
+                    {
                         name: 'scorebar',
                         desc: 'saber (by banban)',
                     },
                     {
                         name: 'scorebar (banana ver.)',
-                        desc: 'saber x banban (by axololtle)',
+                        desc: 'banban (by banban)',
                     },
                     {
                         name: 'selection-mode',
