@@ -45,7 +45,7 @@ let skinsList = [
         name: 'cinia',
         id: 'cinia',
         url: 'https://skins.osuck.net/skins/1626?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/348315af131ed4f6330dfd2654393900_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/348315af131ed4f6330dfd2654393900.webp',
         modes: ['osu', 'taiko', 'fruits', 'mania']
     },
     {
@@ -73,35 +73,35 @@ let skinsList = [
         name: 'Incandescent Nabulae',
         id: 'ekoroblue',
         url: 'https://skins.osuck.net/skins/3017?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/75eb0968c0cad960bea79534739c5596_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/75eb0968c0cad960bea79534739c5596.webp',
         modes: ['osu', 'taiko', 'fruits', 'mania']
     },
     {
         name: 'Incandescent Cherry',
         id: 'ekoropink',
         url: 'https://skins.osuck.net/skins/3017?v=1',
-        image: 'https://skins.osuck.net/images/screenshots/6ca21b22851a1797f4a370c07c9a2dd1_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/6ca21b22851a1797f4a370c07c9a2dd1.webp',
         modes: ['osu', 'taiko', 'fruits', 'mania']
     },
     {
         name: 'Jace 6.25',
         id: 'jace',
         url: 'https://skins.osuck.net/skins/914?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/080f2be53f66f31c90c5bc7d8cb9212c_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/080f2be53f66f31c90c5bc7d8cb9212c.webp',
         modes: ['osu']
     },
     {
         name: 'kantoku skin ruru (hvick225)',
         id: 'hvick',
         url: 'https://skins.osuck.net/skins/2720?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/0186c1f8dd6f530cb971eb025e2f6461_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/0186c1f8dd6f530cb971eb025e2f6461.webp',
         modes: ['osu']
     },
     {
         name: 'karthy 6.0',
         id: 'karthy',
         url: 'https://skins.osuck.net/skins/1168?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/03146f07a5c9b9d888362f42fbba43ce_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/03146f07a5c9b9d888362f42fbba43ce.webp',
         modes: ['osu']
     },
     {
@@ -115,7 +115,7 @@ let skinsList = [
         name: 'lifeline v2 DT',
         id: 'lifeline2',
         url: 'https://skins.osuck.net/skins/1804?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/afbc64f20bff142dece1c70d44260498_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/afbc64f20bff142dece1c70d44260498.webp',
         modes: ['osu']
     },
     {
@@ -129,14 +129,14 @@ let skinsList = [
         name: 'moeyandere umeniko',
         id: 'umeniko',
         url: 'https://skins.osuck.net/skins/1465?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/aea140cd22625aafc25df02fd3aabb6b_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/aea140cd22625aafc25df02fd3aabb6b.webp',
         modes: ['osu']
     },
     {
         name: 'monkoedit',
         id: 'monko',
         url: 'https://skins.osuck.net/skins/2011?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/ab358180380acd6b11f7def15b844b20_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/ab358180380acd6b11f7def15b844b20.webp',
         modes: ['osu']
     },
     {
@@ -150,14 +150,14 @@ let skinsList = [
         name: 're;owotuna',
         id: 'retuna',
         url: 'https://skins.osuck.net/skins/1552?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/ef46fc899c7c5e63a5a53e3799561fd3_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/ef46fc899c7c5e63a5a53e3799561fd3.webp',
         modes: ['osu']
     },
     {
         name: 'komori pegulian II',
         id: 'pegulian2',
         url: 'https://skins.osuck.net/skins/1194?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/123573a5e83e3c780000720e016f7ea6_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/123573a5e83e3c780000720e016f7ea6.webp',
         modes: ['osu']
     },
     {
@@ -171,14 +171,14 @@ let skinsList = [
         name: 'hello im rafis [hddt 2.0]',
         id: 'rafis2',
         url: 'https://skins.osuck.net/skins/2528?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/82bf784cde469363754b80f97e8e35b4_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/82bf784cde469363754b80f97e8e35b4.webp',
         modes: ['osu']
     },
     {
         name: 'rrtyuiskin',
         id: 'rrtyui',
         url: 'https://skins.osuck.net/skins/347?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/f8719e5b4453965ef8e924e727441c1f_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/f8719e5b4453965ef8e924e727441c1f.webp',
         modes: ['osu', 'taiko', 'fruits', 'mania']
     },
     {
@@ -189,7 +189,7 @@ let skinsList = [
         modes: ['osu']
     },
     {
-        name: 'Seoul v9 Pineapple',
+        name: 'Seoul v9 Pineapple (cookiezi skin)',
         id: 'seoul',
         url: 'https://shigeskln.s-ul.eu/aZMjYmod', // https://gist.github.com/Fobxx/107e2bad2bf7312cd49431c696aac912#--seoul-v9-pineapple-color
         image: 'https://camo.githubusercontent.com/b7f7f5f606b2f11a6fc197e07c3d05fe9753ad88bc713ed90391e262a51ae952/68747470733a2f2f692e696d6775722e636f6d2f57704c79504d6e2e706e67',
@@ -206,14 +206,14 @@ let skinsList = [
         name: 'Bacon boi',
         id: 'bacon',
         url: 'https://skins.osuck.net/skins/1648?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/be60f582d0c541b13603d97cdfef40e6_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/be60f582d0c541b13603d97cdfef40e6.webp',
         modes: ['osu']
     },
     {
         name: 'whitecat 1.0',
         id: 'whitecat',
         url: 'https://skins.osuck.net/skins/1107?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/c41d84e806e48a84b81fa790e82d3348_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/c41d84e806e48a84b81fa790e82d3348.webp',
         modes: ['osu']
     },
     {
@@ -234,10 +234,30 @@ let skinsList = [
         name: 'YUGEN',
         id: 'yugen',
         url: 'https://skins.osuck.net/skins/184?v=0',
-        image: 'https://skins.osuck.net/images/screenshots/af672d6d91801b2974ed7bf8544ea3a2_xs.webp',
+        image: 'https://skins.osuck.net/images/screenshots/af672d6d91801b2974ed7bf8544ea3a2.webp',
         modes: ['osu']
     },
-
+    {
+        name: 'Chitanda (angelsim / firebat92)',
+        id: 'chitanda',
+        url: 'https://skins.osuck.net/skins/11?v=0',
+        image: 'https://skins.osuck.net/images/screenshots/4f8843cefc45a370f6b332ad8cab0356.webp',
+        modes: ['osu']
+    },
+    {
+        name: 'idke v1.2',
+        id: 'idke',
+        url: 'https://skins.osuck.net/skins/628?v=0',
+        image: 'https://skins.osuck.net/images/screenshots/c0efa90bb3ccc38c4207d692aa0b1e2c.webp',
+        modes: ['osu']
+    },
+    {
+        name: 'azerite v1.2',
+        id: 'azerite',
+        url: 'https://skins.osuck.net/skins/2?v=0',
+        image: 'https://skins.osuck.net/images/screenshots/260469432673932e1d895b4b2f48ef79_xs.webp',
+        modes: ['osu']
+    }
 ]
 
 function generate() {
@@ -263,7 +283,7 @@ function loadSkins(filter) {
     const main = document.createElement('div');
     main.classList.add('itemGrid');
     let skins = skinsList
-    if (false) {
+    if (true) {
         skins.sort((a, b) => {
             if (a.name.toLowerCase() < b.name.toLowerCase()) {
                 return -1;
