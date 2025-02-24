@@ -2620,6 +2620,19 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                         desc: 'default numbers, ranking-panel',
                     },
                 ]
+            },
+            {
+                name: 'Gameplay',
+                items: [
+                    {
+                        name: 'Apple',
+                        desc: 'based off <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/comments/f8yfao/404skinnotfound_defreeyay_ver_std/">404SkinNotFound defreeyay</a>',
+                    },
+                    {
+                        name: 'Citrus',
+                        desc: 'based off <a class="highlightLink" href="https://www.youtube.com/watch?v=ZxQHs0sC1Js">emilia\'s skin (private)</a>',
+                    },
+                ]
             }
         ]
     }
