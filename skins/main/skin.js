@@ -2511,6 +2511,12 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                 isGameplayVariant: true,
             },
             {
+                name: '- s',
+                url: 'https://www.mediafire.com/file/6po7dq6s8nbix4e/-_sbrstrkkdw_v15_%255B-_s%255D.osk/file',
+                image_url: '15/game-s.jpg',
+                isGameplayVariant: true,
+            },
+            {
                 name: 'banana',
                 url: 'https://www.mediafire.com/file/zeutacnwy4tt9ch/-_sbrstrkkdw_v15_%255Bbanana%255D.osk/file',
                 image_url: '15/game-banana.jpg',
