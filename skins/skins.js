@@ -2484,7 +2484,7 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
         date_end: 'present',
         description: 'non-gameplay still WIP',
         url: 'https://www.mediafire.com/folder/za6emwzaaawqo/15',
-        video_url: 'https://www.youtube.com/embed/v3tr9ilUfLQ',
+        video_url: 'https://www.youtube.com/embed/XCKW_Zg_qEI ',
         images: [
             // {
             //     name: 'Song select',
