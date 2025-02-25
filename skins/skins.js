@@ -2711,7 +2711,7 @@ const sbrstrk_rSkins = [
     {
         name: 'MonkoEdit',
         url: 'https://skins.osuck.net/index.php?newsid=2011',
-        image: 'https://files.osuck.link/images/skins/ab358180380acd6b11f7def15b844b20.webp',
+        image: 'https://skins.osuck.net/images/screenshots/ab358180380acd6b11f7def15b844b20.webp',
         modes: ['osu'],
         players: ['#']
     },
