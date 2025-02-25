@@ -238,7 +238,7 @@ function genList() {
                     skin.url;
             skPage.target = '_self';
             const previewImg = document.createElement('img');
-            previewImg.src = '../img/' + skin.images[0].image_url;
+            previewImg.src = '../img/' + skin.images[0].image_url.replace('.jpg', '_preview.jpg');
             previewImg.alt = skin.name + ': ' + skin.images[0].name;
             previewImg.width = width;
             previewImg.height = height;
