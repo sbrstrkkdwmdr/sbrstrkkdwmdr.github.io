@@ -20,7 +20,7 @@ function loadSkins(filter) {
     ctn.innerHTML = ''
     const main = document.createElement('div');
     main.classList.add('itemGrid');
-    let skins = dumpSkins;
+    let skins = allSkins;
     if (true) {
         skins.sort((a, b) => {
             if (a.name.toLowerCase() < b.name.toLowerCase()) {
