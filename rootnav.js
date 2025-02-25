@@ -161,6 +161,11 @@ const defpages = [
         url: 'skins/dump.html',
         icon: 'page.png',
     },
+        {
+        name: 'Skin search',
+        url: 'skins/search.html',
+        icon: 'page.png',
+    },
     // projects
     {
         name: 'Projects',
