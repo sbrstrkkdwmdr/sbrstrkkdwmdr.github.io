@@ -2484,7 +2484,7 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
         date_end: 'present',
         description: 'non-gameplay still WIP',
         url: 'https://www.mediafire.com/folder/za6emwzaaawqo/15',
-        video_url: 'https://www.youtube.com/embed/v3tr9ilUfLQ',
+        video_url: 'https://www.youtube.com/embed/XCKW_Zg_qEI ',
         images: [
             // {
             //     name: 'Song select',
@@ -2711,7 +2711,7 @@ const sbrstrk_rSkins = [
     {
         name: 'MonkoEdit',
         url: 'https://skins.osuck.net/index.php?newsid=2011',
-        image: 'https://files.osuck.link/images/skins/ab358180380acd6b11f7def15b844b20.webp',
+        image: 'https://skins.osuck.net/images/screenshots/ab358180380acd6b11f7def15b844b20.webp',
         modes: ['osu'],
         players: ['#']
     },
