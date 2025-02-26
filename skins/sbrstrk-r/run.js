@@ -74,7 +74,10 @@ function generate(name) {
                 a.target = '_blank';
                 a.className = 'dl';
                 const img = document.createElement('img');
-                img.src = '../img/sbrstrk-r/' + skin.image.replace('.jpg', '_preview.jpg');
+                img.src =
+                    skin.image.includes('https') ?
+                        skin.image :
+                        '../img/sbrstrk-r/' + skin.image.replace('.jpg', '_preview.jpg');
                 img.width = 400;
                 img.height = 225;
                 a.append(img);
