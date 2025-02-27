@@ -298,3 +298,28 @@ a {
 .highlightLink:active {
     color: var(--linkHighlight);
 }
+
+footer {
+    background-color: var(--bg-main);
+    border: 3px solid var(--border);
+    margin-top: 50px;
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    ul {
+        text-align: center;
+        li {
+            display: inline-block;
+            /* padding: 0 15px; */
+        }
+
+        li:not(:last-child):after {
+            content: "|";
+            font-weight: 800;
+            color: var(--unimportant-text);
+            display: inline-block;
+            margin: 0 15px;
+        }
+    }
+}

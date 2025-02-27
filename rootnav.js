@@ -161,7 +161,7 @@ const defpages = [
         url: 'skins/dump.html',
         icon: 'page.png',
     },
-        {
+    {
         name: 'Skin search',
         url: 'skins/search.html',
         icon: 'page.png',
@@ -320,7 +320,7 @@ function displaySide(show, list, sidebar, isStart) {
     let button = document.getElementById('sidebarButton');
     let big = sidebar.offsetWidth + 3;
     let r = document.querySelector(':root');
-    if(isStart){
+    if (isStart) {
         r.style.setProperty('--sidebarAnim', '0ms ease-in-out');
     } else {
         r.style.setProperty('--sidebarAnim', '500ms ease-in-out');
@@ -402,7 +402,7 @@ function genTitle(level, cur) {
     for (let i = 0; i < level; i++) {
         subs += '../';
     }
-    if (subs == ''){
+    if (subs == '') {
         subs = './'
     }
     let arr = [
@@ -443,4 +443,73 @@ function genTitle(level, cur) {
     // main.style.marginLeft =
     //     'calc(' +
     //     document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px + 30px)'
+}
+
+const footerItems = [
+    {
+        name: 'Licensed under the MIT license',
+        url: 'https://github.com/sbrstrkkdwmdr/sbrstrkkdwmdr.github.io/blob/4fac27d29c8b3c96ff00f05a7aac99952fd135fc/LICENSE'
+    },
+    {
+        name: 'Email',
+        url: 'mailto:sbrstrkkdwmdr@gmail.com',
+    },
+    {
+        name: 'Credits',
+        url: './CREDITS.md',
+    },
+]
+
+function footer(level) {
+    const main = document.querySelector('main');
+    let subs = '';
+    for (let i = 0; i < level; i++) {
+        subs += '../';
+    }
+    if (subs == '') {
+        subs = './'
+    }
+    const footer = document.createElement("footer");
+
+    // gen socials but text format + credits and main pages 
+    // +copyright
+    const ul = document.createElement('ul');
+    ul.id = "footerUl"
+    footerItems.forEach((item) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        if(item.url.startsWith("./")){
+            a.href = subs + item.url;
+        }
+        a.innerText = item.name
+        li.append(a);
+        ul.append(li);
+    })
+    footer.append(ul);
+    main.append(footer);
+
+    // ---
+    // https://stackoverflow.com/a/2146905
+    let hasVScroll = document.body.scrollHeight > document.body.clientHeight;
+
+    // Get the computed style of the body element
+    let cStyle = document.body.currentStyle || window.getComputedStyle(document.body, "");
+
+    // Check the overflow and overflowY properties for "auto" and "visible" values
+    hasVScroll = cStyle.overflow == "visible"
+        || cStyle.overflowY == "visible"
+        || (hasVScroll && cStyle.overflow == "auto")
+        || (hasVScroll && cStyle.overflowY == "auto");
+    // ---
+
+    if (hasVScroll || main.scrollHeight <= main.clientHeight) {
+        main.removeChild(footer)
+        let move = 0;
+        for (let i = 0; i < main.children.length; i++) {
+            move += main.children.item(i).clientHeight
+        }
+        main.append(footer);
+        footer.style.marginTop = (main.clientHeight - move - footer.clientHeight) + 'px';
+    }
 }
