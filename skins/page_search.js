@@ -5,7 +5,7 @@ function generate() {
     textin.addEventListener('input', e => {
         loadSkins(e.target.value ?? null);
     });
-    textin.id = 'skinSearch';
+    textin.className = 'genericSearch';
     textin.placeholder = "skin name"
     ctn.append(textin);
     loadSkins();

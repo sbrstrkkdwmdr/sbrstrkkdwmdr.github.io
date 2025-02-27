@@ -4,193 +4,237 @@ const defpages = [
         name: 'Home',
         url: 'index.html',
         icon: 'dir.png',
+        description: "Main page"
     },
     {
         name: 'Portfolio',
         url: 'portfolio.html',
         icon: 'page.png',
+        description: "List of projects"
     },
     {
         name: 'Other',
         url: 'other.html',
         icon: 'page.png',
+        description: "Specs, peripherals, etc."
+    },
+    {
+        name: 'Search',
+        url: 'search.html',
+        icon: 'page.png',
+        description: "Access all pages"
     },
     // skins
     {
         name: 'osu! Skins',
         url: 'skins',
         icon: 'dir.png',
+        description: "osu! skins page"
     },
     {
         name: 'Main skins',
         url: 'skins/main',
         icon: 'dir.png',
+        description: "Main skins page"
     },
     {
         name: 'Custom',
         url: 'skins/main/01.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Custom v2',
         url: 'skins/main/02.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type X',
         url: 'skins/main/03.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type Y',
         url: 'skins/main/04.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type Z',
         url: 'skins/main/05.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SaberStrike 0',
         url: 'skins/main/06.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SaberStrike 1',
         url: 'skins/main/07.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbr',
         url: 'skins/main/08.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'prjct. sbr',
         url: 'skins/main/09.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SBR UD',
         url: 'skins/main/10.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SBR v11',
         url: 'skins/main/11.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdwmdr v12',
         url: 'skins/main/12.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v13',
         url: 'skins/main/13.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v14',
         url: 'skins/main/14.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v15',
         url: 'skins/main/15.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrk-r skins',
         url: 'skins/sbrstrk-r',
         icon: 'dir.png',
+        description: "skins used on sbrstrk-r"
     },
     {
         name: 'BlueBudgie',
         url: 'skins/sbrstrk-r/bluebudgie.html',
         icon: 'page.png',
+        description: "BlueBudgie skin list"
     },
     {
         name: 'Bluegamingftw',
         url: 'skins/sbrstrk-r/bluegamingftw.html',
         icon: 'page.png',
+        description: "Bluegamingftw skin list"
     },
     {
         name: 'Byonick',
         url: 'skins/sbrstrk-r/byonick.html',
         icon: 'page.png',
+        description: "Byonick skin list"
     },
     {
         name: 'Duckyboi',
         url: 'skins/sbrstrk-r/duckyboi.html',
         icon: 'page.png',
+        description: "Duckyboi skin list"
     },
     {
         name: 'Hanoji',
         url: 'skins/sbrstrk-r/hanoji.html',
         icon: 'page.png',
+        description: "Hanoji skin list"
     },
     {
         name: 'ikugoi',
         url: 'skins/sbrstrk-r/ikugoi.html',
         icon: 'page.png',
+        description: "ikugoi skin list"
     },
     {
         name: 'OniisanBaka',
         url: 'skins/sbrstrk-r/oniisanbaka.html',
         icon: 'page.png',
+        description: "OniisanBaka skin list"
     },
     {
         name: 'radiite',
         url: 'skins/sbrstrk-r/radiite.html',
         icon: 'page.png',
+        description: "radiite skin list"
     },
     {
         name: 'Soragaton',
         url: 'skins/sbrstrk-r/soragaton.html',
         icon: 'page.png',
+        description: "Soragaton skin list"
     },
     {
         name: 'Other skins',
         url: 'skins/other.html',
         icon: 'page.png',
+        description: "Other skin list"
     },
     {
         name: 'Skin dump',
         url: 'skins/dump.html',
         icon: 'page.png',
+        description: "dump of every skin I've ever used"
     },
     {
         name: 'Skin search',
         url: 'skins/search.html',
         icon: 'page.png',
+        description: "Skin search page"
     },
     // projects
     {
         name: 'Projects',
         url: 'projects',
         icon: 'dir.png',
+        description: "Project documentation"
     },
     {
         name: 'Conversions',
         url: 'projects/conversions',
         icon: 'page.png',
+        description: "website for conversions"
     },
     {
         name: 'SSoB',
         url: 'projects/ssob_docs',
         icon: 'dir.png',
+        description: "SSoB documentation"
     },
     {
         name: 'Commands',
         url: 'projects/ssob_docs/commands.html',
         icon: 'page.png',
+        description: "SSoB command list"
     },
     {
         name: 'Types',
         url: 'projects/ssob_docs/types.html',
         icon: 'page.png',
+        description: "SSoB options"
     },
 ]
 

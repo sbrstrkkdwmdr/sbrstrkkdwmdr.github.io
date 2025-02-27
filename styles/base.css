@@ -299,16 +299,62 @@ a {
     color: var(--linkHighlight);
 }
 
+.genericSearch {
+    margin: auto;
+    margin-top: 15px;
+    width: 35%;
+    font-size: 24px;
+    background: none;
+    background-color: #00000055;
+    border: 3px solid var(--border);
+}
+
+#searchRes {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    margin: 15px auto;
+    padding: 0;
+}
+
+.searchItem {
+    width: 100%;
+    display: inline-block;
+    border: 3px solid var(--border);
+    margin: 5px;
+    padding: 5px;
+    min-width: 150px;
+    background-color: var(--unimportant-text);
+
+    a,
+    h3,
+    p {
+        width: 100%;
+    }
+
+    h3 {
+        color: var(--clrs-green)
+    }
+    .searchItemDescription {
+        color: var(--basic-text)
+    }
+    .searchItemLocation {
+        color: var(--clrs-magenta)
+    }
+}
+
 footer {
     background-color: var(--bg-main);
     border: 3px solid var(--border);
     margin-top: 50px;
-    
+
     a:hover {
         text-decoration: underline;
     }
+
     ul {
         text-align: center;
+
         li {
             display: inline-block;
             /* padding: 0 15px; */
