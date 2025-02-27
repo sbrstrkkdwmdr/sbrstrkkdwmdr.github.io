@@ -4,193 +4,237 @@ const defpages = [
         name: 'Home',
         url: 'index.html',
         icon: 'dir.png',
+        description: "Main page"
     },
     {
         name: 'Portfolio',
         url: 'portfolio.html',
         icon: 'page.png',
+        description: "List of projects"
     },
     {
         name: 'Other',
         url: 'other.html',
         icon: 'page.png',
+        description: "Specs, peripherals, etc."
+    },
+    {
+        name: 'Search',
+        url: 'search.html',
+        icon: 'page.png',
+        description: "Access all pages"
     },
     // skins
     {
         name: 'osu! Skins',
         url: 'skins',
         icon: 'dir.png',
+        description: "osu! skins page"
     },
     {
         name: 'Main skins',
         url: 'skins/main',
         icon: 'dir.png',
+        description: "Main skins page"
     },
     {
         name: 'Custom',
         url: 'skins/main/01.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Custom v2',
         url: 'skins/main/02.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type X',
         url: 'skins/main/03.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type Y',
         url: 'skins/main/04.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'Type Z',
         url: 'skins/main/05.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SaberStrike 0',
         url: 'skins/main/06.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SaberStrike 1',
         url: 'skins/main/07.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbr',
         url: 'skins/main/08.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'prjct. sbr',
         url: 'skins/main/09.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SBR UD',
         url: 'skins/main/10.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'SBR v11',
         url: 'skins/main/11.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdwmdr v12',
         url: 'skins/main/12.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v13',
         url: 'skins/main/13.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v14',
         url: 'skins/main/14.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrkkdw v15',
         url: 'skins/main/15.html',
         icon: 'page.png',
+        description: "skin preview"
     },
     {
         name: 'sbrstrk-r skins',
         url: 'skins/sbrstrk-r',
         icon: 'dir.png',
+        description: "skins used on sbrstrk-r"
     },
     {
         name: 'BlueBudgie',
         url: 'skins/sbrstrk-r/bluebudgie.html',
         icon: 'page.png',
+        description: "BlueBudgie skin list"
     },
     {
         name: 'Bluegamingftw',
         url: 'skins/sbrstrk-r/bluegamingftw.html',
         icon: 'page.png',
+        description: "Bluegamingftw skin list"
     },
     {
         name: 'Byonick',
         url: 'skins/sbrstrk-r/byonick.html',
         icon: 'page.png',
+        description: "Byonick skin list"
     },
     {
         name: 'Duckyboi',
         url: 'skins/sbrstrk-r/duckyboi.html',
         icon: 'page.png',
+        description: "Duckyboi skin list"
     },
     {
         name: 'Hanoji',
         url: 'skins/sbrstrk-r/hanoji.html',
         icon: 'page.png',
+        description: "Hanoji skin list"
     },
     {
         name: 'ikugoi',
         url: 'skins/sbrstrk-r/ikugoi.html',
         icon: 'page.png',
+        description: "ikugoi skin list"
     },
     {
         name: 'OniisanBaka',
         url: 'skins/sbrstrk-r/oniisanbaka.html',
         icon: 'page.png',
+        description: "OniisanBaka skin list"
     },
     {
         name: 'radiite',
         url: 'skins/sbrstrk-r/radiite.html',
         icon: 'page.png',
+        description: "radiite skin list"
     },
     {
         name: 'Soragaton',
         url: 'skins/sbrstrk-r/soragaton.html',
         icon: 'page.png',
+        description: "Soragaton skin list"
     },
     {
         name: 'Other skins',
         url: 'skins/other.html',
         icon: 'page.png',
+        description: "Other skin list"
     },
     {
         name: 'Skin dump',
         url: 'skins/dump.html',
         icon: 'page.png',
+        description: "dump of every skin I've ever used"
     },
-        {
+    {
         name: 'Skin search',
         url: 'skins/search.html',
         icon: 'page.png',
+        description: "Skin search page"
     },
     // projects
     {
         name: 'Projects',
         url: 'projects',
         icon: 'dir.png',
+        description: "Project documentation"
     },
     {
         name: 'Conversions',
         url: 'projects/conversions',
         icon: 'page.png',
+        description: "website for conversions"
     },
     {
         name: 'SSoB',
         url: 'projects/ssob_docs',
         icon: 'dir.png',
+        description: "SSoB documentation"
     },
     {
         name: 'Commands',
         url: 'projects/ssob_docs/commands.html',
         icon: 'page.png',
+        description: "SSoB command list"
     },
     {
         name: 'Types',
         url: 'projects/ssob_docs/types.html',
         icon: 'page.png',
+        description: "SSoB options"
     },
 ]
 
@@ -320,7 +364,7 @@ function displaySide(show, list, sidebar, isStart) {
     let button = document.getElementById('sidebarButton');
     let big = sidebar.offsetWidth + 3;
     let r = document.querySelector(':root');
-    if(isStart){
+    if (isStart) {
         r.style.setProperty('--sidebarAnim', '0ms ease-in-out');
     } else {
         r.style.setProperty('--sidebarAnim', '500ms ease-in-out');
@@ -402,7 +446,7 @@ function genTitle(level, cur) {
     for (let i = 0; i < level; i++) {
         subs += '../';
     }
-    if (subs == ''){
+    if (subs == '') {
         subs = './'
     }
     let arr = [
@@ -443,4 +487,73 @@ function genTitle(level, cur) {
     // main.style.marginLeft =
     //     'calc(' +
     //     document.getElementById('sidebar').offsetWidth + 'px - ' + document.getElementById('socialLinks').clientWidth + 'px + 30px)'
+}
+
+const footerItems = [
+    {
+        name: 'Licensed under the MIT license',
+        url: 'https://github.com/sbrstrkkdwmdr/sbrstrkkdwmdr.github.io/blob/4fac27d29c8b3c96ff00f05a7aac99952fd135fc/LICENSE'
+    },
+    {
+        name: 'Email',
+        url: 'mailto:sbrstrkkdwmdr@gmail.com',
+    },
+    {
+        name: 'Credits',
+        url: './CREDITS.md',
+    },
+]
+
+function footer(level) {
+    const main = document.querySelector('main');
+    let subs = '';
+    for (let i = 0; i < level; i++) {
+        subs += '../';
+    }
+    if (subs == '') {
+        subs = './'
+    }
+    const footer = document.createElement("footer");
+
+    // gen socials but text format + credits and main pages 
+    // +copyright
+    const ul = document.createElement('ul');
+    ul.id = "footerUl"
+    footerItems.forEach((item) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        if(item.url.startsWith("./")){
+            a.href = subs + item.url;
+        }
+        a.innerText = item.name
+        li.append(a);
+        ul.append(li);
+    })
+    footer.append(ul);
+    main.append(footer);
+
+    // ---
+    // https://stackoverflow.com/a/2146905
+    let hasVScroll = document.body.scrollHeight > document.body.clientHeight;
+
+    // Get the computed style of the body element
+    let cStyle = document.body.currentStyle || window.getComputedStyle(document.body, "");
+
+    // Check the overflow and overflowY properties for "auto" and "visible" values
+    hasVScroll = cStyle.overflow == "visible"
+        || cStyle.overflowY == "visible"
+        || (hasVScroll && cStyle.overflow == "auto")
+        || (hasVScroll && cStyle.overflowY == "auto");
+    // ---
+
+    if (hasVScroll || main.scrollHeight <= main.clientHeight) {
+        main.removeChild(footer)
+        let move = 0;
+        for (let i = 0; i < main.children.length; i++) {
+            move += main.children.item(i).clientHeight
+        }
+        main.append(footer);
+        footer.style.marginTop = (main.clientHeight - move - footer.clientHeight) + 'px';
+    }
 }

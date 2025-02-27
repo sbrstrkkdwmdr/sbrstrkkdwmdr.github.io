@@ -2821,6 +2821,12 @@ const otherSkins = [
         modes: ['osu', 'taiko', 'fruits', 'mania'],
     },
     {
+        name: 'SaberStrike DT',
+        url: 'https://drive.google.com/drive/folders/1XTcMEgv106P0gtdn0mYc3ceecak0TBiI?usp=drive_link',
+        image: 'ssdt.jpg',
+        modes: ['osu'],
+    },
+    {
         name: 'SaberStrike『0』 _-Levi-_ edit',
         url: 'https://drive.google.com/file/d/1Jomy1k00Q6VLqOQgq_ifgDy5MV_nMZje/view?usp=sharing',
         image: 'sbr-levi.jpg',

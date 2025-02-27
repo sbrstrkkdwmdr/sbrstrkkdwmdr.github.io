@@ -4,36 +4,37 @@
 <html lang="en">
 
 <head>
-    <title>Portfolio</title>
+    <title>Search page</title>
     <meta name="description" content="">
     <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Portfolio" />
-    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io" />
-    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/img/logo.png" />
+    <meta property="og:title" content="Search page" />
+    <meta property="og:description" content="The home page for sbrstrkkdwmdr" />
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/" />
+    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/image/sbrstrkkdwmdr.png" />
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
     <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/page_portfolio.css">
 </head>
 <script src="rootnav.js"></script>
-<script src="page_portfolio.js"></script>
+<script src="page_search.js"></script>
 
 <body>
     <nav class="external" id="topbar">
         <div id="hamburger"></div>
-        <div id="socialLinks"></div>
+        <div id="socialLinks">
+        </div>
         <div id="addressBar"></div>
     </nav>
+    
+        <nav class="external" id="sidebar">
+        </nav>
+        <main id="content">
 
-    <nav class="external" id="sidebar">
-    </nav>
-    <main id="content">
-    </main>
-
+        </main>
 </body>
 <script>
-    genPage(0, null, 'portfolio.html')
-    generatePortfolio()
+    genPage(0, null, 'search.html')
+    generate();
     footer(0);
 </script>
 

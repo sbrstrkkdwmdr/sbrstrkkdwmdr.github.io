@@ -296,13 +296,3 @@ color: var(--linkHighlight);
         vertical-align: top;
     }
 }
-
-#skinSearch {
-    margin: auto;
-    margin-top: 15px;
-    width: 35%;
-    font-size: 24px;
-    background: none;
-    background-color: #00000055;
-    border: 3px solid var(--border);
-}
