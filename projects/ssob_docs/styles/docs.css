@@ -107,3 +107,16 @@ header {
         color: white;
     }
 }
+
+@media only screen 
+  and (max-device-width: 560px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pageTitle {
+        font-size: 2rem;
+    }
+    section {
+        margin: 0;
+        padding: 5px;
+    }
+}

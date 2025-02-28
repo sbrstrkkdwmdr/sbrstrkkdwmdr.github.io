@@ -13,8 +13,6 @@ function generate() {
     }
     {
         const img = document.createElement('img');
-        img.width = 400;
-        img.height = 400;
         img.src = 'img/main.png'
         img.classList.add('mainObject')
         img.draggable = false;

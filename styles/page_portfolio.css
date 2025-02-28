@@ -104,3 +104,33 @@
 }
 
 /*  */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .portfolioItem {
+        width: 250px;
+        height: auto;
+    }
+    .portfolioName {
+        font-size: 20px;
+    }
+    .portfolioContent {
+        img {
+            height: 122px;
+            max-width: 250px;
+            max-height: 122px;
+            object-fit: cover;
+            /* clear: both; */
+        }
+    }
+    .tooltipContainer {
+        svg, img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
+    }
+}

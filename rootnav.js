@@ -533,6 +533,7 @@ function footer(level) {
     footer.append(ul);
     main.append(footer);
 
+    return;
     // ---
     // https://stackoverflow.com/a/2146905
     let hasVScroll = document.body.scrollHeight > document.body.clientHeight;

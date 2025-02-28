@@ -62,8 +62,7 @@ function showSkin(id) {
         p1.className = "itemName";
         p1.innerText = "Youtube Preview";
         const iframe1 = document.createElement('iframe');
-        iframe1.width = width;
-        iframe1.height = height;
+        iframe1.className = "itemPreviewImage"
         iframe1.src = skin.video_url;
         iframe1.title = "Skin video preview";
         // iframe1.frameBorder = "0";
@@ -86,8 +85,7 @@ function showSkin(id) {
         const img1 = document.createElement('img');
         img1.src = `../img/${image.image_url.replace('.jpg', '_preview.jpg')}`;
         img1.alt = "Skin screenshot - " + image.name;
-        img1.width = width;
-        img1.height = height;
+        img1.className = "itemPreviewImage"
         itemImage.append(p1, img1);
 
         img1.addEventListener('click', e => {
@@ -240,8 +238,7 @@ function genList() {
             const previewImg = document.createElement('img');
             previewImg.src = '../img/' + skin.images[0].image_url.replace('.jpg', '_preview.jpg');
             previewImg.alt = skin.name + ': ' + skin.images[0].name;
-            previewImg.width = width;
-            previewImg.height = height;
+            previewImg.className = "itemPreviewImage"
 
             skPage.append(previewImg)
             div.append(skPage)

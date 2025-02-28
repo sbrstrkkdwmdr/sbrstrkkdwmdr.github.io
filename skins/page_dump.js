@@ -56,8 +56,7 @@ function loadSkins(filter) {
         h2.innerText = skin.name;
         const img = document.createElement('img');
         img.src = skin.image.includes('http') ? skin.image : 'img/dump/' + skin.image;
-        img.width = '400';
-        img.height = '225';
+        img.className = "itemPreviewImage"
 
         const modeIcons = document.createElement('div');
         modeIcons.className = 'itemModes'

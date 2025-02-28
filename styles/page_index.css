@@ -34,6 +34,13 @@
     display: block;
     clear: both;
     margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#mainTitle {
+    width: 500px;
+    height: auto;
 }
 
 #content {
@@ -67,5 +74,19 @@
     }
     .indexSocialItem:hover {
         opacity: 100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .mainObject {
+        width: 200px;
+        height: 200px;
+    }
+    #mainTitle {
+        width: 250px;
     }
 }
