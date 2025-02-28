@@ -369,3 +369,35 @@ footer {
         }
     }
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pageTitle {
+        width: fit-content;
+        font-size: 4rem;
+        color: var(--clrs-yellow);
+        clear: both;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .pageTitleSubText {
+        width: fit-content;
+        font-size: 1.5rem;
+        color: var(--basic-text);
+        clear: both;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .pageSecondaryTitle {
+        width: fit-content;
+        font-size: 2.5rem;
+        color: var(--clrs-orange);
+        clear: both;
+        /* margin: auto; */
+    }
+}

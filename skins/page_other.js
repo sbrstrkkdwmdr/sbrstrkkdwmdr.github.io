@@ -13,8 +13,7 @@ function generate() {
         h2.innerText = skin.name;
         const img = document.createElement('img');
         img.src = 'img/other/' + skin.image.replace('.jpg', '_preview.jpg');
-        img.width = '400';
-        img.height = '225';
+        img.className = "itemPreviewImage"
         const modeIcons = document.createElement('div');
         modeIcons.className = 'itemModes'
         for (const mode of skin.modes) {

@@ -95,19 +95,20 @@ li {
     font-size: 1rem;
 }
 
-@media (min-resolution: 1.5dppx) {
-    .sectionHeading {
-        font-size: 5rem;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #centrePage {
+        min-width: min-content;
+        max-width: 360px;
     }
-    
-    h3 {
-        font-size: 3rem;
+    h3, li, a { 
+        overflow-wrap: anywhere;
+        max-width: 300px;
     }
-    
-    pre {
-        font-size: 3rem;
-    }
-    li {
-        font-size: 2rem;
+    img {
+        max-width: 250px;
     }
 }

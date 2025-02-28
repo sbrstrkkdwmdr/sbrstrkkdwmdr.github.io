@@ -78,8 +78,7 @@ function generate(name) {
                     skin.image.includes('https') ?
                         skin.image :
                         '../img/sbrstrk-r/' + skin.image.replace('.jpg', '_preview.jpg');
-                img.width = 400;
-                img.height = 225;
+                img.className = "itemPreviewImage"
                 a.append(img);
                 const modeIcons = document.createElement('div');
                 modeIcons.className = 'itemModes'

@@ -118,7 +118,7 @@ pre {
         border: 1px solid #d8d8d8;
         padding: 10px;
         width: 5%;
-        word-wrap: normal;
+        word-wrap: anywhere;
         border-radius: 2px;
         font-family: 'Consolas';
         font-weight: 500;
@@ -272,10 +272,34 @@ th {
     /* Ensure z-index works */
     padding: 5px;
     border-radius: 0.5em;
-    width: 15vw;
+    width: 225px;
     border: 0px;
 }
 
 label {
     font-size: 24px;
+}
+
+@media only screen and (max-device-width: 560px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #helpSummary {
+        padding: 5px;
+        /* grid-template-: 1fr; */
+        grid-template-areas: ". .";
+
+        li {
+            display: none;
+        }
+    }
+
+    #commandSelector {
+        display: none;
+    }
+
+    #commandDisplay {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-device-width: 560px) {
+
 }
