@@ -21,7 +21,7 @@ const used = {
         src: bsrc + "tauri.svg"
     },
     ts: {
-        name: 'Typescript',
+        name: 'TypeScript',
         src: bsrc + "typescript.svg"
     },
 }

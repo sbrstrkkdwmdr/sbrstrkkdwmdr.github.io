@@ -68,7 +68,7 @@
     width: 256px;
 }
 
-#skinName {
+/* #skinName {
     h1 {
         font-size: 48px;
         padding: 0;
@@ -85,7 +85,7 @@
         padding: 0;
         width: 100%;
     }
-}
+} */
 
 #skinNameLink,
 #skinNameLink:visited {
