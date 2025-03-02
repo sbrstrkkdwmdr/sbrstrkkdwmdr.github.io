@@ -1849,8 +1849,88 @@ hitsounds - <a class="highlightLink" href="https://www.reddit.com/r/OsuSkins/com
                         desc: `Oniichan wa oshimai LINE stickers <a class="highlightLink" href='https://store.line.me/stickershop/product/7498580/en?from=sticker'>link 1</a> | <a class="highlightLink" href='https://store.line.me/stickershop/product/11419726/en?from=sticker'>link 2</a>`,
                     },
                     {
-                        name: `mod icons`,
-                        desc: `<a class="highlightLink" href="https://thenounproject.com/">the noun project</a>`,
+                        name: `selection-mod-autoplay`,
+                        desc: `??? by ??? from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-cinema`,
+                        desc: `??? by ??? from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-doubletime`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/fast-forward-7603504/">fast forward by Wahyu Adam</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (Public Domain License)`,
+                    },
+                    {
+                        name: `selection-mod-easy`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-flashlight`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/dark-2916891/" target="_blank" title="dark Icons"> dark by WEBTECHOPS LLP</a> from Noun Project (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-halftime`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-hardrock`,
+                        desc: `shuckle`,
+                    },
+                    {
+                        name: `selection-mod-hidden`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/blind-5397437/">Blind by Good Father</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-keycoop`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/multiplayer-1215652/">Multiplayer by Roy Charles</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-mirror`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-nightcore`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/fast-forward-7603504/">fast forward by Wahyu Adam</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (Public Domain License)`,
+                    },
+                    {
+                        name: `selection-mod-nofail`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/hand-4290718/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-perfect`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">Hand by iconixar</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-random`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-relax`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-relax2 (autopilot)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-scorev2`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-spunout`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-suddendeath`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-target`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-touchdevice`,
+                        desc: `wingdings "F"`,
                     },
                     {
                         name: `mod icons (HR)`,
@@ -2352,7 +2432,7 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                 items: [
                     {
                         name: `arrow-warning`,
-                        desc: `Warning by Dewanata Visuals from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/warning/" target="_blank" title="Warning Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/warning-4718327/" target="_blank">Warning by Dewanata Visuals</a> from <a class="highlightLink" href="https://thenounproject.com" target="_blank">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `fail background`,
@@ -2360,15 +2440,15 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                     },
                     {
                         name: `pause-replay`,
-                        desc: `Camera by Miss Ok from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/camera/" target="_blank" title="Camera Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/camera-6634440/" target="_blank">Camera by Miss Ok</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `pause-retry`,
-                        desc: `redo by Sita Raisita from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/redo/" target="_blank" title="redo Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/redo-5582381/" target="_blank">redo by Sita Raisita</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `pause-back`,
-                        desc: `Exit by Syaeful Amri from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/exit/" target="_blank" title="Exit Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/exit-6616763/" target="_blank">Exit by Syaeful Amri</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
                         name: `scorebar`,
@@ -2380,15 +2460,91 @@ default-n - based off <a class='highlightLink' href="https://fontmeme.com/fonts/
                     },
                     {
                         name: `selection-mode options button`,
-                        desc: `edit by The Icon Z from <a class="highlightLink" href="https://thenounproject.com/browse/icons/term/edit/" target="_blank" title="edit Icons">Noun Project</a> (CC BY 3.0)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/edit-3325449/" target="_blank">edit by The Icon Z</a> from <a class="highlightLink" href="https://thenounproject.com" target="_blank" title="edit Icons">Noun Project</a> (CC BY 3.0)`,
                     },
                     {
-                        name: `mod icons`,
-                        desc: `<a class="highlightLink" href="https://thenounproject.com/">the noun project</a>`,
+                        name: `selection-mod-autoplay`,
+                        desc: `??? by ??? from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
                     },
                     {
-                        name: `mod icons (HR)`,
+                        name: `selection-mod-cinema`,
+                        desc: `??? by ??? from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-doubletime`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/fast-forward-7603504/">fast forward by Wahyu Adam</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (Public Domain License)`,
+                    },
+                    {
+                        name: `selection-mod-easy`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-flashlight`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/dark-2916891/" target="_blank" title="dark Icons"> dark by WEBTECHOPS LLP</a> from Noun Project (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-halftime`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-hardrock`,
                         desc: `shuckle`,
+                    },
+                    {
+                        name: `selection-mod-hidden`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/blind-5397437/">Blind by Good Father</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-keycoop`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/multiplayer-1215652/">Multiplayer by Roy Charles</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-mirror`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-nightcore`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/fast-forward-7603504/">fast forward by Wahyu Adam</a> from <a class="highlightLink" href="https://thenounproject.com">Noun Project</a> (Public Domain License)`,
+                    },
+                    {
+                        name: `selection-mod-nofail`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/icon/hand-4290718/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a> (CC BY 3.0)`,
+                    },
+                    {
+                        name: `selection-mod-perfect`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">Hand by iconixar</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-random`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-relax`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-relax2 (autopilot)`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-scorev2`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-spunout`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-suddendeath`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-target`,
+                        desc: `<a class="highlightLink" href="https://thenounproject.com/">??? by ???</a> from <a class="highlightLink" href="https://thenounproject.com/">Noun Project</a>`,
+                    },
+                    {
+                        name: `selection-mod-touchdevice`,
+                        desc: `wingdings "F"`,
                     },
                     {
                         name: `taiko pippidon`,

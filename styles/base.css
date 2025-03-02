@@ -372,9 +372,12 @@ footer {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #addressBar {
+        display: none;
+    }
     .pageTitle {
         width: fit-content;
         font-size: 4rem;
@@ -399,5 +402,8 @@ footer {
         color: var(--clrs-orange);
         clear: both;
         /* margin: auto; */
+    }
+    #content {
+        padding-left: 15px;
     }
 }

@@ -491,16 +491,16 @@ function genTitle(level, cur) {
 
 const footerItems = [
     {
-        name: 'Licensed under the MIT license',
-        url: 'https://github.com/sbrstrkkdwmdr/sbrstrkkdwmdr.github.io/blob/4fac27d29c8b3c96ff00f05a7aac99952fd135fc/LICENSE'
-    },
-    {
         name: 'Email',
         url: 'mailto:sbrstrkkdwmdr@gmail.com',
     },
     {
         name: 'Credits',
-        url: './CREDITS.md',
+        url: './CREDITS.html',
+    },
+    {
+        name: 'License',
+        url: 'https://github.com/sbrstrkkdwmdr/sbrstrkkdwmdr.github.io/blob/4fac27d29c8b3c96ff00f05a7aac99952fd135fc/LICENSE'
     },
 ]
 

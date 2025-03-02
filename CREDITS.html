@@ -4,20 +4,21 @@
 <html lang="en">
 
 <head>
-    <title>Error page</title>
+    <title>Home page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Error" />
-    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io" />
-    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/img/logo.png" />
+    <meta property="og:title" content="Home page" />
+    <meta property="og:description" content="The home page for sbrstrkkdwmdr" />
+    <meta property="og:url" content="https://sbrstrkkdwmdr.github.io/sbr-web/" />
+    <meta property="og:image" content="https://sbrstrkkdwmdr.github.io/image/sbrstrkkdwmdr.png" />
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
     <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/index-style.css">
+    <link rel="stylesheet" href="./styles/page_credits.css">
 </head>
 <script src="rootnav.js"></script>
-
+<script src="page_credits.js"></script>
 <body>
     <nav class="external" id="topbar">
         <div id="hamburger"></div>
@@ -25,17 +26,16 @@
         </div>
         <div id="addressBar"></div>
     </nav>
+    
+        <nav class="external" id="sidebar">
+        </nav>
+        <main id="content">
 
-    <nav class="external" id="sidebar">
-    </nav>
-    <main id="content">
-        <h1 style="font-family: monospace; font-size: 48px;">ERROR 404 - The Requested page was not found</h1>
-        <h2 style="font-family: monospace; font-size: 36px;">Use the buttons on the left to find the page you were
-            looking for</h2>
-    </main>
+        </main>
 </body>
 <script>
-    genPage(0, null, 'err.html')
+    genPage(0, null, 'credits.html')
+    generate();
     footer(0);
 </script>
 

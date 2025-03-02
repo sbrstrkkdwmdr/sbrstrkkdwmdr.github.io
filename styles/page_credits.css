@@ -1,0 +1,39 @@
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+table {
+    border-spacing: 25px 5px;
+}
+
+tr:nth-child(1) {
+    font-weight: 600;
+}
+
+#pagectn {
+    width: max-content;
+    margin: auto;
+    background-color: #00000055;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 3px solid var(--border);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    * {
+        overflow-wrap: anywhere;
+    }
+
+    #pagectn {
+        max-width: 360px;
+        width: fit-content;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    table {
+        border-spacing: 10px 5px;
+    }
+
+}
