@@ -173,7 +173,7 @@ function showSkin(id) {
     if (skin.sources) {
         const div = document.getElementById('sources');
         const header = document.createElement('h2');
-        header.innerText = 'Sources';
+        header.innerText = 'Sources / Credits';
         div.append(header);
         skin.sources.forEach(category => {
             const sourceCat = document.createElement('div');
