@@ -220,7 +220,7 @@ function markdownURLtoHTML(str) {
     const fin = str.split(')')[1]
     const namae = str.split('[')[1].split(']')[0]
     const url = str.split('(')[1].split(')')[0]
-    return `${int} <a class="highlightLink" href=${url}>${namae}</a> ${fin}`
+    return `${int} <a class="highlightLink" href=${encodeURI(url)}>${namae}</a> ${fin}`
 }
 
 /**
@@ -229,16 +229,13 @@ function markdownURLtoHTML(str) {
  * @returns 
  */
 function urlToHTML(str) {
-    //split 
-    const args = str.split(' ')
-    //get index of URL
-    let i = 0
-    for (null; i < args.length; i++) {
-        if (args[i].includes('http')) break;
-    }
-    const init = args.slice(0, i - 1).join(' ');
-    const fin = args.slice(i + 1, args.length).join(' ');
-    return `${init} <a class="highlightLink" href=${args[i]}>url</a> ${fin}`
+    return str.replace(/^### (.*$)/gim, '<h3>$1</h3>') // h3 tag
+        .replace(/^## (.*$)/gim, '<h2>$1</h2>') // h2 tag
+        .replace(/^# (.*$)/gim, '<h1>$1</h1>') // h1 tag
+        .replace(/\*\*(.*)\*\*/gim, '<b>$1</b>') // bold text
+        .replace(/\*(.*)\*/gim, '<i>$1</i>') // italic text
+        .replace(/\r\n|\r|\n/gim, '<br>') // linebreaks
+        .replace(/\[([^\[]+)\](\(([^)]*))\)/gim, '<a class="highlightLink" href="$3">$1</a>'); // anchor tags
 }
 
 generateCommands();

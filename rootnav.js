@@ -496,7 +496,7 @@ const footerItems = [
     },
     {
         name: 'Credits',
-        url: './CREDITS.md',
+        url: './CREDITS.html',
     },
     {
         name: 'License',

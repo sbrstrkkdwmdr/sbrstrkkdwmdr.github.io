@@ -1,0 +1,21 @@
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+table {
+    border-spacing: 25px 5px;
+}
+
+tr:nth-child(1) {
+    font-weight: 600;
+}
+
+#pagectn {
+    width: max-content;
+    margin: auto;
+    background-color: #00000055;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid var(--border);
+}
