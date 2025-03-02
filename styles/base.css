@@ -289,6 +289,30 @@ a {
     /* margin: auto; */
 }
 
+.pageTertiaryTitle {
+    color: var(--clrs-cyan);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
+.pageTertiaryTitleGreen {
+    color: var(--clrs-green);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
+.pageTertiaryTitleYellow {
+    color: var(--clrs-yellow);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
 .highlightLink:link,
 .highlightLink:visited {
     color: var(--linkDefault);
@@ -335,9 +359,11 @@ a {
     h3 {
         color: var(--clrs-green)
     }
+
     .searchItemDescription {
         color: var(--basic-text)
     }
+
     .searchItemLocation {
         color: var(--clrs-magenta)
     }
@@ -370,14 +396,11 @@ footer {
     }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #addressBar {
         display: none;
     }
+
     .pageTitle {
         width: fit-content;
         font-size: 4rem;
@@ -386,23 +409,22 @@ footer {
         margin: auto;
         text-align: center;
     }
-    
+
     .pageTitleSubText {
         width: fit-content;
         font-size: 1.5rem;
-        color: var(--basic-text);
         clear: both;
         margin: auto;
         text-align: center;
     }
-    
+
     .pageSecondaryTitle {
         width: fit-content;
         font-size: 2.5rem;
-        color: var(--clrs-orange);
         clear: both;
         /* margin: auto; */
     }
+
     #content {
         padding-left: 15px;
     }
