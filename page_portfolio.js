@@ -14,7 +14,7 @@ const used = {
     },
     rs: {
         name: 'Rust',
-        src: bsrc + "rust.svg"
+        src: bsrc + "rust_dark.svg"
     },
     tauri: {
         name: 'Tauri',
