@@ -26,15 +26,15 @@ function generate() {
             item.className = 'indexSocialItem';
             item.href = social.url;
             const img = document.createElement('img');
-            img.src = './img/social/' + social.icon;
+            img.src = './img/social/' + social.icon.replace('.png', `_${lightdark}.png`);
             item.append(img)
             socialSection.append(item);
-            item.addEventListener('mouseover', e => {
-                img.src = './img/social/white/' + social.icon;
-            });
-            item.addEventListener('mouseout', e => {
-                img.src = './img/social/' + social.icon;
-            });
+            // item.addEventListener('mouseover', e => {
+            //     img.src = './img/social/white/' + social.icon;
+            // });
+            // item.addEventListener('mouseout', e => {
+            //     img.src = './img/social/' + social.icon.replace('.png', `_${lightdark}.png`);
+            // });
             item.draggable = false;
             img.draggable = false;
         })

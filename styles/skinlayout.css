@@ -166,7 +166,7 @@ iframe {
 
 .itemDescription {
     font-size: 24px;
-    color: rgb(200, 200, 200);
+    color: var(--unimportant-text);
     margin: 5px;
 }
 
