@@ -1,12 +1,5 @@
 /* based off material theme ocean high contrast */
 :root {
-    --clrs-blue: #82aaff;
-    --clrs-cyan: #89ddff;
-    --clrs-green: #c3e88d;
-    --clrs-magenta: #c792ea;
-    --clrs-red: #f07178;
-    --clrs-orange: #F78C6C;
-    --clrs-yellow: #ffcb6b;
     --sidebarAnim: 500ms ease-in-out;
     --gradient1: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
     --gradient2: linear-gradient(#8FC5FC, #DDB3D9, #FE97AB, #FEB1A3, #FCCA9F);
@@ -23,15 +16,29 @@
     --dark-unimportant-text: #505a5e;
     --dark-highlight: #1E212D;
     --dark-highlightAlt: #313649;
+    --dark-clrs-blue: #82aaff;
+    --dark-clrs-cyan: #89ddff;
+    --dark-clrs-green: #c3e88d;
+    --dark-clrs-magenta: #c792ea;
+    --dark-clrs-red: #f07178;
+    --dark-clrs-orange: #F78C6C;
+    --dark-clrs-yellow: #ffcb6b;
 
     --light-bg-main: #E5E7F0;
     --light-bg-title: #E5E7F0;
     --light-bg-aside: #EFF1F6;
     --light-border: #D2D5E1;
     --light-basic-text: #29434D;
-    --light-unimportant-text: #A1ABAF;
+    --light-unimportant-text: #858d90;
     --light-highlight: #D2D5E1;
     --light-highlightAlt: #B6BBCE;
+    --light-clrs-blue: #0051ff;
+    --light-clrs-cyan: #00b7ff;
+    --light-clrs-green: #2cb306;
+    --light-clrs-magenta: #b446fd;
+    --light-clrs-red: #ff000d;
+    --light-clrs-orange: #ff4911;
+    --light-clrs-yellow: #eab807;
 
     --bg-main: var(--dark-bg-main);
     --bg-title: var(--dark-bg-title);
@@ -41,6 +48,14 @@
     --unimportant-text: var(--dark-unimportant-text);
     --highlight: var(--dark-highlight);
     --highlightAlt: var(--dark-highlightAlt);
+
+    --clrs-blue: var(--dark-clrs-blue);
+    --clrs-cyan: var(--dark-clrs-cyan);
+    --clrs-green: var(--dark-clrs-green);
+    --clrs-magenta: var(--dark-clrs-magenta);
+    --clrs-red: var(--dark-clrs-red);
+    --clrs-orange: var(--dark-clrs-orange);
+    --clrs-yellow: var(--dark-clrs-yellow);
 
     /* --bg-main: var(--light-main);
     --bg-title: var(--light-title);
@@ -253,7 +268,7 @@ a {
 .sidebarItem:hover {
     background-color: var(--highlight);
 
-    span {
+        span {
         color: var(--clrs-cyan);
     }
 }

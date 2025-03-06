@@ -591,7 +591,7 @@ function footer(level) {
  * @param {'light'|'dark'} changeTo 
  * @param {HTMLImageElement[]} images 
  */
-function setLightDarkMode(changeTo, images){
+function setLightDarkMode(changeTo, images) {
     const root_theme = document.querySelector(':root');
 
     root_theme.style.setProperty('--bg-main', `var(--${changeTo}-bg-main)`);
@@ -603,14 +603,30 @@ function setLightDarkMode(changeTo, images){
     root_theme.style.setProperty('--highlight', `var(--${changeTo}-highlight)`);
     root_theme.style.setProperty('--highlightAlt', `var(--${changeTo}-highlightAlt)`);
 
-    for(const img of images){
-        if(img.src.includes('_dark.png')){
+    root_theme.style.setProperty('--clrs-blue', `var(--${changeTo}-clrs-blue)`);
+    root_theme.style.setProperty('--clrs-cyan', `var(--${changeTo}-clrs-cyan)`);
+    root_theme.style.setProperty('--clrs-green', `var(--${changeTo}-clrs-green)`);
+    root_theme.style.setProperty('--clrs-magenta', `var(--${changeTo}-clrs-magenta)`);
+    root_theme.style.setProperty('--clrs-red', `var(--${changeTo}-clrs-red)`);
+    root_theme.style.setProperty('--clrs-orange', `var(--${changeTo}-clrs-orange)`);
+    root_theme.style.setProperty('--clrs-yellow', `var(--${changeTo}-clrs-yellow)`);
+
+    for (const img of images) {
+        if (img.src.includes('_dark.png')) {
             console.log(img.src)
             img.src = img.src.replace('_dark.png', `_${changeTo}.png`)
         }
-        if(img.src.includes('_light.png')){
+        if (img.src.includes('_light.png')) {
             console.log(img.src)
             img.src = img.src.replace('_light.png', `_${changeTo}.png`)
+        }
+        if (img.src.includes('_dark.svg')) {
+            console.log(img.src)
+            img.src = img.src.replace('_dark.svg', `_${changeTo}.svg`)
+        }
+        if (img.src.includes('_light.svg')) {
+            console.log(img.src)
+            img.src = img.src.replace('_light.svg', `_${changeTo}.svg`)
         }
     }
 }
