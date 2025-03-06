@@ -392,8 +392,9 @@ function displaySide(show, list, sidebar, isStart) {
     let r = document.querySelector(':root');
     if (isStart) {
         r.style.setProperty('--sidebarAnim', '0ms ease-in-out');
-    } else {
-        r.style.setProperty('--sidebarAnim', '500ms ease-in-out');
+        setTimeout(() => {
+            r.style.setProperty('--sidebarAnim', '500ms ease-in-out');
+        }, 600);
     }
     if (show) {
         sidebar.style.transform = `translateX(0)`
