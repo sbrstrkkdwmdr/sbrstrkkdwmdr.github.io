@@ -22,7 +22,8 @@ const items = [
     {
         category: 'Top nav icons',
         sources: [
-            '[Hamburger icons created by Lizel Arina - Flaticon](https://www.flaticon.com/free-icon/hamburger_7710488?term=hamburger&page=1&position=2&origin=search&related_id=7710488)',
+            '[Hamburger icons created by Lizel Arina - Flaticon](https://www.flaticon.com/free-icon/hamburger_7710488)',
+            '[Light dark icons created by Any Icon - Flaticon](https://www.flaticon.com/free-icon/light-mode_17648604)',
             '[github logo](https://github.com/logos)',
             '[youtube logo](https://www.youtube.com/intl/ALL_au/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors)',
             '[osu! logo](https://osu.ppy.sh/wiki/en/Brand_identity_guidelines)',

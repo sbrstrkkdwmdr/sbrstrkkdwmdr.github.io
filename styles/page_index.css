@@ -1,25 +1,3 @@
-:root {
-    --bg-main: #0F111A;
-    --bg-aside: #090B10;
-    --border: #1E212D;
-    --clrs-blue: #82aaff;
-    --clrs-cyan: #89ddff;
-    --clrs-green: #c3e88d;
-    --clrs-magenta: #c792ea;
-    --clrs-red: #f07178;
-    --clrs-orange: #F78C6C;
-    --clrs-yellow: #ffcb6b;
-    --basic-text: #B2CCD6;
-    --unimportant-text: #505a5e;
-    --none: #00000000;
-    --highlight: #1E212D;
-    --highlightAlt: #313649;
-    --sidebarAnim: 500ms ease-in-out;
-    --gradient: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
-    --linkHighlight: #fc6450;
-    --linkDefault: var(--clrs-magenta);
-}
-
 #mainTitle {
     /* background: linear-gradient(to right, #FF6A00 1%, #FF00DC 99%); */
     /* -webkit-text-fill-color: transparent; */
