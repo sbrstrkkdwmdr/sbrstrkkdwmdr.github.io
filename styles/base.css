@@ -1,8 +1,5 @@
 /* based off material theme ocean high contrast */
 :root {
-    --bg-main: #0F111A;
-    --bg-aside: #090B10;
-    --border: #1E212D;
     --clrs-blue: #82aaff;
     --clrs-cyan: #89ddff;
     --clrs-green: #c3e88d;
@@ -10,15 +7,49 @@
     --clrs-red: #f07178;
     --clrs-orange: #F78C6C;
     --clrs-yellow: #ffcb6b;
-    --basic-text: #B2CCD6;
-    --unimportant-text: #505a5e;
-    --none: #00000000;
-    --highlight: #1E212D;
-    --highlightAlt: #313649;
     --sidebarAnim: 500ms ease-in-out;
-    --gradient: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
+    --gradient1: linear-gradient(rgb(65, 88, 132), rgb(113, 108, 121));
+    --gradient2: linear-gradient(#8FC5FC, #DDB3D9, #FE97AB, #FEB1A3, #FCCA9F);
+    --gradient: var(--border);
     --linkHighlight: #fc6450;
     --linkDefault: var(--clrs-magenta);
+    --none: #00000000;
+
+    --dark-bg-main: #0F111A;
+    --dark-bg-title: #0F111A;
+    --dark-bg-aside: #090B10;
+    --dark-border: #1E212D;
+    --dark-basic-text: #B2CCD6;
+    --dark-unimportant-text: #505a5e;
+    --dark-highlight: #1E212D;
+    --dark-highlightAlt: #313649;
+
+    --light-bg-main: #E5E7F0;
+    --light-bg-title: #E5E7F0;
+    --light-bg-aside: #EFF1F6;
+    --light-border: #D2D5E1;
+    --light-basic-text: #29434D;
+    --light-unimportant-text: #A1ABAF;
+    --light-highlight: #D2D5E1;
+    --light-highlightAlt: #B6BBCE;
+
+    --bg-main: var(--dark-bg-main);
+    --bg-title: var(--dark-bg-title);
+    --bg-aside: var(--dark-bg-aside);
+    --border: var(--dark-border);
+    --basic-text: var(--dark-basic-text);
+    --unimportant-text: var(--dark-unimportant-text);
+    --highlight: var(--dark-highlight);
+    --highlightAlt: var(--dark-highlightAlt);
+
+    /* --bg-main: var(--light-main);
+    --bg-title: var(--light-title);
+    --bg-aside: var(--light-aside);
+    --border: var(--light-border);
+    --basic-text: var(--light-basic-text);
+    --unimportant-text: var(--light-unimportant-text);
+    --highlight: var(--light-highlight);
+    --highlightAlt: var(--light-highlightAlt); */
 }
 
 * {
@@ -29,6 +60,7 @@
     /* scrollbar-width: thin; */
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
+    transition: var(--sidebarAnim);
 }
 
 body {
@@ -72,7 +104,7 @@ a {
     height: 100%;
     /* min-width: 15%; */
     border-right: 3px solid var(--none);
-    padding: 15px;
+    padding: 10px;
     /* background-color: #82aaff; */
     display: inline-block;
     /* transition: 250ms; */
@@ -289,6 +321,30 @@ a {
     /* margin: auto; */
 }
 
+.pageTertiaryTitle {
+    color: var(--clrs-cyan);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
+.pageTertiaryTitleGreen {
+    color: var(--clrs-green);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
+.pageTertiaryTitleYellow {
+    color: var(--clrs-yellow);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    /* padding-top: 15px */
+}
+
 .highlightLink:link,
 .highlightLink:visited {
     color: var(--linkDefault);
@@ -335,9 +391,11 @@ a {
     h3 {
         color: var(--clrs-green)
     }
+
     .searchItemDescription {
         color: var(--basic-text)
     }
+
     .searchItemLocation {
         color: var(--clrs-magenta)
     }
@@ -370,14 +428,11 @@ footer {
     }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #addressBar {
         display: none;
     }
+
     .pageTitle {
         width: fit-content;
         font-size: 4rem;
@@ -386,23 +441,22 @@ footer {
         margin: auto;
         text-align: center;
     }
-    
+
     .pageTitleSubText {
         width: fit-content;
         font-size: 1.5rem;
-        color: var(--basic-text);
         clear: both;
         margin: auto;
         text-align: center;
     }
-    
+
     .pageSecondaryTitle {
         width: fit-content;
         font-size: 2.5rem;
-        color: var(--clrs-orange);
         clear: both;
         /* margin: auto; */
     }
+
     #content {
         padding-left: 15px;
     }

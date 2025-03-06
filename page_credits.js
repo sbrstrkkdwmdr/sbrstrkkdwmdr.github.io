@@ -15,14 +15,15 @@ const items = [
         category: 'Logo',
         sources: [
             'English text - [Octapost NBP](https://online-fonts.com/fonts/octapost-nbp) by Nate Halley [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)',
-            'Japanese text - [KeiFont](https://www.freejapanesefont.com/kei-font-download/) | [JP](https://font.sumomo.ne.jp/font_1.html)',
+            'Japanese text - [KeiFont](https://www.freejapanesefont.com/kei-font-download/) | [sumomo (JP)](https://font.sumomo.ne.jp/font_1.html)',
             'Image - drawn by a friend',
         ],
     },
     {
         category: 'Top nav icons',
         sources: [
-            '[Hamburger icons created by Lizel Arina - Flaticon](https://www.flaticon.com/free-icon/hamburger_7710488?term=hamburger&page=1&position=2&origin=search&related_id=7710488)',
+            '[Hamburger icons created by Lizel Arina - Flaticon](https://www.flaticon.com/free-icon/hamburger_7710488)',
+            '[Light dark icons created by Any Icon - Flaticon](https://www.flaticon.com/free-icon/light-mode_17648604)',
             '[github logo](https://github.com/logos)',
             '[youtube logo](https://www.youtube.com/intl/ALL_au/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors)',
             '[osu! logo](https://osu.ppy.sh/wiki/en/Brand_identity_guidelines)',
@@ -61,7 +62,7 @@ const itemsTables = [
             },
             {
                 icon: 'TypeScript',
-                source: '[Typescript](https://www.typescriptlang.org/branding/)',
+                source: '[TypeScriptlang](https://www.typescriptlang.org/branding/)',
                 license: '[Apache 2.0](https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt)',
                 changes: '---',
             },
@@ -115,6 +116,7 @@ function generate() {
     items.forEach(item => {
         const div = document.createElement('div');
         const h3 = document.createElement('h3');
+        h3.className = 'pageTertiaryTitleGreen'
         h3.innerText = item.category
         const ul = document.createElement('ul');
 
@@ -130,6 +132,7 @@ function generate() {
         const div = document.createElement('div');
         const h3 = document.createElement('h3');
         h3.innerText = item.category
+        h3.className = 'pageTertiaryTitleGreen'
         const table = document.createElement('table');
 
         table.insertRow()
@@ -137,6 +140,7 @@ function generate() {
         for (const name in item.data[0]) {
             table.rows[0].insertCell();
             table.rows[0].cells[ti].innerText = name.toUpperCase()
+            table.rows[0].cells[ti].style.color = "var(--clrs-cyan)"
             ti++
         }
         let tj = 1;
