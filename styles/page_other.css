@@ -9,7 +9,7 @@
     display: inline-block;
     column-gap: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #15171B88;
+    /* background-color: #15171B88; */
     text-align: left;
 }
 

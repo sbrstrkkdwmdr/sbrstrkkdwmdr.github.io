@@ -376,7 +376,7 @@ a {
     width: 35%;
     font-size: 24px;
     background: none;
-    background-color: #00000055;
+    background-color: var(--bg-aside);
     border: 3px solid var(--border);
 }
 
@@ -395,7 +395,7 @@ a {
     margin: 5px;
     padding: 5px;
     min-width: 150px;
-    background-color: var(--unimportant-text);
+    background-color: var(--bg-aside);
 
     a,
     h3,
