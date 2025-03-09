@@ -366,12 +366,12 @@ function genSideButton(level) {
             const allImages = document.getElementsByTagName('img')
             if (lightdark == 'light') {
                 lightdark = 'dark';
-                setLightDarkMode('dark', allImages)
+                setLightDarkMode(allImages)
             } else {
                 lightdark = 'light';
-                setLightDarkMode('light', allImages)
+                setLightDarkMode(allImages)
             }
-
+            cookieLightDark()
         });
         section.append(item);
     }
@@ -588,45 +588,74 @@ function footer(level) {
 
 /**
  * 
- * @param {'light'|'dark'} changeTo 
  * @param {HTMLImageElement[]} images 
  */
-function setLightDarkMode(changeTo, images) {
+function setLightDarkMode(images) {
     const root_theme = document.querySelector(':root');
 
-    root_theme.style.setProperty('--bg-main', `var(--${changeTo}-bg-main)`);
-    root_theme.style.setProperty('--bg-title', `var(--${changeTo}-bg-title)`);
-    root_theme.style.setProperty('--bg-aside', `var(--${changeTo}-bg-aside)`);
-    root_theme.style.setProperty('--border', `var(--${changeTo}-border)`);
-    root_theme.style.setProperty('--basic-text', `var(--${changeTo}-basic-text)`);
-    root_theme.style.setProperty('--unimportant-text', `var(--${changeTo}-unimportant-text)`);
-    root_theme.style.setProperty('--highlight', `var(--${changeTo}-highlight)`);
-    root_theme.style.setProperty('--highlightAlt', `var(--${changeTo}-highlightAlt)`);
+    root_theme.style.setProperty('--bg-main', `var(--${lightdark}-bg-main)`);
+    root_theme.style.setProperty('--bg-title', `var(--${lightdark}-bg-title)`);
+    root_theme.style.setProperty('--bg-aside', `var(--${lightdark}-bg-aside)`);
+    root_theme.style.setProperty('--border', `var(--${lightdark}-border)`);
+    root_theme.style.setProperty('--basic-text', `var(--${lightdark}-basic-text)`);
+    root_theme.style.setProperty('--unimportant-text', `var(--${lightdark}-unimportant-text)`);
+    root_theme.style.setProperty('--highlight', `var(--${lightdark}-highlight)`);
+    root_theme.style.setProperty('--highlightAlt', `var(--${lightdark}-highlightAlt)`);
 
-    root_theme.style.setProperty('--clrs-blue', `var(--${changeTo}-clrs-blue)`);
-    root_theme.style.setProperty('--clrs-cyan', `var(--${changeTo}-clrs-cyan)`);
-    root_theme.style.setProperty('--clrs-green', `var(--${changeTo}-clrs-green)`);
-    root_theme.style.setProperty('--clrs-magenta', `var(--${changeTo}-clrs-magenta)`);
-    root_theme.style.setProperty('--clrs-red', `var(--${changeTo}-clrs-red)`);
-    root_theme.style.setProperty('--clrs-orange', `var(--${changeTo}-clrs-orange)`);
-    root_theme.style.setProperty('--clrs-yellow', `var(--${changeTo}-clrs-yellow)`);
+    root_theme.style.setProperty('--clrs-blue', `var(--${lightdark}-clrs-blue)`);
+    root_theme.style.setProperty('--clrs-cyan', `var(--${lightdark}-clrs-cyan)`);
+    root_theme.style.setProperty('--clrs-green', `var(--${lightdark}-clrs-green)`);
+    root_theme.style.setProperty('--clrs-magenta', `var(--${lightdark}-clrs-magenta)`);
+    root_theme.style.setProperty('--clrs-red', `var(--${lightdark}-clrs-red)`);
+    root_theme.style.setProperty('--clrs-orange', `var(--${lightdark}-clrs-orange)`);
+    root_theme.style.setProperty('--clrs-yellow', `var(--${lightdark}-clrs-yellow)`);
 
     for (const img of images) {
         if (img.src.includes('_dark.png')) {
             console.log(img.src)
-            img.src = img.src.replace('_dark.png', `_${changeTo}.png`)
+            img.src = img.src.replace('_dark.png', `_${lightdark}.png`)
         }
         if (img.src.includes('_light.png')) {
             console.log(img.src)
-            img.src = img.src.replace('_light.png', `_${changeTo}.png`)
+            img.src = img.src.replace('_light.png', `_${lightdark}.png`)
         }
         if (img.src.includes('_dark.svg')) {
             console.log(img.src)
-            img.src = img.src.replace('_dark.svg', `_${changeTo}.svg`)
+            img.src = img.src.replace('_dark.svg', `_${lightdark}.svg`)
         }
         if (img.src.includes('_light.svg')) {
             console.log(img.src)
-            img.src = img.src.replace('_light.svg', `_${changeTo}.svg`)
+            img.src = img.src.replace('_light.svg', `_${lightdark}.svg`)
         }
     }
+}
+
+function cookieLightDark() {
+    document.cookie = "lightdark=" + lightdark
+    console.log(document.cookie)
+}
+
+function getCookie(name) {
+    let cookieArr = document.cookie.split(';')
+    for (let i = 0; i < cookieArr.length; i++) {
+        let cur = cookieArr[i].trim();
+        if (cur.startsWith(name)) {
+            return cur.split("=")[1];
+        }
+    }
+    return '';
+}
+
+{
+    let ldcookie = getCookie('lightdark');
+    if (['light', 'dark'].includes(ldcookie)) {
+        lightdark = ldcookie;
+    }
+    console.log(ldcookie)
+    console.log(lightdark)
+
+    setTimeout(() => {
+        const allImages = document.getElementsByTagName('img')
+        setLightDarkMode(allImages);
+    }, 0);
 }
