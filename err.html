@@ -5,7 +5,7 @@
 
 <head>
     <title>Error page</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="saberstrike, sbrstrkkdwmdr, saber, strike, sbr">
     <meta property="og:type" content="website">
@@ -15,8 +15,11 @@
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/index-style.css">
+    <link rel="stylesheet" href="./styles/skinlayout.css">
 </head>
 <script src="rootnav.js"></script>
+<script src="./skins/skins.js"></script>
+<script src="./skins/main/skin.js"></script>
 
 <body>
     <nav class="external" id="topbar">
@@ -32,6 +35,32 @@
         <h1 style="font-family: monospace; font-size: 48px;">ERROR 404 - The Requested page was not found</h1>
         <h2 style="font-family: monospace; font-size: 36px;">Use the buttons on the left to find the page you were
             looking for</h2>
+        <div class="itemGrid">
+            <a href="./">
+                <section class="item">
+                    <h2 class="itemName">Home page</h2>
+                    <img src="./img/logo.png" alt="home page" class="itemPreviewImage" style="image-rendering: pixelated; width:auto">
+                </section>
+            </a>
+            <a href="./skins/main">
+                <section class="item">
+                    <h2 class="itemName">osu! skins</h2>
+                    <img src="./skins/img/main_preview.jpg" alt="main skins" class="itemPreviewImage">
+                </section>
+            </a>
+            <a href="./portfolio.html">
+                <section class="item">
+                    <h2 class="itemName">Portfolio</h2>
+                    <img src="./img/icons/page.png" alt="portfolio page" class="itemPreviewImage" style="image-rendering: pixelated; width:auto">
+                </section>
+            </a>
+            <a href="./search.html">
+                <section class="item">
+                    <h2 class="itemName">Search page</h2>
+                    <img src="./img/icons/search_dark.png" alt="search page" class="itemPreviewImage" style="image-rendering: pixelated; width:auto">
+                </section>
+            </a>
+        </div>
     </main>
 </body>
 <script>
