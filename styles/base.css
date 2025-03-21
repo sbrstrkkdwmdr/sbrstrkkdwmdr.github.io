@@ -451,6 +451,83 @@ footer {
     }
 }
 
+.itemGrid {
+    /* margin: 0 10vw; */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /* margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+    grid-auto-columns: auto;
+    gap: 50px;
+    justify-content: center; */
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--bg-aside);
+    border: 3px solid var(--border);
+    width: 420px;
+}
+
+.itemHomeGrid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+}
+
+.itemProfileGrid {
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+}
+
+.itemHomeHeight {
+    height: 200px;
+}
+
+.itemHomeWidth {
+    width: 400px;
+}
+
+.itemProfile {
+    width: 256px;
+}
+.itemName {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--clrs-yellow);
+    background-color: var(--bg-title);
+    margin-right: 2vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Consolas', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.itemLongName {
+    font-size: 30px;
+}
+
+.itemAsLink {}
+
+/* doesnt work :( */
+.itemAsLink:hover {
+    color: var(--linkHighlight);
+}
+
+/* also includes yt preview */
+.itemPreviewImage {
+    width: 400px;
+    height: 225px;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #addressBar {
         display: none;
@@ -482,5 +559,16 @@ footer {
 
     #content {
         padding-left: 15px;
+    }
+    .item {
+        width: 275px;
+        height: auto;
+    }
+    .itemPreviewImage {
+        width: 275px;
+        height: auto;
+    }
+    .itemName {
+        overflow-wrap: anywhere;
     }
 }
