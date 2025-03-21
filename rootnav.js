@@ -2,12 +2,14 @@ let lightdark = 'dark';
 
 const defpages = [
     {
+        img: './img/logo.png',
         name: 'Home',
         url: 'index.html',
         icon: 'dir.png',
         description: "Main page"
     },
     {
+        img: './img/icons/page.png',
         name: 'Portfolio',
         url: 'portfolio.html',
         icon: 'page.png',
@@ -20,6 +22,7 @@ const defpages = [
         description: "Specs, peripherals, etc."
     },
     {
+        img: './img/icons/search_dark.png',
         name: 'Search',
         url: 'search.html',
         icon: 'page.png',
@@ -27,180 +30,210 @@ const defpages = [
     },
     // skins
     {
+        img: './skins/img/main_preview.jpg',
         name: 'osu! Skins',
         url: 'skins',
         icon: 'dir.png',
         description: "osu! skins page"
     },
     {
+        img: './skins/img/main_preview.jpg',
         name: 'Main skins',
         url: 'skins/main',
         icon: 'dir.png',
         description: "Main skins page"
     },
     {
+        img: './skins/img/01/screenshot599_preview.jpg',
         name: 'Custom',
         url: 'skins/main/01.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/02/screenshot602_preview.jpg',
         name: 'Custom v2',
         url: 'skins/main/02.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/03/screenshot605_preview.jpg',
         name: 'Type X',
         url: 'skins/main/03.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/04/screenshot608_preview.jpg',
         name: 'Type Y',
         url: 'skins/main/04.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/05/screenshot611_preview.jpg',
         name: 'Type Z',
         url: 'skins/main/05.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/06/songselect_preview.jpg',
         name: 'SaberStrike 0',
         url: 'skins/main/06.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/07/songsel_preview.jpg',
         name: 'SaberStrike 1',
         url: 'skins/main/07.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/08/songselec_preview.jpg',
         name: 'sbr',
         url: 'skins/main/08.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/09/songselec_preview.jpg',
         name: 'prjct. sbr',
         url: 'skins/main/09.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/10/songselect_preview.jpg',
         name: 'SBR UD',
         url: 'skins/main/10.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/11/screenshot1150_preview.jpg',
         name: 'SBR v11',
         url: 'skins/main/11.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/12/songselect_preview.jpg',
         name: 'sbrstrkkdwmdr v12',
         url: 'skins/main/12.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/13/img_ss_preview.jpg',
         name: 'sbrstrkkdw v13',
         url: 'skins/main/13.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/14/screenshot1098_preview.jpg',
         name: 'sbrstrkkdw v14',
         url: 'skins/main/14.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/15/screenshot1175_preview.jpg',
         name: 'sbrstrkkdw v15',
         url: 'skins/main/15.html',
         icon: 'page.png',
         description: "skin preview"
     },
     {
+        img: './skins/img/sbrstrk_preview.jpg',
         name: 'sbrstrk-r skins',
         url: 'skins/sbrstrk-r',
         icon: 'dir.png',
         description: "skins used on sbrstrk-r"
     },
     {
+        img: 'https://a.ppy.sh/16743093',
         name: 'BlueBudgie',
         url: 'skins/sbrstrk-r/bluebudgie.html',
         icon: 'page.png',
         description: "BlueBudgie skin list"
     },
     {
+        img: 'https://a.ppy.sh/12387398',
         name: 'Bluegamingftw',
         url: 'skins/sbrstrk-r/bluegamingftw.html',
         icon: 'page.png',
         description: "Bluegamingftw skin list"
     },
     {
+        img: 'https://a.ppy.sh/12979064',
         name: 'Byonick',
         url: 'skins/sbrstrk-r/byonick.html',
         icon: 'page.png',
         description: "Byonick skin list"
     },
     {
+        img: 'https://a.ppy.sh/#',
         name: 'Duckyboi',
         url: 'skins/sbrstrk-r/duckyboi.html',
         icon: 'page.png',
         description: "Duckyboi skin list"
     },
     {
+        img: 'https://a.ppy.sh/18707960',
         name: 'Hanoji',
         url: 'skins/sbrstrk-r/hanoji.html',
         icon: 'page.png',
         description: "Hanoji skin list"
     },
     {
+        img: 'https://a.ppy.sh/17533279',
         name: 'ikugoi',
         url: 'skins/sbrstrk-r/ikugoi.html',
         icon: 'page.png',
         description: "ikugoi skin list"
     },
     {
+        img: 'https://a.ppy.sh/13780464',
         name: 'OniisanBaka',
         url: 'skins/sbrstrk-r/oniisanbaka.html',
         icon: 'page.png',
         description: "OniisanBaka skin list"
     },
     {
+        img: 'https://a.ppy.sh/19304434',
         name: 'radiite',
         url: 'skins/sbrstrk-r/radiite.html',
         icon: 'page.png',
         description: "radiite skin list"
     },
     {
+        img: 'https://a.ppy.sh/16060186',
         name: 'Soragaton',
         url: 'skins/sbrstrk-r/soragaton.html',
         icon: 'page.png',
         description: "Soragaton skin list"
     },
     {
+        img: './skins/img/other_preview.jpg',
         name: 'Other skins',
         url: 'skins/other.html',
         icon: 'page.png',
         description: "Other skin list"
     },
     {
+        img: './skins/img/mixed_preview.jpg',
         name: 'Skin dump',
         url: 'skins/dump.html',
         icon: 'page.png',
         description: "dump of every skin I've ever used"
     },
     {
+        img: './skins/img/mixed_preview.jpg',
         name: 'Skin search',
         url: 'skins/search.html',
         icon: 'page.png',
@@ -220,12 +253,14 @@ const defpages = [
         description: "website for conversions"
     },
     {
+        img: './img/logo.png',
         name: 'SSoB',
         url: 'projects/ssob_docs',
         icon: 'dir.png',
         description: "SSoB documentation"
     },
     {
+        img: './projects/ssob_docs/img/cmdlist.png',
         name: 'Commands',
         url: 'projects/ssob_docs/commands.html',
         icon: 'page.png',

@@ -15,7 +15,7 @@ const items = [
         category: 'Logo',
         sources: [
             'English text - [Octapost NBP](https://online-fonts.com/fonts/octapost-nbp) by Nate Halley [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)',
-            'Japanese text - [KeiFont](https://www.freejapanesefont.com/kei-font-download/) | [sumomo (JP)](https://font.sumomo.ne.jp/font_1.html)',
+            'Japanese text - [KeiFont](https://www.freejapanesefont.com/kei-font-download/) | [sumomo (JP)](https://font.sumomo.ne.jp/font_1.html) [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) ',
             'Image - drawn by a friend',
         ],
     },

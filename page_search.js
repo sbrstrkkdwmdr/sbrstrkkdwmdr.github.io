@@ -46,18 +46,23 @@ function loadResults(text) {
         const a = document.createElement("a");
         a.href = x.url;
         // a.innerText = x.name;
+        const container = document.createElement('div');
         const name = document.createElement("h3");
         name.innerText = x.name;
         const location = document.createElement('p');
-        location.innerText =  x.url/* .replace(".html", "") */.replaceAll("/", " / ");
+        location.innerText = x.url/* .replace(".html", "") */.replaceAll("/", " / ");
         location.className = "searchItemLocation"
-        a.append(name, location);
-        if(x?.description){
+        container.append(name, location);
+        if (x?.description) {
             const desc = document.createElement('p');
             desc.innerText = x.description
             desc.className = "searchItemDescription"
-            a.append(desc);
+            container.append(desc);
         }
+        const img = document.createElement('img');
+        img.src = x.img ?? './img/icons/unknown_dark.png';
+        img.className = 'searchImage'
+        a.append(img, container);
         item.append(a);
         resDiv.append(item);
     });
