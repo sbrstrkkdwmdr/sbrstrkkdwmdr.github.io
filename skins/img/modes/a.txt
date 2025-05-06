@@ -1,5 +1,0 @@
-brightness +20 (ctrl shift t)
-osu    - #E5A0D4 (pink)
-fruits - #ADE5A0 (green)
-taiko  - #E5E2A0 (yellow)
-mania  - #A0D5E5 (blue)
