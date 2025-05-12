@@ -25,7 +25,9 @@
 
 <body>
     <center>
+        <div id="test">
         <h1>Loading...</h1>
+        </div>
     </center>
 
 </body>
@@ -34,6 +36,9 @@
     const cururl = window.location.href;
     const url = cururl.split('github.io/')[1];
     const n = 'http://sbrstrkkdwmdr.me/' + url;
+    const h2 = document.createElement('h2');
+    h2.innerText = `Redirecting to ${n}`;
+    document.getElementById('test').appendChild(h2);
     setTimeout(() => {
         window.location.href = n;
     }, 1000);
